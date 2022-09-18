@@ -17,7 +17,8 @@ function App() {
             <div className="AppOverlay">
                 <Header/>
                 <Routes>
-                    <Route path="/" element={<Navigate to="/main"/>}/>
+                    <Route path="/" element={<Navigate to="main"/>}/>
+                    <Route path="" element={<Navigate to="main"/>}/>
                     <Route path="main" element={<Main/>}/>
                     <Route path="about" element={<About/>}/>
                     <Route path="portfolio" element={<Portfolio/>}/>
