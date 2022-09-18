@@ -1,6 +1,6 @@
 import './App.css';
 import Header from "./components/Header/Header";
-import {BrowserRouter, Routes, Route} from "react-router-dom";
+import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Main from "./components/Pages/Main/Main";
 import About from "./components/Pages/About/About";
 import Portfolio from "./components/Pages/Portfolio/Portfolio";
@@ -17,7 +17,7 @@ function App() {
             <div className="AppOverlay">
                 <Header/>
                 <Routes>
-                    <Route path="" element={<Main/>}/>
+                    <Route path="/" element={<Navigate to="/main"/>}/>
                     <Route path="main" element={<Main/>}/>
                     <Route path="about" element={<About/>}/>
                     <Route path="portfolio" element={<Portfolio/>}/>
