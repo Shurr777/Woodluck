@@ -1,0 +1,182 @@
+.about .mainOverlay {
+    position: relative;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.mainOverlay img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    filter: brightness(75%);
+    padding-bottom: 100px;
+}
+
+.about h2 {
+    color: #E5E5E5;
+    font-size: calc(44px + 20 * (100vw / 1440));
+    z-index: 5;
+    margin-top: 31%;
+    margin-bottom: 0;
+}
+
+.statistic {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.statisticItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.statisticItem:nth-child(1) {
+    border-right: 1px solid #282828;
+}
+
+.statisticItem:nth-child(2) {
+    border-right: 1px solid #282828;
+}
+
+.statistic h3 {
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    font-size: calc(84px + 20 * (100vw / 1440));
+}
+
+.statistic p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.mission {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.mission .titleBlock {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #434343;
+    color: #282828;
+}
+
+.mission .textBlock {
+    background-color: #9d9d9d;
+}
+
+.textBlockOverlay {
+    box-sizing: border-box;
+    margin-left: 40px;
+    margin-top: 50px;
+    padding: 120px 70px 20px 50px;
+    border-left: 1px solid #282828;
+}
+
+.mission h3 {
+    margin: 0;
+    padding: 70px 100px 70px 70px;
+    font-size: 84px;
+}
+
+.mission p {
+    font-size: 20px;
+}
+
+.aboutCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    padding: 10px 100px 100px 100px;
+    background-color: #E5E5E5;
+}
+
+.aboutCard .card {
+    position: relative;
+}
+
+.aboutCard .card h2 {
+    position: absolute;
+    top: 10%;
+    color: #9d9d9d;
+    opacity: 20%;
+    font-size: 288px;
+}
+
+.aboutCard .textBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.aboutCard h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.aboutCard p {
+    padding: 0;
+    margin: 0;
+}
+.story{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.story .storyImage{
+    width: 100%;
+}
+.story .storyImage img{
+    height: 100%;
+}
+.story .storyText{
+    background-color: #9d9d9d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.story .storyText p{
+    font-size: 20px;
+    padding-left: 40px;
+    padding-right: 80px;
+}
+
+.banner1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 70px;
+}
+.banner1 .text1 {
+    border-left: 1px solid #282828;
+    border-right: 1px solid #282828;
+    font-size: 24px;
+    padding: 30px;
+    align-self: center;
+}
+
+.banner1 .text2 {
+    border-right: 1px solid #282828;
+    font-size: 24px;
+    padding: 20px;
+}
+.banner2 {
+    background-color: #434343;
+    padding: 20px 200px;
+    margin-bottom: 100px;
+}
+.banner2 h4{
+    color: #E5E5E5;
+    font-size: 48px;
+    text-align: center;
+    line-height: 84px;
+}

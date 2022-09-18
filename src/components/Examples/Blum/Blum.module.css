@@ -1,0 +1,171 @@
+.blum {
+    color: #282828;
+}
+
+.blum .blumHeader {
+    position: relative;
+    max-width: 1440px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.blumHeader img {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    filter: brightness(75%);
+    padding-bottom: 100px;
+}
+
+.blumHeader h2 {
+    font-size: calc(40px + 20 * (100vw / 1440));
+    z-index: 5;
+    margin-top: 35%;
+    margin-right: 50%;
+    color: #E5E5E5;
+}
+
+.description {
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    border-bottom: 1px solid #282828;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 30px;
+}
+
+.description .text {
+    align-self: center;
+    border-right: 1px solid #282828;
+    padding: 0 25px;
+    height: 100%;
+}
+
+.description .text h3 {
+    padding-top: 0;
+}
+
+.description .image {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.description img {
+    width: 70%;
+}
+
+.working {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.workingBanner {
+    background-color: #434343;
+    display: flex;
+    padding: 40px 0;
+}
+
+.working h2 {
+    margin: 0;
+    padding: 0;
+    color: #282828;
+    text-align: center;
+    align-self: center;
+    font-size: calc(84px + 20 * (100vw / 1440));
+}
+
+.workingList {
+    background-color: #9d9d9d;
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.workingList li {
+    list-style-position: outside;
+    font-size: 20px;
+}
+
+/*
+li::marker {
+    color: #9d9d9d;
+    font-size: 14px;
+}
+
+.workingList li:before {
+    content: '\27F6';
+    color: #282828;
+    padding: 20px;
+}*/
+
+.pictures {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 70px;
+    column-gap: 50px;
+}
+
+.picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.materials {
+    padding: 20px 0 0 60px;
+    border-top: 1px solid #282828;
+    border-left: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+}
+
+.project {
+    background-color: #9d9d9d;
+    padding: 40px;
+}
+
+.totalInfo {
+    background-color: #434343;
+    margin-top: 50px;
+    padding: 20px 200px;
+}
+
+.totalInfo h3 {
+    color: #E5E5E5;
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.connect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.connectText p {
+    border-bottom: 1px solid #282828;
+    padding-bottom: 5px;
+}
+.connect button{
+    color: #282828;
+    border-color: #282828;
+    margin: 10px;
+}

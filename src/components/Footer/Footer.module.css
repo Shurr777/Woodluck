@@ -1,0 +1,95 @@
+.footerOverlay {
+    background-color: #E5E5E5;
+    display: grid;
+    grid-template-columns: 5fr 3fr 6fr 7fr;
+    border-top: 1px solid #282828;
+    border-collapse: collapse;
+}
+
+.logo {
+    display: grid;
+    box-sizing: border-box;
+    border: 1px solid #282828;
+    border-top: none;
+}
+.logoText{
+    box-sizing: border-box;
+    border-bottom: 1px solid #282828;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logoText img{
+    width: 200px;
+}
+.logoText p{
+    margin: 0;
+    padding-top: 20px;
+    width: 250px;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+.social .icons{
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.footerOverlay .menu {
+    border-right: 1px solid #282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu a{
+    text-decoration: none;
+    color: #282828;
+}
+
+.contacts {
+    border-right: 1px solid #282828;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.other {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.other p{
+    padding-bottom: 0;
+}
+.other button{
+    color: #E5E5E5;
+    margin-top: 0;
+    background-color: #282828;
+    cursor: pointer;
+}
+.lang{
+    padding-top: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.switchLanguage{
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+}
+.other .lang p{
+    text-decoration: underline;
+}
+.police{
+    font-size: 12px;
+    padding-top: 45px;
+    opacity: 50%;
+}

@@ -1,0 +1,54 @@
+.headerOverlay{
+    position: absolute;
+    width: 100%;
+    z-index: 15;
+    color: #E5E5E5;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.headerContainer{
+    display: grid;
+    grid-template-columns: 220px 1fr 220px;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo img{
+    width: 160px;
+    display: flex;
+    padding: 26px 30px;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #E5E5E5;
+}
+.navBar{
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+}
+.navBar a{
+    padding: 20px;
+    font-size: 20px;
+    color: #E5E5E5;
+    text-decoration: none;
+    cursor: pointer;
+}
+.navBar a:hover{
+    color: red
+}
+.phones{
+    height: 80px;
+    display: grid;
+    justify-content: center;
+    border-left: 1px solid #E5E5E5;
+}
+.phones span {
+    align-self: center;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 15px;
+}
+.phones span:last-child{
+    align-self: flex-start;
+}
