@@ -27,16 +27,24 @@
     align-self: center;
     justify-content: flex-end;
 }
+.navBar .active {
+    color: gold;
+}
 .navBar a{
     padding: 20px;
     font-size: 20px;
     color: #E5E5E5;
     text-decoration: none;
     cursor: pointer;
+    -webkit-transition: 0.2s ease; /* Safari and Chrome */
+    -moz-transition: 0.2s ease; /* Firefox 4 */
+    -o-transition: 0.2s ease; /* Opera */
 }
+
 .navBar a:hover{
-    color: red
+    text-shadow: 1px 1px 5px #ffffff;
 }
+
 .phones{
     height: 80px;
     display: grid;

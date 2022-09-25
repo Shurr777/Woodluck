@@ -14,11 +14,11 @@ const Header = () => {
                     </NavLink>
                 </div>
                 <div className={style.navBar}>
-                    <NavLink to={'about'}>About</NavLink>
-                    <NavLink to={'portfolio'}>Portfolio</NavLink>
-                    <NavLink to={'services'}>Services</NavLink>
-                    <NavLink to={'shop'}>Shop</NavLink>
-                    <NavLink to={'contacts'}>Contacts</NavLink>
+                    <NavLink to='about' className={({isActive}) =>`${isActive ? style.active : ''}`}>About</NavLink>
+                    <NavLink to='portfolio' className={({isActive}) =>`${isActive ? style.active : ''}`}>Portfolio</NavLink>
+                    <NavLink to='services' className={({isActive}) =>`${isActive ? style.active : ''}`}>Services</NavLink>
+                    <NavLink to='shop' className={({isActive}) =>`${isActive ? style.active : ''}`}>Shop</NavLink>
+                    <NavLink to='contacts' className={({isActive}) =>`${isActive ? style.active : ''}`}>Contacts</NavLink>
                 </div>
                 <div className={style.phones}>
                     <span>+38 (096) 635 32 23</span>

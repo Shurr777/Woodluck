@@ -8,6 +8,13 @@ import Services from "./components/Pages/Services/Services";
 import Shop from "./components/Pages/Shop/Shop";
 import Contacts from "./components/Pages/Contacts/Contacts";
 import Blum from "./components/Examples/Blum/Blum";
+import Hostel from "./components/Examples/Hostel/Hostel";
+import Office from "./components/Examples/Office/Office";
+import GridDynamics from "./components/Examples/GridDynamics/GridDynamics";
+import Projector from "./components/Examples/Projector/Projector";
+import Loft from "./components/Examples/RedTable/Loft";
+import Appartaments from "./components/Examples/BlackTable/Appartaments";
+import Footer from "./components/Footer/Footer";
 
 
 
@@ -26,7 +33,14 @@ function App() {
                     <Route path="shop" element={<Shop/>}/>
                     <Route path="contacts" element={<Contacts/>}/>
                     <Route path="portfolio/blum" element={<Blum/>}/>
+                    <Route path="portfolio/hostel" element={<Hostel/>}/>
+                    <Route path="portfolio/office" element={<Office/>}/>
+                    <Route path="portfolio/gridDynamics" element={<GridDynamics/>}/>
+                    <Route path="portfolio/projector" element={<Projector/>}/>
+                    <Route path="portfolio/red_table" element={<Loft/>}/>
+                    <Route path="portfolio/black_table" element={<Appartaments/>}/>
                 </Routes>
+                <Footer/>
             </div>
         </BrowserRouter>
     );

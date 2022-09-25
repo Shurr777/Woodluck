@@ -1,19 +1,19 @@
 import React from 'react';
-import s from "./Blum.module.css";
-import BlumTitleImage from "../../../images/Portfolio/62077715_306148160340710_4861842892479528960_n 1.png";
-import BlumDescription from "../../../images/Portfolio/Blum/blum_descripton.png"
-import Picture1 from "../../../images/Portfolio/Blum/pic1.png"
-import Picture2 from "../../../images/Portfolio/Blum/62077715_306148160340710_4861842892479528960_n 1.png"
-import Picture3 from "../../../images/Portfolio/Blum/62209645_306148213674038_7481719573775908864_n 1.png"
+import s from "./Office.module.css";
+import OfficeTitleImage from "../../../images/Portfolio/Office/office_main.png";
+import OfficeDescription from "../../../images/Portfolio/Office/office_description.png"
+import BannerPicture1 from "../../../images/Portfolio/Office/office_banner_left.png"
+import BannerPicture2 from "../../../images/Portfolio/Office/office_banner_center.png"
+import BannerPicture3 from "../../../images/Portfolio/Office/office_banner_right.png"
 import Footer from "../../Footer/Footer";
 
 
-const Blum = () => {
+const Office = () => {
     return (
         <div className={s.blum}>
             <div className={s.blumHeader}>
-                <img src={BlumTitleImage} alt="Main"/>
-                <h2>BLUM CAFÉ ROOM</h2>
+                <img src={OfficeTitleImage} alt="Main"/>
+                <h2>ОФІС БРИТАНСЬКОЇ КОМПАНІЇ PUSH GAMING У ЛЬВОВІ</h2>
             </div>
             <div className={s.description}>
                 <div className={s.text}>
@@ -27,7 +27,7 @@ const Blum = () => {
                     </p>
                 </div>
                 <div className={s.image}>
-                    <img src={BlumDescription} alt="Blum interere"/>
+                    <img src={OfficeDescription} alt="Blum interere"/>
                 </div>
             </div>
             <div className={s.working}>
@@ -38,23 +38,21 @@ const Blum = () => {
                 </div>
                 <div className={s.workingList}>
                     <ul>
-                        <li><span/> столи</li>
-                        <li><span/> милі і дуже зручні сидіння (схожі на диванчики)– це дерев’яні конструкції обшиті
-                            фанерою
-                        </li>
-                        <li><span/> барна стійка та плінтуси, дерев’яна обшивка на стінах</li>
+                        <li><span/> офісні столи</li>
+                        <li><span/> cтелажі</li>
+                        <li><span/> стіл у дорадчу кімнату (meeting room)</li>
                     </ul>
                 </div>
             </div>
             <div className={s.pictures}>
                 <div className={s.picture}>
-                    <img src={Picture1} alt=""/>
+                    <img src={BannerPicture1} alt="Banner"/>
                 </div>
                 <div className={s.picture}>
-                    <img src={Picture2} alt=""/>
+                    <img src={BannerPicture2} alt="Banner"/>
                 </div>
                 <div className={s.picture}>
-                    <img src={Picture3} alt=""/>
+                    <img src={BannerPicture3} alt="Banner"/>
                 </div>
             </div>
             <div className={s.info}>
@@ -63,9 +61,11 @@ const Blum = () => {
                         Використані матеріали
                     </h2>
                     <ul>
-                        <li><span/> шпонований дуб (замінник натурального дерева)</li>
-                        <li><span/> буk</li>
-                        <li><span/> береза</li>
+                        <li><span/>металевий профіль 40х20, порошкова фарба білого і матового кольорів</li>
+                        <li> фанера і ДСП</li>
+                        <li>бук 27 мм, покритий еколаком на водній основі</li>
+                        <li>стелажі з кутника 30х30</li>
+                        <li> стіл робочий: металевий профіль 80х80, чорний матовий колір, стільниця буковий шпон</li>
                     </ul>
                 </div>
                 <div className={s.project}>
@@ -80,7 +80,10 @@ const Blum = () => {
                 </div>
             </div>
             <div className={s.totalInfo}>
-                <h3>На виході замовник отримав стильний та впізнаваний інтер’єр кафе</h3>
+                <h3>На виході замовник отримав функціональний офіс,
+                    що дозволяє бути мобільним для роботи в команді.
+                    Простоту та вишуканість в робочому просторі
+                </h3>
             </div>
             <div className={s.connect}>
                 <div className={s.connectText}>
@@ -92,4 +95,4 @@ const Blum = () => {
     );
 };
 
-export default Blum;
+export default Office;

@@ -22,7 +22,7 @@
 .blumHeader h2 {
     font-size: calc(40px + 20 * (100vw / 1440));
     z-index: 5;
-    margin-top: 35%;
+    margin-top: 30%;
     margin-right: 50%;
     color: #E5E5E5;
 }

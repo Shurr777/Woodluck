@@ -24,7 +24,7 @@ const Projects = () => {
                         <img src={dinner} alt="Dinner room"/>
                     </div>
                     <div className={style.projectBlockItem}>
-                        <img src={bads} alt="Hostel"/>
+                        <img src={bads} alt="Loft"/>
                     </div>
                     <div className={style.projectBlockItem}>
                         <img src={ofice} alt="Ofice"/>

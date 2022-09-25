@@ -71,7 +71,6 @@ const Main = () => {
             </div>
             <Projects/>
             <Clients/>
-            <Footer/>
         </>
     );
 };

@@ -25,11 +25,11 @@ const Footer = () => {
                 </div>
             </div>
             <div className={style.menu}>
-                <NavLink to={'main'}>Головна</NavLink>
-                <NavLink to={'about'}>Про нас </NavLink>
-                <NavLink to={'portfolio'}>Портфоліо</NavLink>
-                <NavLink to={'shop'}>Магазин</NavLink>
-                <NavLink to={'contacts'}>Контакти</NavLink>
+                <NavLink to='main'>Головна</NavLink>
+                <NavLink to='about'>Про нас </NavLink>
+                <NavLink to='portfolio'>Портфоліо</NavLink>
+                <NavLink to='shop'>Магазин</NavLink>
+                <NavLink to='contacts'>Контакти</NavLink>
             </div>
             <div className={style.contacts}>
                 <p>Львів, вул.Промислова 60</p>

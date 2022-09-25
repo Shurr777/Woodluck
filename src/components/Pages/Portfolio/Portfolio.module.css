@@ -49,23 +49,23 @@
 }
 
 .examples{
-    padding: 50px;
+    padding: 20px;
     background-color: #282828;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(2, minmax(100px, 1fr));
-    gap: 50px;
+    gap: 30px;
 }
 
 .example {
     display: flex;
     justify-content: center;
     width: 100%;
+    transition: 0.5s;
 }
 
 .example:hover{
-    transition: 0.5s;
-    scale: 105%;
+    scale: 110%;
 }
 
 .example img{
