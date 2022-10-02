@@ -13,7 +13,7 @@ import Office from "./components/Examples/Office/Office";
 import GridDynamics from "./components/Examples/GridDynamics/GridDynamics";
 import Projector from "./components/Examples/Projector/Projector";
 import Loft from "./components/Examples/RedTable/Loft";
-import Appartaments from "./components/Examples/BlackTable/Appartaments";
+import Appartaments from "./components/Examples/Appartaments/Appartaments";
 import Footer from "./components/Footer/Footer";
 
 

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import style from './Portfolio.module.css'
 import Portfolio_img from "../../../images/About/CB4A1425 1.png";
 import Blum from "../../../images/Portfolio/62077715_306148160340710_4861842892479528960_n 1.png"
@@ -9,10 +9,15 @@ import PlayRoom from "../../../images/Portfolio/playRoom.png"
 import Computers from "../../../images/Portfolio/computers.png"
 import RedTable from "../../../images/Portfolio/redTable.png"
 import BlackTable from "../../../images/Portfolio/blackTable.png"
-import Footer from "../../Footer/Footer";
-import {NavLink} from "react-router-dom";
+import {NavLink, useLocation} from "react-router-dom";
 
 const Portfolio = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
     return (<div className={style.portfolio}>
         <div className={style.portfolioOverlay}>
             <img src={Portfolio_img} alt="Main"/>

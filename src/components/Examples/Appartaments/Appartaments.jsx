@@ -1,13 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import s from "./Appartaments.module.css";
 import Appartaments_TitleImage from "../../../images/Portfolio/Appartaments/appartaments_main.png";
 import Appartaments_Description from "../../../images/Portfolio/Appartaments/appartaments_description.png"
 import BannerLeft from "../../../images/Portfolio/Appartaments/banner_left.png"
 import BannerRight from "../../../images/Portfolio/Appartaments/banner_right.png"
-import Footer from "../../Footer/Footer";
+import {useLocation, useNavigate} from "react-router-dom";
 
 
 const Appartaments = () => {
+
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
+    const connectHandleClick = () => {
+        navigate("/contacts");
+    }
+
     return (
         <div className={s.blum}>
             <div className={s.blumHeader}>
@@ -84,7 +96,7 @@ const Appartaments = () => {
                 <div className={s.connectText}>
                     <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
                 </div>
-                <button>Зв’язатись</button>
+                <button onClick={connectHandleClick}>Зв’язатись</button>
             </div>
         </div>
     );

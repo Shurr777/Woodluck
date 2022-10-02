@@ -1,19 +1,30 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import MainBackground from '../../../images/Main.png'
 import style from './Main.module.css'
 import Cards from "./Cards/Cards";
 import Projects from "./Projects/Projects";
 import Clients from "./Clients/Clients";
-import Footer from "../../Footer/Footer";
+import {useLocation, useNavigate} from "react-router-dom";
 
 const Main = () => {
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
+    const connectHandleClick = () => {
+        navigate("/contacts");
+    }
+
     return (
         <>
             <div className={style.mainOverlay}>
                 <img src={MainBackground} alt="Main"/>
                 <div className={style.title}>
                     <h2>Розробляємо та виготовляємо<br/> меблі на замовлення</h2>
-                    <button>Зв’язатися</button>
+                    <button onClick={connectHandleClick}>Зв’язатися</button>
                 </div>
             </div>
             <div className={style.about}>

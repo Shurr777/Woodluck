@@ -1,14 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import s from "./Hostel.module.css";
 import HostelBannerMain from "../../../images/Portfolio/Hostel/hostel_main.png";
 import HostelDescription from "../../../images/Portfolio/Hostel/hostel_description.png";
 import BannerPicture1 from "../../../images/Portfolio/Hostel/hostel_banner_left.png"
 import BannerPicture2 from "../../../images/Portfolio/Hostel/hostel_banner_center.png"
 import BannerPicture3 from "../../../images/Portfolio/Hostel/hostel_banner_right.png"
-import Footer from "../../Footer/Footer";
+import {useLocation, useNavigate} from "react-router-dom";
 
 
 const Hostel = () => {
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
+    const connectHandleClick = () => {
+        navigate("/contacts");
+    }
+
     return (
         <div className={s.blum}>
             <div className={s.blumHeader}>
@@ -86,7 +97,7 @@ const Hostel = () => {
                 <div className={s.connectText}>
                     <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
                 </div>
-                <button>Зв’язатись</button>
+                <button onClick={connectHandleClick}>Зв’язатись</button>
             </div>
         </div>
     );

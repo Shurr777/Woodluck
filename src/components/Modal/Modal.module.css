@@ -1,0 +1,31 @@
+.modal{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.85);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.navList{
+    display: flex;
+    flex-direction: column;
+}
+
+.modal a {
+    color: #e5e5e5;
+    text-decoration: none;
+    padding: 30px 20px;
+    font-size: 30px;
+}
+.active {
+    color: gold;
+}
+.modal button{
+    border: none;
+    align-self: start;
+    font-size: 25px;
+    margin: 0;
+    padding: 25px;
+}

@@ -5,9 +5,15 @@ import facebook from '../../images/icons/facebook.png'
 import insta from '../../images/icons/insta.png'
 import youtube from '../../images/icons/youtube.png'
 import unknownLogo from '../../images/icons/Group 14 1.png'
-import {NavLink} from "react-router-dom";
+import {NavLink, useNavigate} from "react-router-dom";
 
 const Footer = () => {
+
+    const navigate = useNavigate();
+
+    const connectHandleClick = () => {
+        navigate("/contacts");
+    }
     return (
         <div className={style.footerOverlay}>
             <div className={style.logo}>
@@ -18,9 +24,21 @@ const Footer = () => {
                 <div className={style.social}>
                     <p>Слідкуйте за нами в соц.мережах:</p>
                     <div className={style.icons}>
-                        <img src={facebook} alt="facebook"/>
-                        <img src={insta} alt="instagram"/>
-                        <img src={youtube} alt="youtube"/>
+                        <a href="https://www.facebook.com/socialworkshopua/?ref=bookmarks"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            {/*<FontAwesomeIcon icon={icon.faFacebook} size='2x' fixedWidth/>*/}
+                            <img src={facebook} alt="facebook"/>
+                        </a>
+                        <a href="https://www.instagram.com/woodluck_ua/"
+                           target="_blank" rel="noopener noreferrer">
+                            <img src={insta} alt="instagram"/>
+                        </a>
+                        <a href="https://www.youtube.com/channel/UCPSsNkDVkRokQWLUctT33ow/featured"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            <img src={youtube} alt="youtube"/>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -42,7 +60,7 @@ const Footer = () => {
                     Потрібна консультація
                     або залишилися запитання?
                 </p>
-                <button>Зв’язатися</button>
+                <button onClick={connectHandleClick}>Зв’язатися</button>
                 <div className={style.lang}>
                     <div className={style.switchLanguage}>
                         <p>EN</p>

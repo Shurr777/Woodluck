@@ -1,13 +1,24 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import s from "./Projector.module.css";
 import Projector_TitleImage from "../../../images/Portfolio/Projector/projector_main.png";
 import Projector_Description from "../../../images/Portfolio/Projector/projector_description.png"
 import BannerLeft from "../../../images/Portfolio/Projector/projector_banner_left.png"
 import BannerRight from "../../../images/Portfolio/Projector/projector_banner_right.png"
-import Footer from "../../Footer/Footer";
+import {useLocation, useNavigate} from "react-router-dom";
 
 
 const Projector = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+    const navigate = useNavigate();
+
+    const connectHandleClick = () => {
+        navigate("/contacts");
+    }
+
     return (
         <div className={s.blum}>
             <div className={s.blumHeader}>
@@ -86,7 +97,7 @@ const Projector = () => {
                 <div className={s.connectText}>
                     <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
                 </div>
-                <button>Зв’язатись</button>
+                <button onClick={connectHandleClick}>Зв’язатись</button>
             </div>
         </div>
     );

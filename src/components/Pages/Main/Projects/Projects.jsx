@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import style from './projects.module.css'
 import cafe from '../../../../images/projects/cafe.png'
 import dinner from '../../../../images/projects/dinner.png'
 import bads from '../../../../images/projects/beds.png'
 import ofice from '../../../../images/projects/ofice.png'
+import {useLocation, useNavigate} from "react-router-dom";
 
 const Projects = () => {
+    const navigate = useNavigate();
+
+    const connectHandleClick = () => {
+        navigate("/portfolio");
+    }
+
     return (
         <div className={style.projectsOverlay}>
             <div className={style.projectsContainer}>
@@ -34,7 +41,7 @@ const Projects = () => {
                     <div className={style.title}>
                         <p>Переглянути всі проекти</p>
                     </div>
-                    <button>Переглянути</button>
+                    <button onClick={connectHandleClick}>Переглянути</button>
                 </div>
             </div>
         </div>

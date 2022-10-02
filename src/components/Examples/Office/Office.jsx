@@ -1,14 +1,26 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import s from "./Office.module.css";
 import OfficeTitleImage from "../../../images/Portfolio/Office/office_main.png";
 import OfficeDescription from "../../../images/Portfolio/Office/office_description.png"
 import BannerPicture1 from "../../../images/Portfolio/Office/office_banner_left.png"
 import BannerPicture2 from "../../../images/Portfolio/Office/office_banner_center.png"
 import BannerPicture3 from "../../../images/Portfolio/Office/office_banner_right.png"
-import Footer from "../../Footer/Footer";
+import {useLocation, useNavigate} from "react-router-dom";
 
 
 const Office = () => {
+
+    const navigate = useNavigate();
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
+
+    const connectHandleClick = () => {
+        navigate("/contacts");
+    }
+
     return (
         <div className={s.blum}>
             <div className={s.blumHeader}>
@@ -89,7 +101,7 @@ const Office = () => {
                 <div className={s.connectText}>
                     <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
                 </div>
-                <button>Зв’язатись</button>
+                <button onClick={connectHandleClick}>Зв’язатися</button>
             </div>
         </div>
     );

@@ -1,10 +1,15 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import style from "./About.module.css";
 import Header_img from "../../../images/About/Header_image.png";
 import Work from "../../../images/About/CB4A1425 1.png"
-import Footer from "../../Footer/Footer";
+import {useLocation} from "react-router-dom";
 
 const About = () => {
+    const { pathname } = useLocation();
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [pathname]);
     return (
         <div className={style.about}>
             <div className={style.mainOverlay}>

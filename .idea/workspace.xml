@@ -2,52 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/BlackTable/Appartaments.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/BlackTable/Appartaments.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GD.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/Office/Office.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/Office/Office.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/Projector/Projector.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/Projector/Projector.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/GD/GD_banner_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/GD/GD_banner_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/GD/GD_description.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/GD/GD_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Hostel/hostel_banner_center.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Hostel/hostel_banner_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Hostel/hostel_banner_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Hostel/hostel_description.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Hostel/hostel_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Office/office_banner_center.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Office/office_banner_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Office/office_banner_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Office/office_description.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Office/office_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Projector/projector_banner_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Projector/projector_banner_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Projector/projector_description.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Projector/projector_main.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Red/red_banner_left.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Red/red_banner_right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Red/red_description.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Portfolio/Red/red_main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/BlackTable/Appartaments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Appartaments/Appartaments.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/BlackTable/Appartaments.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Appartaments/Appartaments.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/Office/Office.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Office/Office.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/Projector/Projector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Projector/Projector.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/About.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,24 +42,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/ReactVinnitsya/vinnitsa",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;Z:/React1/exchange&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Woodluck\woodluck\src\components\Examples" />
@@ -117,7 +91,10 @@
       <workItem from="1663345677585" duration="30068000" />
       <workItem from="1663497976516" duration="126000" />
       <workItem from="1663498119382" duration="4452000" />
-      <workItem from="1664006938081" duration="20228000" />
+      <workItem from="1664006938081" duration="21319000" />
+      <workItem from="1664468401517" duration="4884000" />
+      <workItem from="1664701113223" duration="720000" />
+      <workItem from="1664706992906" duration="13140000" />
     </task>
     <servers />
   </component>
