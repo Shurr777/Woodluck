@@ -1,12 +1,13 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import style from './projects.module.css'
 import cafe from '../../../../images/projects/cafe.png'
 import dinner from '../../../../images/projects/dinner.png'
 import bads from '../../../../images/projects/beds.png'
 import ofice from '../../../../images/projects/ofice.png'
-import {useLocation, useNavigate} from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 
 const Projects = () => {
+
     const navigate = useNavigate();
 
     const connectHandleClick = () => {
@@ -29,12 +30,24 @@ const Projects = () => {
                     </div>
                     <div className={style.projectBlockItem}>
                         <img src={dinner} alt="Dinner room"/>
+                        <div className={style.text}>
+                            <h2>???</h2>
+                            <p>???</p>
+                        </div>
                     </div>
                     <div className={style.projectBlockItem}>
                         <img src={bads} alt="Loft"/>
+                        <div className={style.text}>
+                            <h2>FRIENDS HOSTEL LVIV</h2>
+                            <p>Хостел у Львові</p>
+                        </div>
                     </div>
                     <div className={style.projectBlockItem}>
                         <img src={ofice} alt="Ofice"/>
+                        <div className={style.text}>
+                            <h2>GRID DYNAMICS</h2>
+                            <p>Офіс на 100 робочих місць</p>
+                        </div>
                     </div>
                 </div>
                 <div className={style.lookingBlock}>

@@ -41,41 +41,49 @@ const Portfolio = () => {
             <div className={style.example}>
                 <NavLink to={"blum"}>
                     <img src={Blum} alt="Blum Cafe"/>
+                    <h3>BLUM CAFÉ ROOM</h3>
                 </NavLink>
             </div>
             <div className={style.example}>
                 <NavLink to={"#"}>
                     <img src={DinnerRoom} alt="Dinner Room"/>
+                    <h3>???</h3>
                 </NavLink>
             </div>
             <div className={style.example}>
                 <NavLink to={"hostel"}>
                     <img src={BedRoom} alt="Bedroom"/>
+                    <h3>FRIENDS HOSTEL LVIV</h3>
                 </NavLink>
             </div>
             <div className={style.example}>
                 <NavLink to={"gridDynamics"}>
                     <img src={Office} alt="office"/>
+                    <h3>ОФІС НА 100 РОБОЧИХ МІСЦЬ ДЛЯ GRID DYNAMICS</h3>
                 </NavLink>
             </div>
             <div className={style.example}>
                 <NavLink to={"projector"}>
                     <img src={PlayRoom} alt="Playroom"/>
+                    <h3>PROJECTOR LVIV І СТУДІЯ ДИЗАЙНУ HAPPY</h3>
                 </NavLink>
             </div>
             <div className={style.example}>
                 <NavLink to={"office"}>
                     <img src={Computers} alt="Computers"/>
+                    <h3>ОФІС БРИТАНСЬКОЇ КОМПАНІЇ PUSH GAMING У ЛЬВОВІ</h3>
                 </NavLink>
             </div>
             <div className={style.example}>
                 <NavLink to={"red_table"}>
                     <img src={RedTable} alt="Red table"/>
+                    <h3>ЛОФТОВИЙ ОФІС G5 ENTERTAINMENT</h3>
                 </NavLink>
             </div>
             <div className={style.example}>
                 <NavLink to={"black_table"}>
                     <img src={BlackTable} alt="Black table"/>
+                    <h3>ПРИВАТНА КВАРТИРА У КИЄВІ</h3>
                 </NavLink>
             </div>
         </div>

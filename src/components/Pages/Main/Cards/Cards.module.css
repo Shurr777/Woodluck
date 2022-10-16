@@ -26,7 +26,6 @@
     z-index: 5;
     font-size: calc(16px + 16 * (100vw / 1280));
     color: #E5E5E5;
-    text-decoration: underline;
 }
 .bad{
     height: 205px;

@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/BlackTable/Appartaments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Appartaments/Appartaments.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/BlackTable/Appartaments.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Appartaments/Appartaments.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Office/Office.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Office/Office.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Projector/Projector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Projector/Projector.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Cards/Cards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Cards/Cards.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Cards/Cards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Cards/Cards.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +80,10 @@
       <workItem from="1664006938081" duration="21319000" />
       <workItem from="1664468401517" duration="4884000" />
       <workItem from="1664701113223" duration="720000" />
-      <workItem from="1664706992906" duration="13140000" />
+      <workItem from="1664706992906" duration="14108000" />
+      <workItem from="1664819110755" duration="588000" />
+      <workItem from="1665593734711" duration="1556000" />
+      <workItem from="1665925747404" duration="6099000" />
     </task>
     <servers />
   </component>

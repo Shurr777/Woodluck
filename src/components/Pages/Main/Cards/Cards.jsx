@@ -15,57 +15,57 @@ const Cards = () => {
         <div className={style.furnitureCards}>
             <div className={style.card}>
                 <img src={ofice} alt="office furniture"/>
-                <div className={style.underline}>
+                <div>
                     <h2>ОФІСНІ СТОЛИ ТА МЕБЛІ</h2>
                 </div>
             </div>
             <div className={style.card}>
                 <img src={bar} alt="bar"/>
-                <div className={style.underline}>
+                <div>
                     <h2>БАРНІ СТІЙКИ</h2>
                 </div>
             </div>
             <div>
                 <div className={`${style.card} ${style.bad}`}>
                     <img src={bad} alt="office furniture"/>
-                    <div className={style.underline}>
+                    <div>
                         <h2>ЛІЖКА</h2>
                     </div>
                 </div>
                 <div className={`${style.card} ${style.tumb}`}>
                     <img src={tumb} alt="office furniture"/>
-                    <div className={style.underline}>
+                    <div>
                         <h2>ТУМБИ</h2>
                     </div>
                 </div>
             </div>
             <div className={style.card}>
                 <img src={stel} alt="office furniture"/>
-                <div className={style.underline}>
+                <div>
                     <h2>СТЕЛАЖІ</h2>
                 </div>
             </div>
             <div className={style.card}>
                 <img src={kitchen} alt="office furniture"/>
-                <div className={style.underline}>
+                <div>
                     <h2>МЕБЛІ ДЛЯ КУХНІ</h2>
                 </div>
             </div>
             <div className={style.card}>
                 <img src={house} alt="office furniture"/>
-                <div className={style.underline}>
+                <div>
                     <h2>ШАФИ ДЛЯ ДОМУ</h2>
                 </div>
             </div>
             <div className={style.card}>
                 <img src={bath} alt="bathroom"/>
-                <div className={style.underline}>
+                <div>
                     <h2>МЕБЛІ ДЛЯ ВАННИ</h2>
                 </div>
             </div>
             <div className={style.card}>
                 <img src={decor} alt="office furniture"/>
-                <div className={style.underline}>
+                <div>
                     <h2>ДЕКОР</h2>
                 </div>
             </div>
