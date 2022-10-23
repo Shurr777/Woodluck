@@ -1,7 +1,20 @@
+.formOverlay {
+    grid-area: f;
+}
+
 .form {
     padding: 20px;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    column-gap: 70px;
+}
+.userInfo{
+    padding-left: 50px;
+}
+.comments {
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
 }
 
 label {
@@ -16,13 +29,15 @@ input {
     font-size: 20px;
 }
 
-input[type=submit] {
-    height: 50px;
-    padding-bottom: 10px;
-}
-
 textarea {
-    width: 100%;
+    width: 70%;
     height: 100px;
     resize: none;
+}
+
+button {
+    color: #282828;
+    border: none;
+    background-color: #fff;
+    width: 70%;
 }

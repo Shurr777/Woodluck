@@ -1,15 +1,19 @@
 .contacts {
     background-color: #c5d02f;
     display: grid;
-    grid-template-columns: 5fr 6fr;
+    grid-template-areas:
+            "m  t"
+            "f f";
 }
 
 .mapOverlay {
-   /* border: 1px solid red;*/
+    /* border: 1px solid red;*/
     display: flex;
     flex-direction: column;
 }
+
 .map {
+    grid-area: m;
     padding: 20px;
     width: 95%;
     height: 300px;
@@ -17,8 +21,8 @@
     margin-top: 100px;
 }
 
-.textOverlay{
-
+.textOverlay {
+    grid-area: t;
 }
 
 .contacts h2 {
@@ -26,17 +30,17 @@
     padding: 120px 0px 0px 100px;
     font-size: 24px;
 }
+
 .contacts p {
     padding: 10px 0px 0px 50px;
     font-size: 20px;
 }
 
-.userContacts{
+.userContacts {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 30px;
 }
-
 
 
 @media (max-width: 1024px) {

@@ -10,6 +10,7 @@ const ContactForm = () => {
     const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
     const [comments, setComments] = useState('')
+    const [send, setSend] = useState(false)
 
     /*  const isValidPhone = (myPhone) => {
           return /^\+\d{2}\(\d{3}\)\d{3}-\d{2}-\d{2}$/.test(myPhone);
@@ -40,59 +41,62 @@ const ContactForm = () => {
 
     const sendEmail = (e) => {
         e.preventDefault()
-        emailjs.sendForm('service_woe0854','template_q8cof3h', form.current,'96FteI58tmd_KJmx3')
+        //validation!!!
+        emailjs.sendForm('service_woe0854', 'template_q8cof3h', form.current, '96FteI58tmd_KJmx3')
             .then((result) => {
-                console.log(result.text);
+                setName("")
+                setPhone("")
+                setEmail("")
+                setComments("")
+                setSend(true)
             }, (error) => {
                 console.log(error.text);
             });
-        setName("")
-        setPhone("")
-        setEmail("")
-        setComments("")
-
     }
 
-
     return (
-        <div>
+        <div className={s.formOverlay}>
             <form ref={form}
                   className={s.form}
-                  onSubmit={sendEmail}
-            >
-                <label htmlFor="text">Ім'я:</label>
-                <input type="text"
-                       name="user_name"
-                       value={name}
-                       onChange={event => onNameChanged(event)}
-                       required
-                />
-                <div className={s.userContacts}>
-                    <div className={s.block}>
-                        <label htmlFor="text">Телефон:</label>
-                        <input type="text"
-                               name="user_phone"
-                               value={phone}
-                               onChange={event => onPhoneChanged(event)}
-                               required
-                        />
-                    </div>
-                    <div className={s.block}>
-                        <label htmlFor="email">Email:</label>
-                        <input type="text"
-                               name="user_email"
-                               value={email}
-                               onChange={event => onEmailChanged(event)}
-                        />
+                  onSubmit={sendEmail}>
+                <div className={s.userInfo}>
+                    <label htmlFor="text">Ім'я:</label>
+                    <input type="text"
+                           name="user_name"
+                           value={name}
+                           onChange={event => onNameChanged(event)}
+                           required
+                    />
+                    <div className={s.userContacts}>
+                        <div className={s.block}>
+                            <label htmlFor="text">Телефон:</label>
+                            <input type="text"
+                                   name="user_phone"
+                                   value={phone}
+                                   onChange={event => onPhoneChanged(event)}
+                                   required
+                            />
+                        </div>
+                        <div className={s.block}>
+                            <label htmlFor="email">Email:</label>
+                            <input type="text"
+                                   name="user_email"
+                                   value={email}
+                                   onChange={event => onEmailChanged(event)}
+                            />
+                        </div>
                     </div>
                 </div>
-                <label htmlFor="text">Коментарі:</label>
-                <textarea type="text"
-                          name="user_text"
-                          value={comments}
-                          onChange={event => onCommentsChanged(event)}
-                />
-                <button type="submit">send</button>
+                <div className={s.comments}>
+                    <label htmlFor="text">Коментарі:</label>
+                    <textarea type="text"
+                              name="user_text"
+                              value={comments}
+                              onChange={event => onCommentsChanged(event)}/>
+                    {send ?
+                        <div className={s.sending}>Повідомлення відправлене!</div> :
+                        <button type="submit">send</button>}
+                </div>
             </form>
         </div>
     );

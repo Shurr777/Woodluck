@@ -36,8 +36,8 @@ const Header = () => {
                     <NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}>
                         Послуги
                     </NavLink>
-                    <NavLink to='shop' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        Магазин
+                    <NavLink to='faq' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                        Питання
                     </NavLink>
                     <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
                         Контакти
