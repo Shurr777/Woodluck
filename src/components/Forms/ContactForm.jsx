@@ -1,22 +1,25 @@
-import React, {useState} from 'react';
+import React, {useRef, useState} from 'react';
 import s from "./ContactForm.module.css";
+import emailjs from '@emailjs/browser';
 
 const ContactForm = () => {
+
+    const form = useRef()
 
     const [name, setName] = useState('')
     const [phone, setPhone] = useState('')
     const [email, setEmail] = useState('')
     const [comments, setComments] = useState('')
 
-    const isValidPhone = (myPhone) => {
-        return /^\+\d{2}\(\d{3}\)\d{3}-\d{2}-\d{2}$/.test(myPhone);
-    }
-    const isValidEmail = (Email) => {
-        return /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/.test(Email)
-    }
-    const isValidComments = (Comments) => {
-        return /^[\u0400-\u052F\u2DE0-\u2DFF\uA640-\uA69F']+$/.test(Comments)
-    }
+    /*  const isValidPhone = (myPhone) => {
+          return /^\+\d{2}\(\d{3}\)\d{3}-\d{2}-\d{2}$/.test(myPhone);
+      }
+      const isValidEmail = (Email) => {
+          return /^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$/.test(Email)
+      }
+      const isValidComments = (Comments) => {
+          return /^[\u0400-\u052F\u2DE0-\u2DFF\uA640-\uA69F']+$/.test(Comments)
+      }*/
 
     const onNameChanged = (e) => {
         let Name = e.target.value
@@ -34,25 +37,32 @@ const ContactForm = () => {
         let Comments = e.target.value
         setComments(Comments)
     }
-    const onSubmit = (e) => {
+
+    const sendEmail = (e) => {
         e.preventDefault()
-        let formData = {
-            name: name,
-            phone: phone,
-            email: email,
-            comments: comments
-        }
-        console.log(formData)
+        emailjs.sendForm('service_woe0854','template_q8cof3h', form.current,'96FteI58tmd_KJmx3')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        setName("")
+        setPhone("")
+        setEmail("")
+        setComments("")
 
     }
+
+
     return (
         <div>
-            <form action="../../sandler.php"
-                  method="POST"
-                  className={s.form}>
+            <form ref={form}
+                  className={s.form}
+                  onSubmit={sendEmail}
+            >
                 <label htmlFor="text">Ім'я:</label>
                 <input type="text"
-                       name="name"
+                       name="user_name"
                        value={name}
                        onChange={event => onNameChanged(event)}
                        required
@@ -61,7 +71,7 @@ const ContactForm = () => {
                     <div className={s.block}>
                         <label htmlFor="text">Телефон:</label>
                         <input type="text"
-                               name="phone"
+                               name="user_phone"
                                value={phone}
                                onChange={event => onPhoneChanged(event)}
                                required
@@ -70,7 +80,7 @@ const ContactForm = () => {
                     <div className={s.block}>
                         <label htmlFor="email">Email:</label>
                         <input type="text"
-                               name="email"
+                               name="user_email"
                                value={email}
                                onChange={event => onEmailChanged(event)}
                         />
@@ -78,15 +88,11 @@ const ContactForm = () => {
                 </div>
                 <label htmlFor="text">Коментарі:</label>
                 <textarea type="text"
-                          name="comments"
+                          name="user_text"
                           value={comments}
                           onChange={event => onCommentsChanged(event)}
                 />
-               {/* <input type="submit"
-                       value="Відправити"
-                       onClick={event => onSubmit(event)}
-                />*/}
-                <button type="button">send</button>
+                <button type="submit">send</button>
             </form>
         </div>
     );
