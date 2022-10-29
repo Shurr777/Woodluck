@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.eb76cbb3.css",
-    "main.js": "/Woodluck/static/js/main.a5f9b53c.js",
+    "main.css": "/Woodluck/static/css/main.dfde2392.css",
+    "main.js": "/Woodluck/static/js/main.12066284.js",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
     "static/media/Header_image.png": "/Woodluck/static/media/Header_image.732cd5f8156f705f707a.png",
@@ -54,6 +54,7 @@
     "static/media/hostel_banner_right.png": "/Woodluck/static/media/hostel_banner_right.3d4c7a93061503aaa145.png",
     "static/media/forHome.png": "/Woodluck/static/media/forHome.f6838584576d1d63631f.png",
     "static/media/bad.png": "/Woodluck/static/media/bad.17f7863679a6367749d8.png",
+    "static/media/WoodLogo.png": "/Woodluck/static/media/WoodLogo.cd98f0626033f0ed59b0.png",
     "static/media/GilroyBold.otf": "/Woodluck/static/media/GilroyBold.f0feeaf3468f1ac2b9cd.otf",
     "static/media/GilroyLight.otf": "/Woodluck/static/media/GilroyLight.5ac188463a0bf78b3351.otf",
     "static/media/raleway-v28-latin-500.svg": "/Woodluck/static/media/raleway-v28-latin-500.45cd07403bffdb3af67e.svg",
@@ -73,11 +74,11 @@
     "static/media/54_main-v1582879975 1.png": "/Woodluck/static/media/54_main-v1582879975 1.6bb21331ba2a1e3d400e.png",
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
-    "main.eb76cbb3.css.map": "/Woodluck/static/css/main.eb76cbb3.css.map",
-    "main.a5f9b53c.js.map": "/Woodluck/static/js/main.a5f9b53c.js.map"
+    "main.dfde2392.css.map": "/Woodluck/static/css/main.dfde2392.css.map",
+    "main.12066284.js.map": "/Woodluck/static/js/main.12066284.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb76cbb3.css",
-    "static/js/main.a5f9b53c.js"
+    "static/css/main.dfde2392.css",
+    "static/js/main.12066284.js"
   ]
 }
