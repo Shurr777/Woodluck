@@ -15,13 +15,16 @@ import Projector from "./components/Examples/Projector/Projector";
 import Loft from "./components/Examples/RedTable/Loft";
 import Appartaments from "./components/Examples/Appartaments/Appartaments";
 import Footer from "./components/Footer/Footer";
-
+import NHeader from "./components/NewHeader/NHeader";
+import DemoCarousel from "./components/Carousel/Carousel";
 
 
 function App() {
     return (
         <BrowserRouter>
             <div className="AppOverlay">
+                <NHeader/>
+                <DemoCarousel/>
                 <Header/>
                 <Routes>
                     <Route path="/" element={<Navigate to="main"/>}/>

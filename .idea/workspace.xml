@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/2.Woodluck (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/WoodLogo (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/WoodLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Forms/ContactForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/ContactForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Forms/ContactForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/ContactForm.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Contacts/Contacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Contacts/Contacts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Contacts/Contacts.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Shop/Shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Shop/Faq.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sandler.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +47,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\Woodluck\woodluck\src\components\Examples" />
@@ -63,7 +67,7 @@
       <recent name="G:\Woodluck\woodluck\src\components\Portfolio" />
     </key>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -94,7 +98,10 @@
       <workItem from="1665925747404" duration="7381000" />
       <workItem from="1666025703768" duration="1258000" />
       <workItem from="1666431262095" duration="19292000" />
-      <workItem from="1666523815180" duration="18787000" />
+      <workItem from="1666523815180" duration="19752000" />
+      <workItem from="1666804383261" duration="318000" />
+      <workItem from="1666805380347" duration="6750000" />
+      <workItem from="1667026402224" duration="6107000" />
     </task>
     <servers />
   </component>
@@ -125,6 +132,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

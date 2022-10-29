@@ -1,0 +1,8 @@
+.image h3{
+    position: absolute;
+    color: #000000;
+    top:50%;
+    padding-right: 35%;
+    font-size: calc(10px + 45 * (100vw / 1400));
+    padding-left: 3%;
+}
