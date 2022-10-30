@@ -1,26 +1,30 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.dfde2392.css",
-    "main.js": "/Woodluck/static/js/main.12066284.js",
+    "main.css": "/Woodluck/static/css/main.44da0133.css",
+    "main.js": "/Woodluck/static/js/main.ee0a0fc6.js",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
     "static/media/Header_image.png": "/Woodluck/static/media/Header_image.732cd5f8156f705f707a.png",
     "static/media/office_main.png": "/Woodluck/static/media/office_main.77afcf11e94075ee63c8.png",
     "static/media/projector_main.png": "/Woodluck/static/media/projector_main.e63db905f8d8b514b28c.png",
-    "static/media/Main.png": "/Woodluck/static/media/Main.d91930e9371cd4d47e41.png",
     "static/media/hostel_main.png": "/Woodluck/static/media/hostel_main.9be6f63104ea755391db.png",
     "static/media/appartaments_main.png": "/Woodluck/static/media/appartaments_main.8186722b257899c249a7.png",
+    "static/media/m_31.jpg": "/Woodluck/static/media/m_31.004efc690b8fbbaa5e96.jpg",
+    "static/media/picture_compress.JPG": "/Woodluck/static/media/picture_compress.37f2319bc5654334282d.JPG",
     "static/media/CB4A1425 1.png": "/Woodluck/static/media/CB4A1425 1.90bc4abd1f692111c730.png",
     "static/media/blum_descripton.png": "/Woodluck/static/media/blum_descripton.c957ac110d0f99066c4b.png",
     "static/media/62077715_306148160340710__n 1.png": "/Woodluck/static/media/62077715_306148160340710_4861842892479528960_n 1.c63f76c4e7a2baa22261.png",
     "static/media/GD_banner_right.png": "/Woodluck/static/media/GD_banner_right.f0f80a5d23b0174d06de.png",
     "static/media/red_description.png": "/Woodluck/static/media/red_description.1ad9c3ee4cca859bf8ee.png",
     "static/media/GD_banner_left.png": "/Woodluck/static/media/GD_banner_left.f67516d2904ebe310d10.png",
+    "static/media/m_12..jpg": "/Woodluck/static/media/m_12..a97153dc4ddebefdc11b.jpg",
     "static/media/cafe.png": "/Woodluck/static/media/cafe.c63f76c4e7a2baa22261.png",
     "static/media/red_banner_left.png": "/Woodluck/static/media/red_banner_left.2e6ec10f8bf6f7ec86b9.png",
     "static/media/redTable.png": "/Woodluck/static/media/redTable.eab9b05fc68137f02c40.png",
     "static/media/ofice.png": "/Woodluck/static/media/ofice.5fd8c9eaa939cc05ff53.png",
+    "static/media/Kitchen2.jpg": "/Woodluck/static/media/Kitchen2.10b98d7dc6f285d22172.jpg",
     "static/media/red_banner_right.png": "/Woodluck/static/media/red_banner_right.f3bb30b27035d1a92073.png",
+    "static/media/Sleep.JPG": "/Woodluck/static/media/Sleep.92682e80a0f0bf1db3af.JPG",
     "static/media/decor.png": "/Woodluck/static/media/decor.c38b6745fb1c4edc7714.png",
     "static/media/computers.png": "/Woodluck/static/media/computers.603778ba85f7433d00ba.png",
     "static/media/projector_banner_left.png": "/Woodluck/static/media/projector_banner_left.82bb5ec8a334a4bf5006.png",
@@ -29,6 +33,7 @@
     "static/media/image99 1.png": "/Woodluck/static/media/image99 1.0bbf89296f3b8c559425.png",
     "static/media/GD_description.png": "/Woodluck/static/media/GD_description.12768a2da1a227d9e779.png",
     "static/media/projector_banner_right.png": "/Woodluck/static/media/projector_banner_right.475d771da08f0a99f8ad.png",
+    "static/media/m_Kitchen1.jpg": "/Woodluck/static/media/m_Kitchen1.93dde4cd95965bb11354.jpg",
     "static/media/projector_description.png": "/Woodluck/static/media/projector_description.a30e22b394a12956d036.png",
     "static/media/14 1.png": "/Woodluck/static/media/14 1.ae91550748ba9ff54864.png",
     "static/media/office_banner_center.png": "/Woodluck/static/media/office_banner_center.c0500eac679f7ba83be5.png",
@@ -74,11 +79,11 @@
     "static/media/54_main-v1582879975 1.png": "/Woodluck/static/media/54_main-v1582879975 1.6bb21331ba2a1e3d400e.png",
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
-    "main.dfde2392.css.map": "/Woodluck/static/css/main.dfde2392.css.map",
-    "main.12066284.js.map": "/Woodluck/static/js/main.12066284.js.map"
+    "main.44da0133.css.map": "/Woodluck/static/css/main.44da0133.css.map",
+    "main.ee0a0fc6.js.map": "/Woodluck/static/js/main.ee0a0fc6.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfde2392.css",
-    "static/js/main.12066284.js"
+    "static/css/main.44da0133.css",
+    "static/js/main.ee0a0fc6.js"
   ]
 }
