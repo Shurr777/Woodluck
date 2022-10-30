@@ -1,10 +1,9 @@
 .about .mainOverlay {
     position: relative;
-    max-width: 1440px;
+    max-width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
 }
 
 .mainOverlay img {
@@ -12,18 +11,18 @@
     top: 0;
     width: 100%;
     filter: brightness(75%);
-    padding-bottom: 100px;
 }
 
 .about h2 {
     color: #E5E5E5;
     font-size: calc(44px + 20 * (100vw / 1440));
     z-index: 5;
-    margin-top: 31%;
-    margin-bottom: 0;
+    margin-top: 50%;
 }
 
 .statistic {
+    margin: 0;
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
@@ -55,6 +54,7 @@
     font-size: 24px;
     text-align: center;
 }
+
 
 .mission {
     display: grid;
@@ -91,6 +91,7 @@
     font-size: 20px;
 }
 
+
 .aboutCard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -105,7 +106,7 @@
 
 .aboutCard .card h2 {
     position: absolute;
-    top: 10%;
+    top: 10px;
     color: #9d9d9d;
     opacity: 20%;
     font-size: 288px;
@@ -128,24 +129,30 @@
     padding: 0;
     margin: 0;
 }
-.story{
+
+.story {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
-.story .storyImage{
+
+.story .storyImage {
     width: 100%;
 }
-.story .storyImage img{
+
+.story .storyImage img {
     height: 100%;
+
 }
-.story .storyText{
+
+.story .storyText {
     background-color: #9d9d9d;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.story .storyText p{
+
+.story .storyText p {
     font-size: 20px;
     padding-left: 40px;
     padding-right: 80px;
@@ -156,6 +163,7 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 70px;
 }
+
 .banner1 .text1 {
     border-left: 1px solid #282828;
     border-right: 1px solid #282828;
@@ -169,14 +177,129 @@
     font-size: 24px;
     padding: 20px;
 }
+
 .banner2 {
     background-color: #434343;
     padding: 20px 200px;
     margin-bottom: 100px;
 }
-.banner2 h4{
+
+.banner2 h4 {
     color: #E5E5E5;
     font-size: 48px;
     text-align: center;
     line-height: 84px;
+}
+
+@media (max-width: 1200px) {
+    .aboutCard{
+        padding-bottom: 50px;
+    }
+    .aboutCard h2 {
+        display: none;
+    }
+    .aboutCard .textBlock {
+        margin-left: 0;
+        padding: 10px 0 0 0 ;
+    }
+    .story{
+        display: flex;
+        flex-direction: column;
+    }
+    .storyImage{
+        width: 100%;
+    }
+    .storyImage img{
+        width: 100%;
+    }
+    .storyText{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .storyText p{
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .storyText p:nth-child(1){
+        padding-bottom: 0px;
+    }
+    .banner1{
+        display: flex;
+        flex-direction: column;
+    }
+    .banner1 .text1{
+        border: none;
+    }
+    .banner1 .text2{
+        border: none;
+    }
+    .banner2{
+        padding: 20px;
+    }
+    .banner2 h4{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about h2 {
+        margin-top: 50%;
+    }
+
+    .statistic {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .statisticItem:nth-child(1) {
+        border-right: none;
+    }
+
+    .statisticItem:nth-child(2) {
+        border-right: none;
+    }
+
+    .mission {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mission .titleBlock {
+        width: 100%;
+    }
+
+    .mission h3 {
+        font-size: 44px;
+    }
+
+    .textBlockOverlay {
+        margin: 0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        border-left: none;
+    }
+
+    .aboutCard {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .aboutCard h2 {
+        display: none;
+
+    }
+    .aboutCard{
+        padding: 0 0 50px 0;
+    }
+    .aboutCard .textBlock {
+        margin-left: 0;
+        padding: 10px 20px 0 20px ;
+    }
+}
+
+@media (max-width: 800px) {
+    .about h2 {
+        margin-top: 40%;
+    }
 }

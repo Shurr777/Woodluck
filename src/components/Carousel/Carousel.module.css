@@ -1,7 +1,12 @@
+.carouselOverlay img{
+    z-index: 5;
+    opacity: 0.9;
+}
 .image h3{
     position: absolute;
+    text-align: start;
     color: #000000;
-    top:50%;
+    top:40%;
     padding-right: 35%;
     font-size: calc(10px + 45 * (100vw / 1400));
     padding-left: 3%;

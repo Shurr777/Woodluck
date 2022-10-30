@@ -20,7 +20,7 @@
     overflow: hidden;
 }
 .furnitureCards h2{
-    top: -40%;
+    top: 40%;
     left: 10px;
     position: absolute;
     z-index: 5;
@@ -31,19 +31,15 @@
     height: 205px;
 }
 .bad h2{
-   top: -205px;
+   top: 40%;
 }
 .tumb{
     height: 290px;
     margin-top: 15px;
 }
 .tumb h2{
-    top: -200px
+    top: 40%;
 }
-
-
-
-
 
 
 @media (max-width: 1200px) {
@@ -62,7 +58,7 @@
         align-self: center;
     }
     .furnitureCards h2 {
-        top: 0%;
+        top: 75%;
     }
     .tumb{
         margin-top: 10px;

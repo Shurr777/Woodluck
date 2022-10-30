@@ -1,23 +1,18 @@
 .headerOverlay{
-    position: absolute;
     width: 100%;
-    z-index: 15;
     color: #E5E5E5;
-    border-bottom: 1px solid #E5E5E5;
 }
 
 .headerContainer{
     display: grid;
     grid-template-columns: 220px 1fr 220px;
-    height: 80px;
     justify-content: space-between;
     align-items: center;
-
 }
 .logo img{
     width: 160px;
     display: flex;
-    padding: 26px 30px;
+    padding:0 0 10px 20px;
     justify-content: center;
     align-items: center;
 }
@@ -55,12 +50,6 @@
     z-index: 5 ;
 }
 
-.phones{
-    height: 80px;
-    display: grid;
-    justify-content: center;
-    border-left: 1px solid #E5E5E5;
-}
 .phones span {
     align-self: center;
     padding-top: 10px;

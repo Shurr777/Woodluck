@@ -7,6 +7,7 @@
     left: 0;
     display: flex;
     justify-content: space-between;
+    z-index: 10;
 }
 .navList{
     display: flex;
@@ -14,10 +15,11 @@
 }
 
 .modal a {
-    color: #e5e5e5;
+    color: #ffffff;
     text-decoration: none;
     padding: 30px 20px;
     font-size: 30px;
+    z-index: 101;
 }
 .active {
     color: gold;
@@ -28,4 +30,5 @@
     font-size: 25px;
     margin: 0;
     padding: 25px;
+    color: #c5d02f;
 }

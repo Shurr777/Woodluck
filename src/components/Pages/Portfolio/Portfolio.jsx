@@ -47,7 +47,7 @@ const Portfolio = () => {
             <div className={style.example}>
                 <NavLink to={"#"}>
                     <img src={DinnerRoom} alt="Dinner Room"/>
-                    <h3>???</h3>
+                    <h3>ДИЗАЙН СТУДІЯ</h3>
                 </NavLink>
             </div>
             <div className={style.example}>

@@ -1,6 +1,6 @@
 .portfolio .portfolioOverlay {
     position: relative;
-    max-width: 1440px;
+    max-width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -70,7 +70,7 @@
     width: 70%;
     z-index: 10;
     top: 240px;
-    left: 80px;
+    left: 100px;
     color: #ffffff;
     font-size: 25px;
     opacity: 0;

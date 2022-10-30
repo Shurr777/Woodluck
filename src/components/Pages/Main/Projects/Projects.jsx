@@ -31,8 +31,8 @@ const Projects = () => {
                     <div className={style.projectBlockItem}>
                         <img src={dinner} alt="Dinner room"/>
                         <div className={style.text}>
-                            <h2>???</h2>
-                            <p>???</p>
+                            <h2>ДИЗАЙН СТУДІЯ</h2>
+                            <p>Офіс</p>
                         </div>
                     </div>
                     <div className={style.projectBlockItem}>

@@ -1,14 +1,14 @@
 import React, {useEffect} from 'react';
-import MainBackground from '../../../images/Main.png'
 import style from './Main.module.css'
 import Cards from "./Cards/Cards";
 import Projects from "./Projects/Projects";
 import Clients from "./Clients/Clients";
 import {useLocation, useNavigate} from "react-router-dom";
+import DemoCarousel from "../../Carousel/Carousel";
 
 const Main = () => {
     const navigate = useNavigate();
-    const { pathname } = useLocation();
+    const {pathname} = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -20,15 +20,10 @@ const Main = () => {
 
     return (
         <>
-            <div className={style.mainOverlay}>
-                <img src={MainBackground} alt="Main"/>
-                <div className={style.title}>
-                    <h2>Розробляємо та виготовляємо<br/> меблі на замовлення</h2>
-                    <button onClick={connectHandleClick}>Зв’язатися</button>
-                </div>
-            </div>
+            <DemoCarousel/>
             <div className={style.about}>
                 <div className={style.aboutText}>
+                    <button>Зв'язатися</button>
                     <h3>
                         ХТО МИ Є?
                     </h3>
@@ -39,7 +34,7 @@ const Main = () => {
                         спільно, віримо в людей.
                     </p>
                 </div>
-                <div className={style.frame}>
+                <div className={style.video_container}>
                     <iframe width="658" height="370" src="https://www.youtube.com/embed/wnFV9rNTubk"
                             title="YouTube video player" frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

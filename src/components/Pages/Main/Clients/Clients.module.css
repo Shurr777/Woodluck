@@ -2,12 +2,13 @@
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
-    background-color: #E5E5E5;
+    background-color: #c5d02f;
 }
 
 .clientsOverlay h2 {
     padding-top: 75px;
     padding-left: 115px;
+    font-size: 32px;
 }
 
 .clientsBlock {
@@ -15,7 +16,7 @@
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-content: space-between;
-    padding: 70px 115px;
+    padding: 20px 115px;
 }
 
 .clientsItem {
@@ -44,10 +45,11 @@
 }
 
 @media (max-width: 1200px) {
-    .clientsBlock{
+    .clientsBlock {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+
     .clientsItem:nth-child(odd) {
         border-bottom: 1px solid #282828;
         border-right: 1px solid #282828;
@@ -66,8 +68,41 @@
         border-left: none;
         border-bottom: none;
     }
+
     .clientsItem:nth-child(6) {
         border-bottom: none;
     }
 }
 
+@media (max-width: 1024px) {
+    .clientsOverlay h2{
+        align-self: center;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+    .clientsBlock {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clientsItem {
+        border: none;
+        align-self: center;
+    }
+
+    .clientsItem:nth-child(odd) {
+        border: none;
+    }
+
+    .clientsItem:nth-child(even) {
+        border: none;
+    }
+
+    .clientsItem:nth-child(5) {
+        align-self: center;
+    }
+
+    .clientsItem:nth-child(6) {
+        border-bottom: none;
+    }
+}

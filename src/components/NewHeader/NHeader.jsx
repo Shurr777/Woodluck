@@ -1,16 +1,31 @@
-import React from 'react';
-import s from "./NHeader.module.css"
-import style from "../Header/Header.module.css";
+import React, {useState} from 'react';
+import style from "./NHeader.module.css"
+/*import style from "../Header/Header.module.css";*/
 import {NavLink} from "react-router-dom";
 import logo from '../../images/WoodLogo.png'
+import Modal from "../Modal/Modal";
 
 const NHeader = () => {
+
+    const [isModal, setModal] = useState(false);
+
+    const onMenuClick = () => {
+        setModal(true)
+    }
+
     return (
-        <div className={s.headerOverlay}>
-            <div className={s.logo}>
-                <img src={logo} alt="logo"/>
+        <div className={style.headerOverlay}>
+            <div className={style.menu} onClick={onMenuClick}>
+                <div className={style.line}></div>
+                <div className={style.line}></div>
+                <div className={style.line}></div>
             </div>
-            <menu>
+            <div className={style.logo}>
+                <NavLink to={'main'}>
+                    <img src={logo} alt="Logo"/>
+                </NavLink>
+            </div>
+            <menu className={style.navBar}>
                 <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}>
                     Про нас
                 </NavLink>
@@ -27,7 +42,12 @@ const NHeader = () => {
                     Контакти
                 </NavLink>
             </menu>
-            <div className={s.phones}>
+            {isModal
+                ?
+                <Modal isModal={isModal} setModal={setModal}/>
+                :
+                null}
+            <div className={style.phones}>
                 <p>+38(096)635 32 23</p>
                 <p>+38(073)145 97 39</p>
             </div>

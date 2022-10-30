@@ -1,5 +1,5 @@
 .footerOverlay {
-    background-color: #E5E5E5;
+    background-color: #c7d02f;
     display: grid;
     grid-template-columns: 5fr 3fr 6fr 7fr;
     border-top: 1px solid #282828;
@@ -12,7 +12,8 @@
     border: 1px solid #282828;
     border-top: none;
 }
-.logoText{
+
+.logoText {
     box-sizing: border-box;
     border-bottom: 1px solid #282828;
     padding: 20px;
@@ -20,27 +21,31 @@
     flex-direction: column;
     align-items: center;
 }
-.logoText img{
+
+.logoText img {
     width: 200px;
 }
-.logoText p{
+
+.logoText p {
     margin: 0;
     padding-top: 20px;
     width: 250px;
 }
 
-.social{
+.social {
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
 }
-.social .icons{
+
+.social .icons {
     display: flex;
     width: 150px;
     justify-content: space-between;
     padding-bottom: 20px;
 }
+
 .footerOverlay .menu {
     border-right: 1px solid #282828;
     border-bottom: 1px solid #282828;
@@ -49,7 +54,8 @@
     align-items: center;
     justify-content: space-around;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     color: #282828;
 }
@@ -62,6 +68,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .other {
     border-bottom: 1px solid #282828;
     border-right: 1px solid #282828;
@@ -69,32 +76,51 @@
     flex-direction: column;
     align-items: center;
 }
-.other p{
+
+.other p {
     padding-left: 10px;
     padding-bottom: 0;
 }
-.other button{
+
+.other button {
     color: #E5E5E5;
     margin-top: 0;
     background-color: #282828;
     cursor: pointer;
 }
-.lang{
+
+.lang {
     padding-top: 30px;
     width: 200px;
     display: flex;
     justify-content: space-around;
 }
-.switchLanguage{
+
+.switchLanguage {
     display: flex;
     justify-content: space-around;
     width: 50px;
 }
-.other .lang p{
+
+.other .lang p {
     text-decoration: underline;
 }
-.police{
+
+.police {
     font-size: 12px;
     padding-top: 45px;
     opacity: 50%;
+}
+
+@media (max-width: 600px) {
+    .footerOverlay {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerOverlay .menu{
+        display: none;
+    }
+    .footerOverlay .lang{
+        display: none;
+    }
 }

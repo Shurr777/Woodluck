@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/2.Woodluck (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/WoodLogo (2).png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/WoodLogo.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Forms/ContactForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/ContactForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/About.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Cards/Cards.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Cards/Cards.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Clients/Clients.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Clients/Clients.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +107,8 @@
       <workItem from="1666523815180" duration="19752000" />
       <workItem from="1666804383261" duration="318000" />
       <workItem from="1666805380347" duration="6750000" />
-      <workItem from="1667026402224" duration="6107000" />
+      <workItem from="1667026402224" duration="6818000" />
+      <workItem from="1667116372457" duration="21390000" />
     </task>
     <servers />
   </component>
