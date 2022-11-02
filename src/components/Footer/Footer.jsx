@@ -27,7 +27,6 @@ const Footer = () => {
                         <a href="https://www.facebook.com/socialworkshopua/?ref=bookmarks"
                            target="_blank"
                            rel="noopener noreferrer">
-                            {/*<FontAwesomeIcon icon={icon.faFacebook} size='2x' fixedWidth/>*/}
                             <img src={facebook} alt="facebook"/>
                         </a>
                         <a href="https://www.instagram.com/woodluck_ua/"

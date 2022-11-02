@@ -29,9 +29,9 @@
     width: 150px;
 }
 
-.projectsOverlay h2 {
+.projectsOverlay .header h2 {
     padding: 0;
-    color: #E5E5E5;
+    color: #c7d02f;
     font-size: calc(64px + 2 * (100vw / 1440));;
 }
 
@@ -74,5 +74,12 @@
 @media (max-width: 800px) {
     .projectsBlock {
         grid-template-columns: 1fr;
+    }
+    .projectsOverlay .header h2{
+        font-size: 32px;
+        padding-left: 5%;
+    }
+    .projectsOverlay .projectBlockItem{
+
     }
 }

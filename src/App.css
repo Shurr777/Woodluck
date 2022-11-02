@@ -44,9 +44,10 @@
 }
 
 .AppWrapper{
-    background-color: #999999;
     margin: 0;
     padding: 0;
+    background-image: url("./images/Backgrounds/Background3.PNG");
+    background-size: cover;
 }
 
 .AppOverlay {
@@ -54,6 +55,7 @@
     margin: 0 auto;
     font-family: "GilroyRegular";
     position: relative;
-    background-color: #c5d02f;
+    background: #fff url("./images/Backgrounds/Background.PNG") 0 0 no-repeat;
+    background-size: cover;
 }
 

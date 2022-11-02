@@ -4,7 +4,7 @@
 
 .blum .blumHeader {
     position: relative;
-    max-width: 1440px;
+    max-width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@
 .blumHeader h2 {
     font-size: calc(40px + 20 * (100vw / 1440));
     z-index: 5;
-    margin-top: 35%;
+    margin-top: 50%;
     margin-right: 50%;
     color: #E5E5E5;
 }
@@ -89,23 +89,11 @@
     font-size: 20px;
 }
 
-/*
-li::marker {
-    color: #9d9d9d;
-    font-size: 14px;
-}
-
-.workingList li:before {
-    content: '\27F6';
-    color: #282828;
-    padding: 20px;
-}*/
-
 .pictures {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     padding: 70px;
-    column-gap: 50px;
+    column-gap: 30px;
 }
 
 .picture {
@@ -165,8 +153,57 @@ li::marker {
     border-bottom: 1px solid #282828;
     padding-bottom: 5px;
 }
-.connect button{
+
+.connect button {
     color: #282828;
     border-color: #282828;
     margin: 10px;
+}
+
+@media (max-width: 800px) {
+    .blumHeader h2{
+        font-size: 20px;
+    }
+    .blum .description {
+        display: flex;
+        flex-direction: column;
+        padding-top: 25px;
+    }
+    .blum .description .image{
+        width: 100%;
+    }
+    .blum .description .image img{
+        width: 100%;
+    }
+    .blum .working{
+        display: flex;
+        flex-direction: column;
+    }
+    .blum .working h2{
+        padding-left: 5%;
+        font-size: 28px;
+    }
+    .blum .workingList{
+        padding-top: 20px;
+    }
+    .blum .pictures{
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+        row-gap: 5px;
+    }
+    .blum .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .blum .info .materials{
+        border: none;
+    }
+    .blum .totalInfo{
+        padding: 5px;
+    }
+    .blum .connect{
+        display: flex;
+        flex-direction: column;
+    }
 }

@@ -1,12 +1,12 @@
 .overlay {
-    background-color: #c5d02f;
-    padding-top: 100px;
+    background-color: #434343;
+    padding-top: 10px;
     display: flex;
     justify-content: center;
 }
 
 .accordion {
-    max-width: 1024px;
+    max-width: 1440px;
 }
 
 .accordion_item {
@@ -22,7 +22,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #e5e5e5;
+    background-color: #434343;
     padding: 1em;
 }
 .accordion h3 {
@@ -33,10 +33,11 @@ ul {
 
 span{
     font-size: 28px;
+    color: #c7d02f;
 }
 
 .accordion-toggle:hover {
-    background-color: #9d9d9d;
+    background-color: #999999;
 }
 
 

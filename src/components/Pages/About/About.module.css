@@ -48,6 +48,8 @@
     justify-self: center;
     margin: 0;
     font-size: calc(84px + 20 * (100vw / 1440));
+    font-weight: bold;
+    color: #c7d02f;
 }
 
 .statistic p {
@@ -301,5 +303,8 @@
 @media (max-width: 800px) {
     .about h2 {
         margin-top: 40%;
+    }
+    .banner1{
+        padding: 20px;
     }
 }

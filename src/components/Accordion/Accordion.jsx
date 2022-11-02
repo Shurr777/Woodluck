@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import s from './Accordion.module.css'
+import bgimage from "../../images/Backgrounds/Background3.PNG"
 
 const accordionData = [
     {
@@ -13,6 +14,16 @@ const accordionData = [
         content:
             "Quos quam ipsam consequatur consequatur et distinctio. " +
             "Facere vel ut dolorem. Quam quo neque quos.",
+    },
+    {
+        heading: "Які виникають питання?",
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
+            "Atque culpa dolorum exercitationem totam! Beatae nam numquam quos saepe ullam voluptatem?",
+    },
+    {
+        heading: "Які виникають питання?",
+        content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. " +
+            "Atque culpa dolorum exercitationem totam! Beatae nam numquam quos saepe ullam voluptatem?",
     },
     {
         heading: "Які виникають питання?",

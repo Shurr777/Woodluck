@@ -21,9 +21,11 @@ const Main = () => {
     return (
         <>
             <DemoCarousel/>
+            <div className={style.buttonOverlay}>
+                <button onClick={connectHandleClick}>Зв'язатися</button>
+            </div>
             <div className={style.about}>
                 <div className={style.aboutText}>
-                    <button>Зв'язатися</button>
                     <h3>
                         ХТО МИ Є?
                     </h3>

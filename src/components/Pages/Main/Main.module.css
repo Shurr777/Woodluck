@@ -6,6 +6,17 @@
     align-items: center;
     margin-bottom: 100px;
 }
+.buttonOverlay{
+    text-align: center;
+}
+.buttonOverlay button{
+    background-color: #c7d02f;
+    border: none;
+    color: #282828;
+    font-weight: bold;
+    width: auto;
+    height: 50px;
+}
 
 .mainOverlay img {
     position: absolute;
@@ -18,6 +29,7 @@
     color: #E5E5E5;
     z-index: 5;
 }
+
 .mainOverlay h2 {
     font-size: calc(44px + 20 * (100vw / 1440));
     padding-top: 220px;
@@ -50,7 +62,7 @@ button {
 }
 
 h3 {
-    color: #282828;
+    color: #c7d02f;
     padding-top: 50px;
     font-size: 48px;
     align-self: start;
@@ -72,7 +84,7 @@ h3 {
 
 .video-container iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
@@ -104,9 +116,10 @@ h3 {
 
 .item {
     padding: 40px 50px 45px;
-    height: 100px;
+    height: 150px;
 }
-h6{
+
+h6 {
     margin: 0;
     font-size: 20px;
 }
@@ -131,17 +144,16 @@ h6{
 }
 
 /*--------------Banner--------------------*/
-.banner{
+.banner {
     margin: 5%;
 }
-.banner p{
+
+.banner p {
     font-size: 48px;
     border-bottom: 1px solid #282828;
     border-top: 1px solid #282828;
     padding: 25px;
 }
-
-
 
 
 @media (max-width: 1200px) {
@@ -178,6 +190,7 @@ h6{
         border-left: none;
         border-bottom: none;
     }
+
     .item:nth-child(6) {
         border-bottom: none;
     }
@@ -195,4 +208,18 @@ h6{
         margin-top: 40px;
     }
 
+    .banner p {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .serviceItems .item:nth-child(1) h6 {
+        display: none;
+    }
+
+    .serviceItems .item {
+        padding: 10px;
+    }
 }

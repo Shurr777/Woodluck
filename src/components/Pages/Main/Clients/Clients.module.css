@@ -2,13 +2,14 @@
     padding-bottom: 50px;
     display: flex;
     flex-direction: column;
-    background-color: #c5d02f;
+    /*background-color: #c5d02f;*/
 }
 
 .clientsOverlay h2 {
     padding-top: 75px;
     padding-left: 115px;
-    font-size: 32px;
+    font-size: 36px;
+    color: #c7d02f;
 }
 
 .clientsBlock {

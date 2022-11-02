@@ -1,11 +1,10 @@
 import './App.css';
-import Header from "./components/Header/Header";
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Main from "./components/Pages/Main/Main";
 import About from "./components/Pages/About/About";
 import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import Services from "./components/Pages/Services/Services";
-import Faq from "./components/Pages/Shop/Faq";
+import Faq from "./components/Pages/Faq/Faq";
 import Contacts from "./components/Pages/Contacts/Contacts";
 import Blum from "./components/Examples/Blum/Blum";
 import Hostel from "./components/Examples/Hostel/Hostel";
