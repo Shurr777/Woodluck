@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.44da0133.css",
-    "main.js": "/Woodluck/static/js/main.ee0a0fc6.js",
+    "main.css": "/Woodluck/static/css/main.084742fe.css",
+    "main.js": "/Woodluck/static/js/main.6991aac4.js",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
     "static/media/Header_image.png": "/Woodluck/static/media/Header_image.732cd5f8156f705f707a.png",
     "static/media/office_main.png": "/Woodluck/static/media/office_main.77afcf11e94075ee63c8.png",
     "static/media/projector_main.png": "/Woodluck/static/media/projector_main.e63db905f8d8b514b28c.png",
+    "static/media/Background3.PNG": "/Woodluck/static/media/Background3.02589d7fb4a832a8b8ee.PNG",
+    "static/media/Background.PNG": "/Woodluck/static/media/Background.bb9286af7b8c76dd7ef3.PNG",
     "static/media/hostel_main.png": "/Woodluck/static/media/hostel_main.9be6f63104ea755391db.png",
     "static/media/appartaments_main.png": "/Woodluck/static/media/appartaments_main.8186722b257899c249a7.png",
     "static/media/m_31.jpg": "/Woodluck/static/media/m_31.004efc690b8fbbaa5e96.jpg",
@@ -79,11 +81,11 @@
     "static/media/54_main-v1582879975 1.png": "/Woodluck/static/media/54_main-v1582879975 1.6bb21331ba2a1e3d400e.png",
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
-    "main.44da0133.css.map": "/Woodluck/static/css/main.44da0133.css.map",
-    "main.ee0a0fc6.js.map": "/Woodluck/static/js/main.ee0a0fc6.js.map"
+    "main.084742fe.css.map": "/Woodluck/static/css/main.084742fe.css.map",
+    "main.6991aac4.js.map": "/Woodluck/static/js/main.6991aac4.js.map"
   },
   "entrypoints": [
-    "static/css/main.44da0133.css",
-    "static/js/main.ee0a0fc6.js"
+    "static/css/main.084742fe.css",
+    "static/js/main.6991aac4.js"
   ]
 }
