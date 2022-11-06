@@ -4,25 +4,21 @@ import GD_TitleImage from "../../../images/Portfolio/GD/GD_main.png";
 import GD_Description from "../../../images/Portfolio/GD/GD_description.png"
 import BannerLeft from "../../../images/Portfolio/GD/GD_banner_left.png"
 import BannerRight from "../../../images/Portfolio/GD/GD_banner_right.png"
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation} from "react-router-dom";
+import ConnectBlock from "../../ConnectBlock/ConnectBlock";
 
 
 const GridDynamics = () => {
 
-    const navigate = useNavigate();
     const { pathname } = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
-    const connectHandleClick = () => {
-        navigate("/contacts");
-    }
-
     return (
-        <div className={s.blum}>
-            <div className={s.blumHeader}>
+        <div className={s.dynamics}>
+            <div className={s.dynamicsHeader}>
                 <img src={GD_TitleImage} alt="Main"/>
                 <h2>ОФІС НА 100 РОБОЧИХ МІСЦЬ ДЛЯ GRID DYNAMICS</h2>
             </div>
@@ -95,12 +91,7 @@ const GridDynamics = () => {
                      індивідуальні розміри столі, багато денного світла потрапляє на робочі місця
                 </h3>
             </div>
-            <div className={s.connect}>
-                <div className={s.connectText}>
-                    <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
-                </div>
-                <button onClick={connectHandleClick}>Зв’язатися</button>
-            </div>
+            <ConnectBlock/>
         </div>
     );
 };

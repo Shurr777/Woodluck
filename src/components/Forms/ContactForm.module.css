@@ -1,5 +1,6 @@
 .formOverlay {
     grid-area: f;
+    font-family: "Gotham Pro";
 }
 
 .form {
@@ -10,6 +11,7 @@
 }
 .userInfo{
     padding-left: 50px;
+    padding-bottom: 20px;
 }
 .comments {
     display: flex;
@@ -36,8 +38,26 @@ textarea {
 }
 
 .comments button {
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
     color: #282828;
     border: none;
     background-color: #fff;
     width: 70%;
+}
+@media (max-width: 600px) {
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    .userInfo{
+        padding-left: 0px;
+    }
+    .comments{
+        padding: 0;
+    }
+    textarea{
+        width: 100%;
+    }
 }

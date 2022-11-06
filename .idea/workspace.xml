@@ -2,25 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/Backgrounds/Background.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Backgrounds/Background2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Backgrounds/Background3.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConnectBlock/ConnectBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ConnectBlock/ConnectBlock.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GD.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GD.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/ContactForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/ContactForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Forms/ContactForm.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Forms/ContactForm.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/About.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Clients/Clients.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Clients/Clients.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Contacts/Contacts.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Contacts/Contacts.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Projects/projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Projects/projects.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Shop/Faq.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Faq/Faq.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +111,10 @@
       <workItem from="1667026402224" duration="6818000" />
       <workItem from="1667116372457" duration="29172000" />
       <workItem from="1667373888440" duration="5084000" />
+      <workItem from="1667381188206" duration="421000" />
+      <workItem from="1667414475610" duration="723000" />
+      <workItem from="1667637229246" duration="4403000" />
+      <workItem from="1667724675164" duration="17176000" />
     </task>
     <servers />
   </component>

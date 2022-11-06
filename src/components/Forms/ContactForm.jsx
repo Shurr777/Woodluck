@@ -95,7 +95,7 @@ const ContactForm = () => {
                               onChange={event => onCommentsChanged(event)}/>
                     {send ?
                         <div className={s.sending}>Повідомлення відправлене!</div> :
-                        <button type="submit">send</button>}
+                        <button type="submit">Відправити</button>}
                 </div>
             </form>
         </div>

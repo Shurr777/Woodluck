@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import style from "./NHeader.module.css"
-/*import style from "../Header/Header.module.css";*/
 import {NavLink} from "react-router-dom";
 import logo from '../../images/WoodLogo.png'
 import Modal from "../Modal/Modal";

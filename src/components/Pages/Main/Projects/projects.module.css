@@ -55,6 +55,9 @@
 }
 .text p{
     font-size: 24px;
+    font-family: "Gotham Pro";
+    font-style: italic;
+    font-weight: lighter;
     margin: 0;
 }
 

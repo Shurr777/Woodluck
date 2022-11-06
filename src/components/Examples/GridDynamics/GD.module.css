@@ -1,17 +1,17 @@
-.blum {
+.dynamics {
     color: #282828;
 }
 
-.blum .blumHeader {
+.dynamics .dynamicsHeader {
     position: relative;
-    max-width: 1440px;
+    max-width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 5%;
 }
 
-.blumHeader img {
+.dynamicsHeader img {
     position: absolute;
     top: 0;
     width: 100%;
@@ -19,27 +19,24 @@
     padding-bottom: 100px;
 }
 
-.blumHeader h2 {
+.dynamicsHeader h2 {
     font-size: calc(40px + 20 * (100vw / 1440));
     z-index: 5;
-    margin-top: 25%;
+    margin-top: 45%;
     margin-right: 30%;
     margin-left: 20px;
     color: #E5E5E5;
 }
 
-.description {
+.dynamics .description {
     display: grid;
     grid-template-columns: 5fr 6fr;
-    border-bottom: 1px solid #282828;
     justify-content: center;
-    margin-top: 8%;
     margin-bottom: 30px;
 }
 
 .description .text {
     align-self: center;
-    border-right: 1px solid #282828;
     padding: 0 25px;
     height: 100%;
 }
@@ -47,7 +44,9 @@
 .description .text h3 {
     padding-top: 0;
 }
-
+.dynamics .description p{
+    font-size: 20px;
+}
 .description .image {
     display: flex;
     justify-content: center;
@@ -90,18 +89,6 @@
     font-size: 20px;
 }
 
-/*
-li::marker {
-    color: #9d9d9d;
-    font-size: 14px;
-}
-
-.workingList li:before {
-    content: '\27F6';
-    color: #282828;
-    padding: 20px;
-}*/
-
 .pictures {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -130,10 +117,8 @@ li::marker {
 }
 
 .materials {
-    padding: 20px 0 0 60px;
-    border-top: 1px solid #282828;
-    border-left: 1px solid #282828;
-    border-bottom: 1px solid #282828;
+    padding: 20px 30px 0 60px;
+
 }
 
 .project {
@@ -155,19 +140,77 @@ li::marker {
     justify-self: center;
 }
 
-.connect {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
+@media (max-width: 1000px) {
+    .dynamicsHeader h2 {
+        font-size: 32px;
+        margin-top: 50%;
+    }
 }
 
-.connectText p {
-    border-bottom: 1px solid #282828;
-    padding-bottom: 5px;
+@media (max-width: 799px) {
+    .dynamicsHeader h2 {
+        font-size: 30px;
+        margin-top: 45%;
+    }
+    .dynamics .description{
+        display: flex;
+        flex-direction: column;
+    }
+    .dynamics .working{
+        display: flex;
+        flex-direction: column;
+    }
+    .dynamics .workingBanner h2{
+        font-size: 44px;
+        margin: 0 auto;
+    }
+    .dynamics .workingList{
+        padding: 20px;
+    }
+    .dynamics .pictures{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .dynamics .picture{
+        margin: 0;
+        padding-bottom: 10px;
+    }
+    .dynamics .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .dynamics .info .materials{
+        padding: 20px;
+    }
+    .dynamics .info .project{
+        padding: 20px;
+    }
+    .dynamics .totalInfo{
+        padding: 20px;
+        margin: 0;
+    }
+    .dynamics .totalInfo h3{
+        font-size: 24px;
+    }
 }
-.connect button{
-    color: #282828;
-    border-color: #282828;
-    margin: 10px;
+
+@media (max-width: 650px) {
+    .dynamicsHeader h2 {
+        font-size: 24px;
+
+    }
+}
+@media (max-width: 550px) {
+    .dynamicsHeader h2 {
+        font-size: 18px;
+
+    }
+}
+@media (max-width: 420px) {
+    .dynamicsHeader h2 {
+        margin-top: 47%;
+        font-size: 14px;
+
+    }
 }

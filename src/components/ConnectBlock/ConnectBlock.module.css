@@ -1,0 +1,25 @@
+.connect {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.connectText p {
+    border-bottom: 1px solid #282828;
+    padding-bottom: 5px;
+}
+.connect button{
+    color: #282828;
+    border-color: #282828;
+    margin: 10px;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .connect{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+}

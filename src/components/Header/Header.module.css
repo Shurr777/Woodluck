@@ -1,3 +1,4 @@
+/*
 .headerOverlay{
     width: 100%;
     color: #E5E5E5;
@@ -5,7 +6,7 @@
 
 .headerContainer{
     display: grid;
-    grid-template-columns: 220px 1fr 220px;
+    grid-template-columns: 220px 1fr 300px;
     justify-content: space-between;
     align-items: center;
 }
@@ -31,9 +32,9 @@
     color: #E5E5E5;
     text-decoration: none;
     cursor: pointer;
-    -webkit-transition: 0.2s ease; /* Safari and Chrome */
-    -moz-transition: 0.2s ease; /* Firefox 4 */
-    -o-transition: 0.2s ease; /* Opera */
+    -webkit-transition: 0.2s ease; !* Safari and Chrome *!
+    -moz-transition: 0.2s ease; !* Firefox 4 *!
+    -o-transition: 0.2s ease; !* Opera *!
 }
 
 .navBar a:hover{
@@ -77,4 +78,4 @@
         justify-self: end;
     }
 
-}
+}*/

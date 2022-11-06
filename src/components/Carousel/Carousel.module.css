@@ -5,6 +5,7 @@
 .image h3{
     position: absolute;
     text-align: start;
+    font-weight: 500;
     color: #000000;
     top:40%;
     padding-right: 35%;

@@ -142,68 +142,65 @@
     justify-self: center;
 }
 
-.connect {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
-}
-
-.connectText p {
-    border-bottom: 1px solid #282828;
-    padding-bottom: 5px;
-}
-
-.connect button {
-    color: #282828;
-    border-color: #282828;
-    margin: 10px;
-}
 
 @media (max-width: 800px) {
-    .blumHeader h2{
+    .blumHeader h2 {
         font-size: 20px;
     }
+
     .blum .description {
         display: flex;
         flex-direction: column;
         padding-top: 25px;
     }
-    .blum .description .image{
+
+    .blum .description {
+        border: none;
+    }
+
+    .blum .description .text {
+        border: none;
+    }
+
+    .blum .description .image {
         width: 100%;
     }
-    .blum .description .image img{
+
+    .blum .description .image img {
         width: 100%;
     }
-    .blum .working{
+
+    .blum .working {
         display: flex;
         flex-direction: column;
     }
-    .blum .working h2{
+
+    .blum .working h2 {
         padding-left: 5%;
         font-size: 28px;
     }
-    .blum .workingList{
+
+    .blum .workingList {
         padding-top: 20px;
     }
-    .blum .pictures{
+
+    .blum .pictures {
         display: flex;
         flex-direction: column;
         padding: 10px 0;
         row-gap: 5px;
     }
-    .blum .info{
+
+    .blum .info {
         display: flex;
         flex-direction: column;
     }
-    .blum .info .materials{
+
+    .blum .info .materials {
         border: none;
     }
-    .blum .totalInfo{
+
+    .blum .totalInfo {
         padding: 5px;
-    }
-    .blum .connect{
-        display: flex;
-        flex-direction: column;
     }
 }

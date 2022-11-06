@@ -5,24 +5,21 @@ import HostelDescription from "../../../images/Portfolio/Hostel/hostel_descripti
 import BannerPicture1 from "../../../images/Portfolio/Hostel/hostel_banner_left.png"
 import BannerPicture2 from "../../../images/Portfolio/Hostel/hostel_banner_center.png"
 import BannerPicture3 from "../../../images/Portfolio/Hostel/hostel_banner_right.png"
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation} from "react-router-dom";
+import ConnectBlock from "../../ConnectBlock/ConnectBlock";
 
 
 const Hostel = () => {
-    const navigate = useNavigate();
     const { pathname } = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
-    const connectHandleClick = () => {
-        navigate("/contacts");
-    }
 
     return (
-        <div className={s.blum}>
-            <div className={s.blumHeader}>
+        <div className={s.hostel}>
+            <div className={s.hostelHeader}>
                 <img src={HostelBannerMain} alt="Main"/>
                 <h2>FRIENDS HOSTEL LVIV</h2>
             </div>
@@ -93,12 +90,7 @@ const Hostel = () => {
             <div className={s.totalInfo}>
                 <h3>На виході замовник отримав зручні ліжка з індивідуальними боксам та оптимально організований простір</h3>
             </div>
-            <div className={s.connect}>
-                <div className={s.connectText}>
-                    <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
-                </div>
-                <button onClick={connectHandleClick}>Зв’язатись</button>
-            </div>
+          <ConnectBlock/>
         </div>
     );
 };

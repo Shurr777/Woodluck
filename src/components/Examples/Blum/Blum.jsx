@@ -5,21 +5,18 @@ import BlumDescription from "../../../images/Portfolio/Blum/blum_descripton.png"
 import Picture1 from "../../../images/Portfolio/Blum/pic1.png"
 import Picture2 from "../../../images/Portfolio/Blum/62077715_306148160340710_4861842892479528960_n 1.png"
 import Picture3 from "../../../images/Portfolio/Blum/62209645_306148213674038_7481719573775908864_n 1.png"
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation} from "react-router-dom";
+import ConnectBlock from "../../ConnectBlock/ConnectBlock";
 
 
 const Blum = () => {
 
-    const navigate = useNavigate();
     const { pathname } = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
-    const connectHandleClick = () => {
-        navigate("/contacts");
-    }
 
     return (
         <div className={s.blum}>
@@ -94,12 +91,7 @@ const Blum = () => {
             <div className={s.totalInfo}>
                 <h3>На виході замовник отримав стильний та впізнаваний інтер’єр кафе</h3>
             </div>
-            <div className={s.connect}>
-                <div className={s.connectText}>
-                    <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
-                </div>
-                <button onClick={connectHandleClick}>Зв’язатись</button>
-            </div>
+           <ConnectBlock/>
         </div>
     );
 };
