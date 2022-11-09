@@ -97,12 +97,13 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 100px;
-    padding: 100px 100px 100px 100px;
+    padding: 100px 100px 200px 100px;
     background-color: #E5E5E5;
 }
 
 .aboutCard .card {
     position: relative;
+
 }
 
 .aboutCard .card h2 {
