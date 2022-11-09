@@ -1,5 +1,5 @@
 .contacts {
-    background-color: #c5d02f;
+    background-color: #434343;
     display: grid;
     grid-template-areas:
             "m  t"
@@ -10,11 +10,12 @@
     /* border: 1px solid red;*/
     display: flex;
     flex-direction: column;
+    padding-left: 50px;
 }
 
 .map {
     grid-area: m;
-    padding: 20px;
+    padding: 50px;
     width: 95%;
     height: 300px;
     border: 0;
@@ -23,17 +24,20 @@
 
 .textOverlay {
     grid-area: t;
+    padding-left: 150px;
 }
-
-.contacts h2 {
+.textOverlay h2{
+    color: #c7d02f;
     margin: 0px;
-    padding: 120px 0px 0px 100px;
+    padding: 150px 0px 0px 100px;
     font-size: 24px;
 }
+
 
 .contacts p {
     padding: 10px 0px 0px 50px;
     font-size: 20px;
+    color: #c7d02f;
 }
 
 .userContacts {

@@ -20,34 +20,34 @@ const DemoCarousel = () => {
                       interval={3000}
                       transitionTime={700}
             >
-                <div className={s.image}>
+                {/*<div className={s.image}>
                     <img src={demo1} alt={'Demo'}/>
                     <h3>Розробляємо та виготовляємо
                         меблі на замовлення</h3>
-                </div>
+                </div>*/}
                 <div className={s.image}>
                     <img src={demo2} alt={'Demo'}/>
-                    <h3>Якийсь текст</h3>
+                    <h3>Кухні</h3>
                 </div>
                 <div className={s.image}>
                     <img src={demo3} alt={'Demo'}/>
-                    <h3>Якийсь текст</h3>
+                    <h3>Столи</h3>
                 </div>
                 <div className={s.image}>
                     <img src={demo4} alt={'Demo'}/>
-                    <h3>Якийсь текст</h3>
+                    <h3>Меблі з дерева</h3>
                 </div>
                 <div className={s.image}>
                     <img src={demo5} alt={'Demo'}/>
-                    <h3>Якийсь текст</h3>
+                    <h3>Для кафе</h3>
                 </div>
                 <div className={s.image}>
                     <img src={demo6} alt={'Demo'}/>
-                    <h3>Якийсь текст</h3>
+                    <h3>Меблі для дому</h3>
                 </div>
                 <div className={s.image}>
                     <img src={demo7} alt={'Demo'}/>
-                    <h3>Якийсь текст</h3>
+                    <h3>HoReCa</h3>
                 </div>
             </Carousel>
         </div>

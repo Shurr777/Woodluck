@@ -6,9 +6,15 @@
     position: absolute;
     text-align: start;
     font-weight: 500;
-    color: #000000;
-    top:40%;
+    top:70%;
+    color: #c7d02f;
     padding-right: 35%;
     font-size: calc(10px + 45 * (100vw / 1400));
     padding-left: 3%;
+}
+{
+    color: #434343;
+}
+.carouselOverlay p{
+    display: none;
 }

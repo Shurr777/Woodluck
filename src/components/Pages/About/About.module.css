@@ -79,25 +79,24 @@
     box-sizing: border-box;
     margin-left: 40px;
     margin-top: 50px;
-    padding: 120px 70px 20px 50px;
+    padding: 10px 70px 20px 50px;
     border-left: 1px solid #282828;
 }
 
 .mission h3 {
     margin: 0;
     padding: 70px 100px 70px 70px;
-    font-size: 84px;
+    font-size: 46px;
 }
 
 .mission p {
-    font-size: 20px;
+    font-size: 24px;
 }
-
 
 .aboutCard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 30px;
+
     padding: 10px 100px 100px 100px;
     background-color: #E5E5E5;
 }
@@ -109,8 +108,8 @@
 .aboutCard .card h2 {
     position: absolute;
     top: 10px;
-    color: #9d9d9d;
-    opacity: 20%;
+    color: #c7d02f;
+    opacity: 50%;
     font-size: 288px;
 }
 
@@ -126,8 +125,13 @@
     margin: 0;
     padding: 0;
 }
+.aboutCard h3{
+    color: #434343;
+    z-index: 10;
+}
 
 .aboutCard p {
+    z-index: 10;
     padding: 0;
     margin: 0;
 }
@@ -199,6 +203,9 @@
     }
     .aboutCard h2 {
         display: none;
+    }
+    .aboutCard h3 {
+        color: #c7d02f;
     }
     .aboutCard .textBlock {
         margin-left: 0;

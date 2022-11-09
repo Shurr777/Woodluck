@@ -1,5 +1,5 @@
 .footerOverlay {
-    background-color: #c7d02f;
+    background-color: #9d9d9d;
     display: grid;
     grid-template-columns: 5fr 3fr 6fr 7fr;
     border-top: 1px solid #282828;
@@ -45,6 +45,14 @@
     justify-content: space-between;
     padding-bottom: 20px;
 }
+.social .icons a{
+    color: #c7d02f;
+    border-radius: 15px;
+
+}
+.social .icons i{
+    font-size: 20px;
+}
 
 .footerOverlay .menu {
     border-right: 1px solid #282828;
@@ -82,12 +90,12 @@
     padding-bottom: 0;
 }
 
-.other button {
+/*.other button {
     color: #E5E5E5;
     margin-top: 0;
     background-color: #282828;
     cursor: pointer;
-}
+}*/
 
 .lang {
     padding-top: 30px;
@@ -104,6 +112,13 @@
 
 .other .lang p {
     text-decoration: underline;
+}
+.other button{
+    margin-top: 50px;
+    height: 50px;
+    background-color: #c7d02f;
+    border: none;
+    color: #282828;
 }
 
 .police {

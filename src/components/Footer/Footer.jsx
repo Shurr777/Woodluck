@@ -24,6 +24,8 @@ const Footer = () => {
                 <div className={style.social}>
                     <p>Слідкуйте за нами в соц.мережах:</p>
                     <div className={style.icons}>
+                        <i className="fa fa-facebook-official" aria-hidden="true"></i>
+
                         <a href="https://www.facebook.com/socialworkshopua/?ref=bookmarks"
                            target="_blank"
                            rel="noopener noreferrer">
@@ -61,13 +63,13 @@ const Footer = () => {
                 </p>
                 <button onClick={connectHandleClick}>Зв’язатися</button>
                 <div className={style.lang}>
-                    <div className={style.switchLanguage}>
+                    {/*<div className={style.switchLanguage}>
                         <p>EN</p>
                         <p>UA</p>
                     </div>
                     <div>
                         <img src={unknownLogo} alt="some logo"/>
-                    </div>
+                    </div>*/}
                 </div>
                 <p className={style.police}>Copyright © WoodLuck 2019. All rights reserved.</p>
             </div>

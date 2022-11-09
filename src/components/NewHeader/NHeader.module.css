@@ -1,12 +1,16 @@
 .headerOverlay {
+    width: 100%;
     display: grid;
-    background-color: #c7d02f;
+    background-color: rgba(132, 131, 135, 0.5);
     grid-template-columns: 200px 1fr 250px;
+    position: absolute;
+    top: 0;
+    z-index: 10;
 }
 
 .logo {
     width: 100%;
-    padding: 20px 0 0 10px;
+    padding: 10px 0 5px 15px;
 }
 
 
@@ -35,19 +39,20 @@ menu {
 }
 
 .navBar .active {
-    color: #282828;
-    font-size: 30px;
+    color: #c7d02f;
+    font-size: 28px;
+    padding: 10px;
 }
 
 .navBar a {
-    padding: 27px 10px;
+    padding: 10px 10px;
     font-size: 22px;
     color: #E5E5E5;
     text-decoration: none;
     cursor: pointer;
-    -webkit-transition: 0.2s ease; /* Safari and Chrome */
-    -moz-transition: 0.2s ease; /* Firefox 4 */
-    -o-transition: 0.2s ease; /* Opera */
+    -webkit-transition: 0.4s ease; /* Safari and Chrome */
+    -moz-transition: 0.4s ease; /* Firefox 4 */
+    -o-transition: 0.4s ease; /* Opera */
 }
 
 .navBar a:hover {
@@ -84,7 +89,8 @@ menu {
 @media (max-width: 1024px) {
     .headerOverlay {
         display: grid;
-        background-color: #c7d02f;
+        position: relative;
+        background-color: rgba(132, 131, 135, 0.3);
         grid-template-columns: 50px 1fr 200px;
     }
 

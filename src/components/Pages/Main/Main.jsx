@@ -21,9 +21,9 @@ const Main = () => {
     return (
         <>
             <DemoCarousel/>
-            <div className={style.buttonOverlay}>
+            {/*<div className={style.buttonOverlay}>
                 <button onClick={connectHandleClick}>Зв'язатися</button>
-            </div>
+            </div>*/}
             <div className={style.about}>
                 <div className={style.aboutText}>
                     <h3>

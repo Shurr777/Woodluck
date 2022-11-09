@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
 import s from './Accordion.module.css'
-import bgimage from "../../images/Backgrounds/Background3.PNG"
 
 const accordionData = [
     {
