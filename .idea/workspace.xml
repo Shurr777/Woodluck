@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/About.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/About.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +101,7 @@
       <workItem from="1667838542971" duration="1190000" />
       <workItem from="1667928494391" duration="1455000" />
       <workItem from="1667939049964" duration="10091000" />
-      <workItem from="1667987516037" duration="1743000" />
+      <workItem from="1667987516037" duration="2089000" />
     </task>
     <servers />
   </component>

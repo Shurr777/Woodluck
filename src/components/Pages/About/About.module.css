@@ -103,12 +103,11 @@
 
 .aboutCard .card {
     position: relative;
-
 }
 
 .aboutCard .card h2 {
     position: absolute;
-    top: 10px;
+    top: 0;
     color: #c7d02f;
     opacity: 50%;
     font-size: 288px;
@@ -134,7 +133,7 @@
 
 .aboutCard p {
     z-index: 10;
-    padding: 0;
+    padding-top: 20px;
     margin: 0;
 }
 
