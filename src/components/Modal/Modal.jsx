@@ -18,14 +18,14 @@ const Modal = (props) => {
                          onClick={() => props.setModal(false)}>
                     Портфоліо
                 </NavLink>
-                <NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}
+               {/* <NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
                     Послуги
                 </NavLink>
                 <NavLink to='shop' className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
                     Магазин
-                </NavLink>
+                </NavLink>*/}
                 <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
                     Контакти

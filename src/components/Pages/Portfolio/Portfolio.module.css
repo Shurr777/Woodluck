@@ -23,7 +23,7 @@
 .portfolio .banner1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 150px;
+    padding-top: 200px;
 }
 
 .banner1 .bannerItem {
@@ -87,20 +87,26 @@
 
 @media (max-width: 1500px) {
     .portfolio .banner1{
-        padding-top: 100px;
+        padding-top: 170px;
+    }
+}
+@media (max-width: 1300px) {
+    .portfolio .banner1{
+        padding-top: 160px;
     }
 }
 @media (max-width: 1200px) {
     .portfolio .banner1{
-        padding-top: 50px;
+        padding-top: 100px;
     }
 }
-@media (max-width: 800px) {
+@media (max-width: 901px) {
     .portfolioOverlay h2{
         margin-top: 40%;
         padding-left: 120px;
     }
     .portfolio .banner1{
+        padding-top: 150px;
         display: flex;
         flex-direction: column;
     }
@@ -129,6 +135,9 @@
     }
 }*/
 @media (max-width: 500px) {
+    .portfolio .banner1{
+        padding-top: 70px;
+    }
     .portfolioOverlay h2 {
         font-size: 36px;
         margin-top: 35%;

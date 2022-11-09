@@ -31,12 +31,12 @@ const NHeader = () => {
                 <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}>
                     Портфоліо
                 </NavLink>
-                <NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                {/*<NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}>
                     Послуги
                 </NavLink>
                 <NavLink to='faq' className={({isActive}) => `${isActive ? style.active : ''}`}>
                     Питання
-                </NavLink>
+                </NavLink>*/}
                 <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
                     Контакти
                 </NavLink>

@@ -14,7 +14,7 @@ const About = () => {
         <div className={style.about}>
             <div className={style.mainOverlay}>
                 <img src={Header_img} alt="Main"/>
-                <h2></h2>
+                <h2> </h2>
             </div>
             <div className={style.statistic}>
                 <div className={style.statisticItem}>

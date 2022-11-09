@@ -22,7 +22,7 @@ const Portfolio = () => {
         <div className={style.portfolio}>
             <div className={style.portfolioOverlay}>
                 <img src={Portfolio_img} alt="Main"/>
-                <h2>РЕАЛІЗОВАНІ ПРОЕКТИ</h2>
+                <h2> </h2>
             </div>
             <div className={style.banner1}>
                 <div className={style.bannerItem}>
