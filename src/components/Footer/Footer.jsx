@@ -1,10 +1,9 @@
 import React from 'react';
 import style from './Footer.module.css'
-import logo from '../../images/woodluck-logo-300x50 1.png'
+import logo from '../../images/LogoWoodluck 2.png'
 import facebook from '../../images/icons/facebook.png'
 import insta from '../../images/icons/insta.png'
 import youtube from '../../images/icons/youtube.png'
-import unknownLogo from '../../images/icons/Group 14 1.png'
 import {NavLink, useNavigate} from "react-router-dom";
 
 const Footer = () => {

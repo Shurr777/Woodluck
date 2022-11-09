@@ -9,8 +9,8 @@ const Contacts = () => {
             <div className={s.mapOverlay}>
                 <iframe className={s.map}
                         title={"map"}
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1285.9453084547322!2d24.043135558305725!3d49.863299323838376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0285541d65%3A0x6fbf09e8969cca9!2z0LLRg9C70LjRhtGPINCf0YDQvtC80LjRgdC70L7QstCwLCA2MCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCDQo9C60YDQsNGX0L3QsCwgNzkwMDA!5e0!3m2!1suk!2sse!4v1666538717110!5m2!1suk!2sse"
-                    allowFullScreen="" loading="lazy"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2571.8588622185207!2d24.0439831!3d49.8638958!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adcfd65a33b95%3A0xc0de2bf062cb85ee!2z0LLRg9C70LjRhtGPINCf0YDQvtC80LjRgdC70L7QstCwLCA2MCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1668024631364!5m2!1suk!2sua"
+                        allowFullScreen="" loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className={s.textOverlay}>
@@ -20,7 +20,6 @@ const Contacts = () => {
                 <p>+38 096 6353223</p>
                 <p>luckwood60@gmail.com</p>
                 <p>Пон – П’ят : 9-00 до 18-00</p>
-                <div className={s.social}></div>
             </div>
                <ContactForm/>
         </div>
@@ -28,3 +27,4 @@ const Contacts = () => {
 };
 
 export default Contacts;
+

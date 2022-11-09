@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import style from "./NHeader.module.css"
 import {NavLink} from "react-router-dom";
-import logo from '../../images/WoodLogo.png'
+import logo from '../../images/LogoWoodluck 2.png'
 import Modal from "../Modal/Modal";
 
 const NHeader = () => {

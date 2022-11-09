@@ -6,76 +6,54 @@
 }
 
 .clientsOverlay h2 {
-    padding-top: 75px;
-    padding-left: 115px;
+    padding-top: 30px;
+    text-align: center;
     font-size: 36px;
     color: #c7d02f;
 }
 
 .clientsBlock {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     align-items: center;
     justify-content: space-between;
-    padding: 20px 115px;
+    padding: 20px;
+    box-sizing: content-box;
 }
 
 .clientsItem {
-    padding: 40px 50px 45px;
-    height: 100px;
+    align-self: center;
+    justify-self: center;
+    padding: 20px ;
+    height: 150px;
+}
+.clientsItem img{
+    width: 100%;
 }
 
-.clientsItem:nth-child(1) {
-    border-bottom: 1px solid #282828;
-}
-
-.clientsItem:nth-child(2) {
-    border-bottom: 1px solid #282828;
-    border-left: 1px solid #282828;
-    border-right: 1px solid #282828;
-}
-
-.clientsItem:nth-child(3) {
-    border-bottom: 1px solid #282828;
-}
-
-.clientsItem:nth-child(5) {
-    align-self: start;
-    border-left: 1px solid #282828;
-    border-right: 1px solid #282828;
-}
 
 @media (max-width: 1200px) {
+    .clientsBlock {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+@media (max-width: 600px) {
+    .clientsOverlay h2 {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 24px;
+        color: #c7d02f;
+    }
     .clientsBlock {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .clientsItem:nth-child(odd) {
-        border-bottom: 1px solid #282828;
-        border-right: 1px solid #282828;
-    }
-
-    .clientsItem:nth-child(even) {
-        border-bottom: 1px solid #282828;
-    }
-
-    .clientsItem:nth-child(2) {
-        border-right: none;
-        border-left: none;
-    }
-
-    .clientsItem:nth-child(5) {
-        border-left: none;
-        border-bottom: none;
-    }
-
-    .clientsItem:nth-child(6) {
-        border-bottom: none;
-    }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 400px) {
     .clientsOverlay h2{
         align-self: center;
         margin: 0;
@@ -87,16 +65,7 @@
     }
 
     .clientsItem {
-        border: none;
         align-self: center;
-    }
-
-    .clientsItem:nth-child(odd) {
-        border: none;
-    }
-
-    .clientsItem:nth-child(even) {
-        border: none;
     }
 
     .clientsItem:nth-child(5) {

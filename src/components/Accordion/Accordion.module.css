@@ -1,6 +1,6 @@
 .overlay {
     background-color: #434343;
-    padding-top: 10px;
+    padding-top: 100px;
     display: flex;
     justify-content: center;
 }
@@ -28,7 +28,8 @@ ul {
 .accordion h3 {
     margin: 0;
     font-size: 20px;
-    padding-bottom: 20px;
+
+    padding-bottom: 10px;
 }
 
 span{
@@ -52,7 +53,7 @@ span{
 .accordion_content {
     font-size: 0;
     animation: ani 1s forwards;
-    background-color: #eee;
+    background-color: #434343;
     padding: 1em;
 }
 

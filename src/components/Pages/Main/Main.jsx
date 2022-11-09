@@ -1,22 +1,22 @@
 import React, {useEffect} from 'react';
 import style from './Main.module.css'
-import Cards from "./Cards/Cards";
+/*import Cards from "./Cards/Cards";*/
 import Projects from "./Projects/Projects";
 import Clients from "./Clients/Clients";
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation} from "react-router-dom";
 import DemoCarousel from "../../Carousel/Carousel";
 
 const Main = () => {
-    const navigate = useNavigate();
+   /* const navigate = useNavigate();*/
     const {pathname} = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
-    const connectHandleClick = () => {
+    /*const connectHandleClick = () => {
         navigate("/contacts");
-    }
+    }*/
 
     return (
         <>
@@ -36,14 +36,21 @@ const Main = () => {
                         спільно, віримо в людей.
                     </p>
                 </div>
-                <div className={style.video_container}>
+                <div className={style.video_Container}>
                     <iframe width="658" height="370" src="https://www.youtube.com/embed/wnFV9rNTubk"
                             title="YouTube video player" frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen></iframe>
                 </div>
+                <div className={style.videoOverlay}>
+                    <iframe width="340" height="200" src="https://www.youtube.com/embed/wnFV9rNTubk"
+                            title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen></iframe>
+                </div>
+
             </div>
-            <div className={style.services}>
+           {/* <div className={style.services}>
                 <h3>НАШІ ПОСЛУГИ</h3>
                 <div className={style.serviceItems}>
                     <div className={style.item}>
@@ -69,8 +76,8 @@ const Main = () => {
                         <p>Фарбування дерев’яних i металевих елементiв</p>
                     </div>
                 </div>
-            </div>
-            <Cards/>
+            </div>*/}
+           {/* <Cards/>*/}
             <div className={style.banner}>
                 <p>10% від прибутку скеровуємо для сімей, які перебувають у скруті.
                     Майстерня WoodLuck засновувалася як соціальне підприємництво,

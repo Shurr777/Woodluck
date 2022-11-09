@@ -107,7 +107,7 @@
 
 .aboutCard .card h2 {
     position: absolute;
-    top: 0;
+    top: 10px;
     color: #c7d02f;
     opacity: 50%;
     font-size: 288px;
