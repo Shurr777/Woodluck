@@ -96,8 +96,8 @@
 .aboutCard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-grid-gap: 100px;
-    padding: 10px 100px 100px 100px;
+    grid-gap: 100px;
+    padding: 100px 100px 100px 100px;
     background-color: #E5E5E5;
 }
 
@@ -125,7 +125,8 @@ grid-gap: 100px;
     margin: 0;
     padding: 0;
 }
-.aboutCard h3{
+
+.aboutCard h3 {
     color: #434343;
     z-index: 10;
 }
@@ -198,54 +199,68 @@ grid-gap: 100px;
 }
 
 @media (max-width: 1200px) {
-    .aboutCard{
+    .aboutCard {
         padding-bottom: 50px;
     }
+
     .aboutCard h2 {
         display: none;
     }
+
     .aboutCard h3 {
         color: #c7d02f;
     }
+
     .aboutCard .textBlock {
         margin-left: 0;
-        padding: 10px 0 0 0 ;
+        padding: 10px 0 0 0;
     }
-    .story{
+
+    .story {
         display: flex;
         flex-direction: column;
     }
-    .storyImage{
+
+    .storyImage {
         width: 100%;
     }
-    .storyImage img{
+
+    .storyImage img {
         width: 100%;
     }
-    .storyText{
+
+    .storyText {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .storyText p{
+
+    .storyText p {
         padding-top: 20px;
         padding-bottom: 30px;
     }
-    .storyText p:nth-child(1){
+
+    .storyText p:nth-child(1) {
         padding-bottom: 0px;
     }
-    .banner1{
+
+    .banner1 {
         display: flex;
         flex-direction: column;
     }
-    .banner1 .text1{
+
+    .banner1 .text1 {
         border: none;
     }
-    .banner1 .text2{
+
+    .banner1 .text2 {
         border: none;
     }
-    .banner2{
+
+    .banner2 {
         padding: 20px;
     }
-    .banner2 h4{
+
+    .banner2 h4 {
         font-size: 30px;
         line-height: 40px;
     }
@@ -298,12 +313,14 @@ grid-gap: 100px;
         display: none;
 
     }
-    .aboutCard{
+
+    .aboutCard {
         padding: 0 0 50px 0;
     }
+
     .aboutCard .textBlock {
         margin-left: 0;
-        padding: 10px 20px 0 20px ;
+        padding: 10px 20px 0 20px;
     }
 }
 
@@ -311,7 +328,8 @@ grid-gap: 100px;
     .about h2 {
         margin-top: 40%;
     }
-    .banner1{
+
+    .banner1 {
         padding: 20px;
     }
 }
