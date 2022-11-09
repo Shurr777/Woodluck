@@ -96,7 +96,7 @@
 .aboutCard {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-
+grid-gap: 100px;
     padding: 10px 100px 100px 100px;
     background-color: #E5E5E5;
 }
