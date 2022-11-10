@@ -22,7 +22,7 @@
 
 .statistic {
     margin: 0;
-    padding: 0;
+    padding-top: 150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
