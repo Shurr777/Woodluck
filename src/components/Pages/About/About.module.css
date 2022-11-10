@@ -311,7 +311,6 @@
 
     .aboutCard h2 {
         display: none;
-
     }
 
     .aboutCard {
@@ -325,11 +324,39 @@
 }
 
 @media (max-width: 800px) {
+    .aboutCard{
+        background-color: #767676;
+    }
     .about h2 {
         margin-top: 40%;
     }
-
+    .statistic{
+        padding-top: 30px;
+    }
+    .statisticItem{
+        padding: 30px;
+    }
+    .titleBlock h3{
+        padding: 25px;
+        font-size: 24px;
+        text-align: center;
+    }
+    .about .storyText p{
+        margin: 0;
+        padding: 30px 20px 20px 20px;
+    }
+    .about .storyText{
+        padding-bottom: 25px;
+    }
     .banner1 {
-        padding: 20px;
+        padding: 10px;
+    }
+    .banner2{
+        margin: 0;
+    }
+    .banner2 h4{
+        margin: 0;
+        font-size: 24px;
+        color: #c7d02f;
     }
 }
