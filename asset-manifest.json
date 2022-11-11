@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.6fd399dc.css",
-    "main.js": "/Woodluck/static/js/main.669391ab.js",
+    "main.css": "/Woodluck/static/css/main.03bfce4a.css",
+    "main.js": "/Woodluck/static/js/main.c55e7ff6.js",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
     "static/media/Header_image.png": "/Woodluck/static/media/Header_image.732cd5f8156f705f707a.png",
@@ -51,6 +51,8 @@
     "static/media/office_banner_left.png": "/Woodluck/static/media/office_banner_left.344d678265b30224c42c.png",
     "static/media/hostel_banner_left.png": "/Woodluck/static/media/hostel_banner_left.70bad33dde3b92e12a3a.png",
     "static/media/hostel_banner_right.png": "/Woodluck/static/media/hostel_banner_right.3d4c7a93061503aaa145.png",
+    "static/media/Design.png": "/Woodluck/static/media/Design.fad63e27737a8f38fa2a.png",
+    "static/media/Talking.png": "/Woodluck/static/media/Talking.3027fb6d069139b91d34.png",
     "static/media/GothamPro-LightItalic.eot": "/Woodluck/static/media/GothamPro-LightItalic.59020da5eeb10710eb09.eot",
     "static/media/GothamPro-MediumItalic.eot": "/Woodluck/static/media/GothamPro-MediumItalic.e7e640aeea71e9e66299.eot",
     "static/media/GothamPro-LightItalic.ttf": "/Woodluck/static/media/GothamPro-LightItalic.4f4522b8d83f0b754412.ttf",
@@ -78,15 +80,18 @@
     "static/media/1479381028-Лого (нет, презентація) (1) 1.png": "/Woodluck/static/media/1479381028-Лого (нет, презентація) (1) 1.1a5547b0c5a32ba48cd1.png",
     "static/media/unnamed 1.png": "/Woodluck/static/media/unnamed 1.3af035ab4bfa6f528a16.png",
     "static/media/LogoWoodluck 2.png": "/Woodluck/static/media/LogoWoodluck 2.cc4ad004110caca6b346.png",
+    "static/media/Production.png": "/Woodluck/static/media/Production.5d33dcbba3b948fa2fa7.png",
+    "static/media/Delivery.png": "/Woodluck/static/media/Delivery.adf8ff25c4061acea6bb.png",
     "static/media/logo_uk 1.png": "/Woodluck/static/media/logo_uk 1.6a5f3066201369d3a536.png",
+    "static/media/Сharity.png": "/Woodluck/static/media/Сharity.1fcb79f5678d817dabf8.png",
     "static/media/54_main-v1582879975 1.png": "/Woodluck/static/media/54_main-v1582879975 1.6bb21331ba2a1e3d400e.png",
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
-    "main.6fd399dc.css.map": "/Woodluck/static/css/main.6fd399dc.css.map",
-    "main.669391ab.js.map": "/Woodluck/static/js/main.669391ab.js.map"
+    "main.03bfce4a.css.map": "/Woodluck/static/css/main.03bfce4a.css.map",
+    "main.c55e7ff6.js.map": "/Woodluck/static/js/main.c55e7ff6.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fd399dc.css",
-    "static/js/main.669391ab.js"
+    "static/css/main.03bfce4a.css",
+    "static/js/main.c55e7ff6.js"
   ]
 }
