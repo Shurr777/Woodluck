@@ -1,10 +1,16 @@
 import React from 'react';
 import style from './Footer.module.css'
 import logo from '../../images/LogoWoodluck 2.png'
-import facebook from '../../images/icons/facebook.png'
+/*import facebook from '../../images/icons/facebook.png'
 import insta from '../../images/icons/insta.png'
-import youtube from '../../images/icons/youtube.png'
+import youtube from '../../images/icons/youtube.png'*/
 import {NavLink, useNavigate} from "react-router-dom";
+import {
+    FaFacebookSquare,
+    FaInstagramSquare,
+    FaYoutubeSquare
+} from 'react-icons/fa';
+
 
 const Footer = () => {
 
@@ -23,21 +29,29 @@ const Footer = () => {
                 <div className={style.social}>
                     <p>Слідкуйте за нами в соц.мережах:</p>
                     <div className={style.icons}>
-                        <i className="fa fa-facebook-official" aria-hidden="true"></i>
-
                         <a href="https://www.facebook.com/socialworkshopua/?ref=bookmarks"
                            target="_blank"
                            rel="noopener noreferrer">
-                            <img src={facebook} alt="facebook"/>
+                            <div className={style.socialIcon}>
+                                <FaFacebookSquare/>
+                            </div>
+                            {/* <img src={facebook} alt="facebook"/>*/}
+
                         </a>
                         <a href="https://www.instagram.com/woodluck_ua/"
                            target="_blank" rel="noopener noreferrer">
-                            <img src={insta} alt="instagram"/>
+                            <div className={style.socialIcon}>
+                                <FaInstagramSquare/>
+                            </div>
+                            {/* <img src={insta} alt="instagram"/>*/}
                         </a>
                         <a href="https://www.youtube.com/channel/UCPSsNkDVkRokQWLUctT33ow/featured"
                            target="_blank"
                            rel="noopener noreferrer">
-                            <img src={youtube} alt="youtube"/>
+                            {/* <img src={youtube} alt="youtube"/>*/}
+                            <div className={style.socialIcon}>
+                                <FaYoutubeSquare/>
+                            </div>
                         </a>
                     </div>
                 </div>

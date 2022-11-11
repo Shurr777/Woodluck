@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/Delivery.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/Design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/Talking.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/kisspng-business-operations-management-sales-service-clipart-free-pictures-manufacturing-5ab135ac31dd14.4817534015215630522043.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/kisspng-cash-on-delivery-take-out-computer-icons-delivery-5ac088fa080fe9.6273385715225674180331.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/icons/kisspng-communication-computer-icons-conversation-group-communication-5b3762755702e7.3784362215303563413564.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/About/About.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/About/About.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Projects/projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Projects/projects.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +117,9 @@
       <workItem from="1667939049964" duration="10091000" />
       <workItem from="1667987516037" duration="8046000" />
       <workItem from="1668020414460" duration="10632000" />
-      <workItem from="1668105367746" duration="3979000" />
+      <workItem from="1668105367746" duration="4854000" />
+      <workItem from="1668151348090" duration="4059000" />
+      <workItem from="1668156260937" duration="10877000" />
     </task>
     <servers />
   </component>

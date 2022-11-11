@@ -5,6 +5,7 @@ import Projects from "./Projects/Projects";
 import Clients from "./Clients/Clients";
 import {useLocation} from "react-router-dom";
 import DemoCarousel from "../../Carousel/Carousel";
+import ServiceCycle from "../../SeviceCycle/ServiceCycle";
 
 const Main = () => {
    /* const navigate = useNavigate();*/
@@ -84,6 +85,7 @@ const Main = () => {
                     тож наша соціальна складова є частиною нашого ДНК.
                 </p>
             </div>
+            <ServiceCycle />
             <Projects/>
             <Clients/>
         </>

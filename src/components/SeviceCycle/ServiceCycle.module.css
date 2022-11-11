@@ -1,0 +1,96 @@
+.serviceCycleOverlay{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #282828;
+    margin: 0 80px 50px 80px;
+}
+.serviceCycleOverlay h2{
+    margin: 0;
+    padding: 0;
+    color: #c7d02f;
+    font-size: 34px;
+    text-align: center;
+}
+.serviceCycleOverlay h3{
+    padding: 0;
+    color: #282828;
+    font-size: 24px;
+    align-self: center;
+}
+
+.serviceCycleOverlay .cardBlock{
+    padding: 0 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.serviceCycleOverlay .cardBlock img{
+    width: 100%;
+}
+.serviceCycleOverlay .cardBlock .card{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+
+.serviceCycleOverlay .cardBlock .card p {
+    max-width: 150px;
+}
+
+.arrowHorizontal{
+    font-size: 50px;
+    color: #c7d02f;
+}
+.arrowVertical{
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .serviceCycleOverlay .cardBlock {
+        padding: 0 150px;
+    }
+}
+@media (max-width: 1200px) {
+    .serviceCycleOverlay .cardBlock {
+        padding: 0 100px;
+    }
+}
+@media (max-width: 1024px) {
+    .serviceCycleOverlay .cardBlock {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 800px) {
+    .serviceCycleOverlay .cardBlock {
+        padding: 15px;
+    }
+    .serviceCycleOverlay .cardBlock img{
+        padding-top: 20px;
+    }
+}
+@media (max-width: 700px) {
+    .serviceCycleOverlay{
+        margin: 0 20px 50px 20px;
+    }
+    .serviceCycleOverlay .cardBlock {
+        flex-direction: column;
+        padding: 0 50px;
+    }
+    .serviceCycleOverlay .cardBlock .card{
+        width: 150px;
+    }
+    .arrowHorizontal{
+        display: none;
+    }
+    .arrowVertical{
+        display: block;
+        font-size: 50px;
+        font-weight: lighter;
+        color: #c7d02f;
+    }
+    .serviceCycleOverlay h2{
+        font-size: 24px;
+    }
+
+}

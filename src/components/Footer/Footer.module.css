@@ -50,8 +50,9 @@
     border-radius: 15px;
 
 }
-.social .icons i{
-    font-size: 20px;
+
+.social .socialIcon{
+    font-size: 40px;
 }
 
 .footerOverlay .menu {
