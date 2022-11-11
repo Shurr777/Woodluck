@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.03bfce4a.css",
-    "main.js": "/Woodluck/static/js/main.c55e7ff6.js",
+    "main.css": "/Woodluck/static/css/main.78ee249d.css",
+    "main.js": "/Woodluck/static/js/main.0def3760.js",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
     "static/media/Header_image.png": "/Woodluck/static/media/Header_image.732cd5f8156f705f707a.png",
@@ -51,6 +51,7 @@
     "static/media/office_banner_left.png": "/Woodluck/static/media/office_banner_left.344d678265b30224c42c.png",
     "static/media/hostel_banner_left.png": "/Woodluck/static/media/hostel_banner_left.70bad33dde3b92e12a3a.png",
     "static/media/hostel_banner_right.png": "/Woodluck/static/media/hostel_banner_right.3d4c7a93061503aaa145.png",
+    "static/media/koworkingTitle.jpg": "/Woodluck/static/media/koworkingTitle.41fd3d17329889e8fadf.jpg",
     "static/media/Design.png": "/Woodluck/static/media/Design.fad63e27737a8f38fa2a.png",
     "static/media/Talking.png": "/Woodluck/static/media/Talking.3027fb6d069139b91d34.png",
     "static/media/GothamPro-LightItalic.eot": "/Woodluck/static/media/GothamPro-LightItalic.59020da5eeb10710eb09.eot",
@@ -87,11 +88,11 @@
     "static/media/54_main-v1582879975 1.png": "/Woodluck/static/media/54_main-v1582879975 1.6bb21331ba2a1e3d400e.png",
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
-    "main.03bfce4a.css.map": "/Woodluck/static/css/main.03bfce4a.css.map",
-    "main.c55e7ff6.js.map": "/Woodluck/static/js/main.c55e7ff6.js.map"
+    "main.78ee249d.css.map": "/Woodluck/static/css/main.78ee249d.css.map",
+    "main.0def3760.js.map": "/Woodluck/static/js/main.0def3760.js.map"
   },
   "entrypoints": [
-    "static/css/main.03bfce4a.css",
-    "static/js/main.c55e7ff6.js"
+    "static/css/main.78ee249d.css",
+    "static/js/main.0def3760.js"
   ]
 }
