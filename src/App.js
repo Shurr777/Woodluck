@@ -15,6 +15,7 @@ import Loft from "./components/Examples/RedTable/Loft";
 import Appartaments from "./components/Examples/Appartaments/Appartaments";
 import Footer from "./components/Footer/Footer";
 import NHeader from "./components/NewHeader/NHeader";
+import Coworking from "./components/Examples/Coworking/Coworking";
 
 
 function App() {
@@ -39,6 +40,8 @@ function App() {
                         <Route path="portfolio/projector" element={<Projector/>}/>
                         <Route path="portfolio/red_table" element={<Loft/>}/>
                         <Route path="portfolio/black_table" element={<Appartaments/>}/>
+                        {/*<Route path="portfolio/coworking" element={<Coworking/>}/>
+                        <Route path="portfolio/my_kava" element={<Coworking/>}/>*/}
                     </Routes>
                     <Footer/>
                 </div>

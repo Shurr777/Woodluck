@@ -74,12 +74,12 @@
     color: #282828;
     text-align: center;
     align-self: center;
-    font-size: calc(84px + 20 * (100vw / 1440));
+    font-size: 44px;
 }
 
 .workingList {
     background-color: #9d9d9d;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-right: 30px;
     padding-left: 30px;
 }

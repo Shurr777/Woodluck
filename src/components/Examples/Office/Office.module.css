@@ -1,28 +1,26 @@
-.blum {
+.office {
     color: #282828;
 }
 
-.blum .blumHeader {
+.office .officeHeader {
     position: relative;
-    max-width: 1440px;
+    max-width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
 }
 
-.blumHeader img {
+.officeHeader img {
     position: absolute;
     top: 0;
     width: 100%;
     filter: brightness(75%);
-    padding-bottom: 100px;
 }
 
-.blumHeader h2 {
+.officeHeader h2 {
     font-size: calc(40px + 20 * (100vw / 1440));
     z-index: 5;
-    margin-top: 25%;
+    margin-top: 40%;
     margin-right: 30%;
     margin-left: 20px;
     color: #E5E5E5;
@@ -31,10 +29,9 @@
 .description {
     display: grid;
     grid-template-columns: 5fr 6fr;
-    border-bottom: 1px solid #282828;
     justify-content: center;
-    margin-top: 8%;
     margin-bottom: 30px;
+    margin-top: 3%;
 }
 
 .description .text {
@@ -75,7 +72,7 @@
     color: #282828;
     text-align: center;
     align-self: center;
-    font-size: calc(84px + 20 * (100vw / 1440));
+    font-size: 44px;
 }
 
 .workingList {
@@ -89,18 +86,6 @@
     list-style-position: outside;
     font-size: 20px;
 }
-
-/*
-li::marker {
-    color: #9d9d9d;
-    font-size: 14px;
-}
-
-.workingList li:before {
-    content: '\27F6';
-    color: #282828;
-    padding: 20px;
-}*/
 
 .pictures {
     display: grid;
@@ -155,19 +140,96 @@ li::marker {
     justify-self: center;
 }
 
-.connect {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
+@media (max-width: 800px) {
+    .officeHeader h2 {
+        font-size: 20px;
+    }
+
+    .office .description {
+        display: flex;
+        flex-direction: column;
+        padding-top: 135px;
+    }
+
+    .office .description {
+        border: none;
+        margin: 0;
+    }
+
+    .office .description .text {
+        border: none;
+    }
+
+    .office .description .image {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .office .description .image img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .office .working {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .office .working h2 {
+        padding-left: 5%;
+        font-size: 28px;
+    }
+
+    .office .workingList {
+        padding-top: 20px;
+    }
+
+    .office .pictures {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+        row-gap: 5px;
+    }
+
+    .office .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .office .materials {
+        border: none;
+        padding: 20px 0 20px 20px;
+        text-align: start;
+
+    }
+    .office .project{
+        padding: 20px;
+    }
+
+    .office .totalInfo {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .office .totalInfo h3 {
+        font-size: 24px;
+    }
 }
 
-.connectText p {
-    border-bottom: 1px solid #282828;
-    padding-bottom: 5px;
+@media (max-width: 700px) {
+    .office .description {
+        padding-top: 100px;
+    }
 }
-.connect button{
-    color: #282828;
-    border-color: #282828;
-    margin: 10px;
+
+@media (max-width: 430px) {
+    .office .description {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .office .description {
+        padding-top: 10px;
+    }
 }

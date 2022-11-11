@@ -1,28 +1,26 @@
-.blum {
+.projector {
     color: #282828;
 }
 
-.blum .blumHeader {
+.projector .projectorHeader {
     position: relative;
-    max-width: 1440px;
+    max-width: 1600px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5%;
 }
 
-.blumHeader img {
+.projectorHeader img {
     position: absolute;
     top: 0;
     width: 100%;
     filter: brightness(75%);
-    padding-bottom: 100px;
 }
 
-.blumHeader h2 {
+.projectorHeader h2 {
     font-size: calc(40px + 20 * (100vw / 1440));
     z-index: 5;
-    margin-top: 25%;
+    margin-top: 40%;
     margin-right: 30%;
     margin-left: 20px;
     color: #E5E5E5;
@@ -31,7 +29,6 @@
 .description {
     display: grid;
     grid-template-columns: 5fr 6fr;
-    border-bottom: 1px solid #282828;
     justify-content: center;
     margin-top: 8%;
     margin-bottom: 30px;
@@ -75,12 +72,12 @@
     color: #282828;
     text-align: center;
     align-self: center;
-    font-size: calc(84px + 20 * (100vw / 1440));
+    font-size: 44px;
 }
 
 .workingList {
     background-color: #9d9d9d;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-right: 30px;
     padding-left: 30px;
 }
@@ -89,18 +86,6 @@
     list-style-position: outside;
     font-size: 20px;
 }
-
-/*
-li::marker {
-    color: #9d9d9d;
-    font-size: 14px;
-}
-
-.workingList li:before {
-    content: '\27F6';
-    color: #282828;
-    padding: 20px;
-}*/
 
 .pictures {
     display: grid;
@@ -155,19 +140,97 @@ li::marker {
     justify-self: center;
 }
 
-.connect {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
+
+@media (max-width: 800px) {
+    .projectorHeader h2 {
+        font-size: 20px;
+    }
+
+    .projector .description {
+        display: flex;
+        flex-direction: column;
+        padding-top: 135px;
+    }
+
+    .projector .description {
+        border: none;
+        margin: 0;
+    }
+
+    .projector .description .text {
+        border: none;
+    }
+
+    .projector .description .image {
+        width: 100%;
+        padding-bottom: 0;
+    }
+
+    .projector .description .image img {
+        width: 100%;
+        padding: 0;
+    }
+
+    .projector .working {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projector .working h2 {
+        padding-left: 5%;
+        font-size: 28px;
+    }
+
+    .projector .workingList {
+        padding-top: 20px;
+    }
+
+    .projector .pictures {
+        display: flex;
+        flex-direction: column;
+        padding: 10px 0;
+        row-gap: 5px;
+    }
+
+    .projector .info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projector .materials {
+        border: none;
+        padding: 20px 0 20px 20px;
+        text-align: start;
+
+    }
+    .projector .project{
+        padding: 20px;
+    }
+
+    .projector .totalInfo {
+        padding: 20px;
+        margin-top: 0;
+    }
+
+    .projector .totalInfo h3 {
+        font-size: 24px;
+    }
 }
 
-.connectText p {
-    border-bottom: 1px solid #282828;
-    padding-bottom: 5px;
+@media (max-width: 800px) {
+    .projector .description {
+        padding-top: 100px;
+    }
 }
-.connect button{
-    color: #282828;
-    border-color: #282828;
-    margin: 10px;
+
+@media (max-width: 430px) {
+    .projector .description {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 380px) {
+    .projector .description {
+        padding-top: 10px;
+    }
 }

@@ -4,25 +4,21 @@ import Loft_TitleImage from "../../../images/Portfolio/Red/red_main.png";
 import Loft_Description from "../../../images/Portfolio/Red/red_description.png"
 import BannerLeft from "../../../images/Portfolio/Red/red_banner_left.png"
 import BannerRight from "../../../images/Portfolio/Red/red_banner_right.png"
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation} from "react-router-dom";
+import ConnectBlock from "../../ConnectBlock/ConnectBlock";
 
 
 const Loft = () => {
 
     const { pathname } = useLocation();
-    const navigate = useNavigate();
-
-    const connectHandleClick = () => {
-        navigate("/contacts");
-    }
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
     return (
-        <div className={s.blum}>
-            <div className={s.blumHeader}>
+        <div className={s.loft}>
+            <div className={s.loftHeader}>
                 <img src={Loft_TitleImage} alt="Main"/>
                 <h2>ЛОФТОВИЙ ОФІС G5 ENTERTAINMENT</h2>
             </div>
@@ -95,12 +91,7 @@ const Loft = () => {
                     100% втілення свого запиту
                 </h3>
             </div>
-            <div className={s.connect}>
-                <div className={s.connectText}>
-                    <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
-                </div>
-                <button onClick={connectHandleClick}>Зв’язатися</button>
-            </div>
+          <ConnectBlock/>
         </div>
     );
 };

@@ -4,7 +4,8 @@ import Projector_TitleImage from "../../../images/Portfolio/Projector/projector_
 import Projector_Description from "../../../images/Portfolio/Projector/projector_description.png"
 import BannerLeft from "../../../images/Portfolio/Projector/projector_banner_left.png"
 import BannerRight from "../../../images/Portfolio/Projector/projector_banner_right.png"
-import {useLocation, useNavigate} from "react-router-dom";
+import {useLocation} from "react-router-dom";
+import ConnectBlock from "../../ConnectBlock/ConnectBlock";
 
 
 const Projector = () => {
@@ -13,15 +14,10 @@ const Projector = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
-    const navigate = useNavigate();
-
-    const connectHandleClick = () => {
-        navigate("/contacts");
-    }
 
     return (
-        <div className={s.blum}>
-            <div className={s.blumHeader}>
+        <div className={s.projector}>
+            <div className={s.projectorHeader}>
                 <img src={Projector_TitleImage} alt="Main"/>
                 <h2>PROJECTOR LVIV І СТУДІЯ ДИЗАЙНУ HAPPY</h2>
             </div>
@@ -89,16 +85,11 @@ const Projector = () => {
             </div>
             <div className={s.totalInfo}>
                 <h3>
-                    На виході замовник отримав реалізація індивідуального дизайну та
+                    На виході замовник отримав реалізацію індивідуального дизайну та
                     мобільні меблі-трансформери
                 </h3>
             </div>
-            <div className={s.connect}>
-                <div className={s.connectText}>
-                    <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
-                </div>
-                <button onClick={connectHandleClick}>Зв’язатись</button>
-            </div>
+           <ConnectBlock/>
         </div>
     );
 };

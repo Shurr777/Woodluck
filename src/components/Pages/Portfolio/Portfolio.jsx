@@ -9,6 +9,8 @@ import PlayRoom from "../../../images/Portfolio/playRoom.png"
 import Computers from "../../../images/Portfolio/computers.png"
 import RedTable from "../../../images/Portfolio/redTable.png"
 import BlackTable from "../../../images/Portfolio/blackTable.png"
+//import Coworking from "../../../images/Portfolio/Coworking/koworkingTitle.jpg"
+//import My_kava from "../../../images/Portfolio/Kava/photo_2022-01-28_15-38-57.jpg"
 import {NavLink, useLocation} from "react-router-dom";
 
 const Portfolio = () => {
@@ -87,6 +89,18 @@ const Portfolio = () => {
                         <h3>ПРИВАТНА КВАРТИРА У КИЄВІ</h3>
                     </NavLink>
                 </div>
+                {/*<div className={style.example}>
+                    <NavLink to={"coworking"}>
+                        <img src={Coworking} alt="Coworking"/>
+                        <h3>КОВОРКІНГОВИЙ ПРОСТІР</h3>
+                    </NavLink>
+                </div>
+                <div className={style.example}>
+                    <NavLink to={"my_kava"}>
+                        <img src={My_kava} alt="Black table"/>
+                        <h3>КАФЕ MY KAVA</h3>
+                    </NavLink>
+                </div>*/}
             </div>
         </div>);
 };
