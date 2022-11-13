@@ -15,7 +15,6 @@ import Loft from "./components/Examples/RedTable/Loft";
 import Appartaments from "./components/Examples/Appartaments/Appartaments";
 import Footer from "./components/Footer/Footer";
 import NHeader from "./components/NewHeader/NHeader";
-import Coworking from "./components/Examples/Coworking/Coworking";
 
 
 function App() {

@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/Examples/Gorgany.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Examples/Malta.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Examples/Telega2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Examples/blum.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Examples/fromTelega1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Examples/fromTelega2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Examples/photo_2022-01-28_15-38-57(1).jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Examples/theKava.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ConnectBlock/ConnectBlock.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnectBlock/ConnectBlock.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ConnectBlock/ConnectBlock.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ConnectBlock/ConnectBlock.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Office/Office.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Office/Office.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Office/Office.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Office/Office.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/form.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/projects/cafe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/projects/cafe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +106,7 @@
       <workItem from="1668105367746" duration="4854000" />
       <workItem from="1668151348090" duration="4059000" />
       <workItem from="1668156260937" duration="28712000" />
-      <workItem from="1668240714598" duration="9205000" />
+      <workItem from="1668240714598" duration="10987000" />
     </task>
     <servers />
   </component>
