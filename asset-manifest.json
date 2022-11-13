@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.f7547962.css",
-    "main.js": "/Woodluck/static/js/main.cc5233bb.js",
+    "main.css": "/Woodluck/static/css/main.2b56ec70.css",
+    "main.js": "/Woodluck/static/js/main.11c71dc0.js",
     "static/media/cafe.png": "/Woodluck/static/media/cafe.f2311738c2134701cb73.png",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
@@ -90,11 +90,11 @@
     "static/media/54_main-v1582879975 1.png": "/Woodluck/static/media/54_main-v1582879975 1.6bb21331ba2a1e3d400e.png",
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
-    "main.f7547962.css.map": "/Woodluck/static/css/main.f7547962.css.map",
-    "main.cc5233bb.js.map": "/Woodluck/static/js/main.cc5233bb.js.map"
+    "main.2b56ec70.css.map": "/Woodluck/static/css/main.2b56ec70.css.map",
+    "main.11c71dc0.js.map": "/Woodluck/static/js/main.11c71dc0.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7547962.css",
-    "static/js/main.cc5233bb.js"
+    "static/css/main.2b56ec70.css",
+    "static/js/main.11c71dc0.js"
   ]
 }
