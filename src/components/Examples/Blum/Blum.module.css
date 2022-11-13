@@ -31,8 +31,8 @@
     display: grid;
     grid-template-columns: 5fr 6fr;
     justify-content: center;
-    margin-top: 13%;
-    margin-bottom: 30px;
+    margin-top: 12%;
+
 }
 
 .description .text {
@@ -141,7 +141,6 @@
 }
 
 @media (max-width: 1100px) {
-
     .blumHeader h2{
         margin-right: 35%;
     }
@@ -155,11 +154,11 @@
     .blum .description {
         display: flex;
         flex-direction: column;
-        padding-top: 25px;
     }
 
     .blum .description {
         border: none;
+        margin: 0;
     }
 
     .blum .description .text {

@@ -116,7 +116,7 @@
     .portfolio .examples .example h3{
         position: absolute;
         top:20%;
-        left: 15px;
+        left: 15%;
         opacity: 100;
     }
     .portfolio .bannerItem:nth-child(2){
@@ -135,6 +135,11 @@
     }
 }*/
 @media (max-width: 500px) {
+    .portfolio .examples .example h3{
+        top:60%;
+        left: 5%;
+        font-size: 20px;
+    }
     .portfolio .banner1{
         padding-top: 120px;
     }
