@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.78ee249d.css",
-    "main.js": "/Woodluck/static/js/main.0def3760.js",
+    "main.css": "/Woodluck/static/css/main.ba6e5b63.css",
+    "main.js": "/Woodluck/static/js/main.c7ca05b6.js",
+    "static/media/cafe.png": "/Woodluck/static/media/cafe.f2311738c2134701cb73.png",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
     "static/media/Header_image.png": "/Woodluck/static/media/Header_image.732cd5f8156f705f707a.png",
     "static/media/office_main.png": "/Woodluck/static/media/office_main.77afcf11e94075ee63c8.png",
+    "static/media/Gorgany.jpg": "/Woodluck/static/media/Gorgany.569bed118b43c21b56f0.jpg",
     "static/media/projector_main.png": "/Woodluck/static/media/projector_main.e63db905f8d8b514b28c.png",
+    "static/media/Malta.jpg": "/Woodluck/static/media/Malta.696936a9775080262a5a.jpg",
     "static/media/Background3.PNG": "/Woodluck/static/media/Background3.02589d7fb4a832a8b8ee.PNG",
     "static/media/Background.PNG": "/Woodluck/static/media/Background.bb9286af7b8c76dd7ef3.PNG",
     "static/media/hostel_main.png": "/Woodluck/static/media/hostel_main.9be6f63104ea755391db.png",
     "static/media/appartaments_main.png": "/Woodluck/static/media/appartaments_main.8186722b257899c249a7.png",
-    "static/media/m_31.jpg": "/Woodluck/static/media/m_31.004efc690b8fbbaa5e96.jpg",
-    "static/media/picture_compress.JPG": "/Woodluck/static/media/picture_compress.37f2319bc5654334282d.JPG",
     "static/media/CB4A1425 1.png": "/Woodluck/static/media/CB4A1425 1.90bc4abd1f692111c730.png",
     "static/media/blum_descripton.png": "/Woodluck/static/media/blum_descripton.c957ac110d0f99066c4b.png",
+    "static/media/theKava.jpg": "/Woodluck/static/media/theKava.387186084e4f7f3b718c.jpg",
     "static/media/62077715_306148160340710__n 1.png": "/Woodluck/static/media/62077715_306148160340710_4861842892479528960_n 1.c63f76c4e7a2baa22261.png",
+    "static/media/blum.jpg": "/Woodluck/static/media/blum.28fecc31301f9996a046.jpg",
     "static/media/GD_banner_right.png": "/Woodluck/static/media/GD_banner_right.f0f80a5d23b0174d06de.png",
     "static/media/red_description.png": "/Woodluck/static/media/red_description.1ad9c3ee4cca859bf8ee.png",
     "static/media/GD_banner_left.png": "/Woodluck/static/media/GD_banner_left.f67516d2904ebe310d10.png",
-    "static/media/m_12..jpg": "/Woodluck/static/media/m_12..a97153dc4ddebefdc11b.jpg",
-    "static/media/cafe.png": "/Woodluck/static/media/cafe.c63f76c4e7a2baa22261.png",
     "static/media/red_banner_left.png": "/Woodluck/static/media/red_banner_left.2e6ec10f8bf6f7ec86b9.png",
     "static/media/redTable.png": "/Woodluck/static/media/redTable.eab9b05fc68137f02c40.png",
     "static/media/ofice.png": "/Woodluck/static/media/ofice.5fd8c9eaa939cc05ff53.png",
@@ -45,11 +46,13 @@
     "static/media/hostel_banner_center.png": "/Woodluck/static/media/hostel_banner_center.fcacc82f2dfd15aaf94d.png",
     "static/media/62209645_306148213674038__n 1.png": "/Woodluck/static/media/62209645_306148213674038_7481719573775908864_n 1.fed3b1813d519fe6d3b7.png",
     "static/media/blackTable.png": "/Woodluck/static/media/blackTable.787e8401871b15f94763.png",
+    "static/media/fromTelega2.jpg": "/Woodluck/static/media/fromTelega2.633fb2313a3f8ae5b411.jpg",
     "static/media/pic1.png": "/Woodluck/static/media/pic1.aeba51c92769684fbd75.png",
     "static/media/office_banner_right.png": "/Woodluck/static/media/office_banner_right.02a608e6f457ed6298c5.png",
     "static/media/banner_left.png": "/Woodluck/static/media/banner_left.bd1d41fe1b8df3139885.png",
     "static/media/office_banner_left.png": "/Woodluck/static/media/office_banner_left.344d678265b30224c42c.png",
     "static/media/hostel_banner_left.png": "/Woodluck/static/media/hostel_banner_left.70bad33dde3b92e12a3a.png",
+    "static/media/fromTelega1.jpg": "/Woodluck/static/media/fromTelega1.fef22b4a71ebe22f1103.jpg",
     "static/media/hostel_banner_right.png": "/Woodluck/static/media/hostel_banner_right.3d4c7a93061503aaa145.png",
     "static/media/koworkingTitle.jpg": "/Woodluck/static/media/koworkingTitle.41fd3d17329889e8fadf.jpg",
     "static/media/Design.png": "/Woodluck/static/media/Design.fad63e27737a8f38fa2a.png",
@@ -88,11 +91,11 @@
     "static/media/54_main-v1582879975 1.png": "/Woodluck/static/media/54_main-v1582879975 1.6bb21331ba2a1e3d400e.png",
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
-    "main.78ee249d.css.map": "/Woodluck/static/css/main.78ee249d.css.map",
-    "main.0def3760.js.map": "/Woodluck/static/js/main.0def3760.js.map"
+    "main.ba6e5b63.css.map": "/Woodluck/static/css/main.ba6e5b63.css.map",
+    "main.c7ca05b6.js.map": "/Woodluck/static/js/main.c7ca05b6.js.map"
   },
   "entrypoints": [
-    "static/css/main.78ee249d.css",
-    "static/js/main.0def3760.js"
+    "static/css/main.ba6e5b63.css",
+    "static/js/main.c7ca05b6.js"
   ]
 }
