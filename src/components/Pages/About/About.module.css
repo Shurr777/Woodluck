@@ -45,7 +45,6 @@
 
 .statistic h3 {
     align-self: center;
-    justify-self: center;
     margin: 0;
     font-size: calc(84px + 20 * (100vw / 1440));
     font-weight: bold;
@@ -333,8 +332,8 @@
     .statistic{
         padding-top: 30px;
     }
-    .statisticItem{
-        padding: 30px;
+    .about .statisticItem{
+        padding: 60px;
     }
     .titleBlock h3{
         padding: 25px;
