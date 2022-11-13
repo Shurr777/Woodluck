@@ -23,7 +23,7 @@ const DemoCarousel = () => {
                       transitionTime={700}
             >
                 <div className={s.image}>
-                    <img src={demo1} alt={'Demo'}/>
+                    <img src={demo9} alt={'Demo'}/>
                 </div>
                 <div className={s.image}>
                     <img src={demo2} alt={'Demo'}/>
@@ -46,8 +46,9 @@ const DemoCarousel = () => {
                 <div className={s.image}>
                     <img src={demo8} alt={'Demo'}/>
                 </div>
+
                 <div className={s.image}>
-                    <img src={demo9} alt={'Demo'}/>
+                    <img src={demo1} alt={'Demo'}/>
                 </div>
             </Carousel>
         </div>
