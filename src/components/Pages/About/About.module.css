@@ -335,6 +335,14 @@
     .about .statisticItem{
         padding: 10px 50px 0 50px;
     }
+    .about .aboutCard{
+        padding: 20px;
+        grid-gap: 0;
+    }
+    .about .aboutCard h3{
+        padding-top: 20px;
+        text-align: left;
+    }
     .titleBlock h3{
         padding: 25px;
         font-size: 24px;
