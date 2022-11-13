@@ -48,15 +48,14 @@
     color: #E5E5E5;
     z-index: 5;
     top: 70%;
-    padding: 0px 0px 0px 15px;
+    padding: 0 0 0 15px;
 }
 .text h2{
-    font-size: 36px;
+    font-size: 30px;
     margin: 0;
 }
 .text p{
-    font-size: 24px;
-    font-family: "Gotham Pro";
+    font-size: 20px;
     font-style: italic;
     font-weight: lighter;
     margin: 0;

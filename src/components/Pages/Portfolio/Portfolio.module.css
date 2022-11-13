@@ -127,13 +127,7 @@
         flex-direction: column;
     }
 }
-/*@media (max-width: 800px) {
-    .portfolioOverlay h2 {
-        font-size: 44px;
-        margin-top: 45%;
-        padding-left: 50px;
-    }
-}*/
+
 @media (max-width: 500px) {
     .portfolio .examples .example h3{
         top:60%;
