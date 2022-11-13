@@ -144,7 +144,7 @@
     font-family: "Gotham Pro";
     /*font-family: "GilroyRegular";*/
     position: relative;
-    background: #fff url("./images/Backgrounds/Background.PNG") 0 0 no-repeat;
+    background: url("./images/Backgrounds/Background.PNG") 0 0 no-repeat;
     background-size: cover;
 }
 

@@ -59,34 +59,6 @@ const ContactForm = () => {
             <form ref={form}
                   className={s.form}
                   onSubmit={sendEmail}>
-                <div className={s.userInfo}>
-                    <label htmlFor="text">Ім'я:</label>
-                    <input type="text"
-                           name="user_name"
-                           value={name}
-                           onChange={event => onNameChanged(event)}
-                           required
-                    />
-                    <div className={s.userContacts}>
-                        <div className={s.block}>
-                            <label htmlFor="text">Телефон:</label>
-                            <input type="text"
-                                   name="user_phone"
-                                   value={phone}
-                                   onChange={event => onPhoneChanged(event)}
-                                   required
-                            />
-                        </div>
-                        <div className={s.block}>
-                            <label htmlFor="email">Email:</label>
-                            <input type="text"
-                                   name="user_email"
-                                   value={email}
-                                   onChange={event => onEmailChanged(event)}
-                            />
-                        </div>
-                    </div>
-                </div>
                 <div className={s.comments}>
                     <label htmlFor="text">Коментарі:</label>
                     <textarea type="text"
@@ -95,8 +67,40 @@ const ContactForm = () => {
                               onChange={event => onCommentsChanged(event)}/>
                     {send ?
                         <div className={s.sending}>Повідомлення відправлене!</div> :
-                        <button type="submit">Відправити</button>}
+                        <div className={s.formButtonContainer}>
+                            <button type="submit">Відправити</button>
+                        </div>
+                    }
                 </div>
+                <div className={s.userInfo}>
+                    <div className={s.block}>
+                        <label htmlFor="text">Ім'я:</label>
+                        <input type="text"
+                               name="user_name"
+                               value={name}
+                               onChange={event => onNameChanged(event)}
+                               required
+                        />
+                    </div>
+                    <div className={s.block}>
+                        <label htmlFor="text">Телефон:</label>
+                        <input type="text"
+                               name="user_phone"
+                               value={phone}
+                               onChange={event => onPhoneChanged(event)}
+                               required
+                        />
+                    </div>
+                    <div className={s.block}>
+                        <label htmlFor="email">Email:</label>
+                        <input type="text"
+                               name="user_email"
+                               value={email}
+                               onChange={event => onEmailChanged(event)}
+                        />
+                    </div>
+                </div>
+
             </form>
         </div>
     );

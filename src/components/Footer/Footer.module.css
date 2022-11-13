@@ -1,22 +1,20 @@
 .footerOverlay {
     background-color: #9d9d9d;
     display: grid;
-    grid-template-columns: 5fr 3fr 6fr 7fr;
-    border-top: 1px solid #282828;
+    grid-template-columns: 5fr 3fr 6fr 6fr;
+   /* border-top: 1px solid #282828;*/
     border-collapse: collapse;
 }
 
 .logo {
     display: grid;
-    box-sizing: border-box;
-    border: 1px solid #282828;
+   /* border: 1px solid #282828;*/
     border-top: none;
 }
 
 .logoText {
-    box-sizing: border-box;
-    border-bottom: 1px solid #282828;
-    padding: 20px;
+    /*border-bottom: 1px solid #282828;*/
+    padding-top: 20px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,7 +26,7 @@
 
 .logoText p {
     margin: 0;
-    padding-top: 20px;
+    padding-top: 15px;
     width: 250px;
 }
 
@@ -38,17 +36,18 @@
     align-items: center;
     box-sizing: border-box;
 }
+.social p{
+    padding: 0 40px;
+}
 
 .social .icons {
     display: flex;
     width: 150px;
     justify-content: space-between;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 .social .icons a{
     color: #c7d02f;
-    border-radius: 15px;
-
 }
 
 .social .socialIcon{
@@ -56,8 +55,8 @@
 }
 
 .footerOverlay .menu {
-    border-right: 1px solid #282828;
-    border-bottom: 1px solid #282828;
+   /* border-right: 1px solid #282828;
+    border-bottom: 1px solid #282828;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,11 +66,13 @@
 .menu a {
     text-decoration: none;
     color: #282828;
+    padding: 0;
+    margin: 0;
 }
 
 .contacts {
-    border-right: 1px solid #282828;
-    border-bottom: 1px solid #282828;
+   /* border-right: 1px solid #282828;
+    border-bottom: 1px solid #282828;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -79,52 +80,29 @@
 }
 
 .other {
-    border-bottom: 1px solid #282828;
-    border-right: 1px solid #282828;
+    /*border-bottom: 1px solid #282828;
+    border-right: 1px solid #282828;*/
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .other p {
-    padding-left: 10px;
-    padding-bottom: 0;
-}
+    padding: 30px;
 
-/*.other button {
-    color: #E5E5E5;
-    margin-top: 0;
-    background-color: #282828;
-    cursor: pointer;
-}*/
-
-.lang {
-    padding-top: 30px;
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-}
-
-.switchLanguage {
-    display: flex;
-    justify-content: space-around;
-    width: 50px;
-}
-
-.other .lang p {
-    text-decoration: underline;
 }
 .other button{
-    margin-top: 50px;
+    margin-top: 20px;
     height: 50px;
     background-color: #c7d02f;
     border: none;
     color: #282828;
+    font-weight: bold;
 }
 
 .police {
     font-size: 12px;
-    padding-top: 45px;
+    padding-top: 15px;
     opacity: 50%;
 }
 
@@ -138,5 +116,13 @@
     }
     .footerOverlay .lang{
         display: none;
+    }
+    .other p {
+        text-align: center;
+        padding: 0 40px;
+    }
+    .contacts p {
+        padding: 0;
+        margin: 10px;
     }
 }

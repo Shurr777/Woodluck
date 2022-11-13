@@ -11,17 +11,19 @@ const Contacts = () => {
                         title={"map"}
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2571.8588622185207!2d24.0439831!3d49.8638958!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473adcfd65a33b95%3A0xc0de2bf062cb85ee!2z0LLRg9C70LjRhtGPINCf0YDQvtC80LjRgdC70L7QstCwLCA2MCwg0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1668024631364!5m2!1suk!2sua"
                         allowFullScreen="" loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"></iframe>
+                        referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className={s.textOverlay}>
                 <h2>Зв'язатися з нами:</h2>
                 <p>Львів, вул.Промислова 60</p>
-                <p>+38 073 145 9739</p>
-                <p>+38 096 6353223</p>
+                <div className={s.contactsPhone}>
+                    <p>+38 096 6353223</p>
+                    <p>+38 073 145 9739</p>
+                </div>
                 <p>luckwood60@gmail.com</p>
-                <p>Пон – П’ят : 9-00 до 18-00</p>
+                <p>Пн – Пт  &nbsp; 9:00 - 18:00</p>
             </div>
-               <ContactForm/>
+            <ContactForm/>
         </div>
     );
 };

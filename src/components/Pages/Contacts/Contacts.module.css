@@ -22,19 +22,27 @@
 
 .textOverlay {
     grid-area: t;
-    padding-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+
 }
 
 .textOverlay h2 {
     color: #c7d02f;
-    margin: 0px;
-    padding: 150px 0px 0px 100px;
+    margin: 0;
+    padding-top: 150px;
+    padding-left: 15px;
     font-size: 24px;
 }
-
+.textOverlay .contactsPhone p{
+    padding: 0 15px;
+}
 
 .contacts p {
-    padding: 10px 0px 0px 50px;
+    padding: 15px;
+    margin: 0;
     font-size: 20px;
     color: #c7d02f;
 }

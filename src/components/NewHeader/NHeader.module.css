@@ -1,7 +1,7 @@
 .headerOverlay {
     width: 100%;
     display: grid;
-    background-color: rgba(132, 131, 135, 0.5);
+    background-color: rgba(132, 131, 135, 0.7);
     grid-template-columns: 200px 1fr 250px;
     position: absolute;
     top: 0;
