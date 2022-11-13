@@ -7,11 +7,12 @@ import BannerPicture2 from "../../../images/Portfolio/Office/office_banner_cente
 import BannerPicture3 from "../../../images/Portfolio/Office/office_banner_right.png"
 import {useLocation} from "react-router-dom";
 import ConnectBlock from "../../ConnectBlock/ConnectBlock";
+import {FaRegCheckSquare} from "react-icons/fa";
 
 
 const Office = () => {
 
-    const { pathname } = useLocation();
+    const {pathname} = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -41,15 +42,24 @@ const Office = () => {
             <div className={s.working}>
                 <div className={s.workingBanner}>
                     <h2>
-                        Що робили WoodLuck?
+                        Що робили WoodLuck ?
                     </h2>
                 </div>
                 <div className={s.workingList}>
-                    <ul>
-                        <li><span/> офісні столи</li>
-                        <li><span/> cтелажі</li>
-                        <li><span/> стіл у дорадчу кімнату (meeting room)</li>
-                    </ul>
+                    <div>
+                        <div className={s.linkItem}>
+                            <span><FaRegCheckSquare/></span>
+                            <div> офісні столи</div>
+                        </div>
+                        <div className={s.linkItem}>
+                            <span><FaRegCheckSquare/></span>
+                            <div> cтелажі</div>
+                        </div>
+                        <div className={s.linkItem}>
+                            <span><FaRegCheckSquare/></span>
+                            <div> стіл у дорадчу кімнату (meeting room)</div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className={s.pictures}>

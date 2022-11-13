@@ -12,7 +12,7 @@ const ConnectBlock = () => {
             <div className={s.connectText}>
                 <p>Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами! </p>
             </div>
-            <button onClick={connectHandleClick}>Зв’язатись</button>
+            <button onClick={connectHandleClick}>Зв’язатися</button>
         </div>
     );
 };

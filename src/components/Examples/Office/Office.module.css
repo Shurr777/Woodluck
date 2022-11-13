@@ -18,12 +18,12 @@
 }
 
 .officeHeader h2 {
-    font-size: calc(40px + 20 * (100vw / 1440));
+    font-size: calc(20px + 20 * (100vw / 1440));
     z-index: 5;
-    margin-top: 40%;
-    margin-right: 30%;
+    margin-top: 45%;
+    margin-right: 50%;
     margin-left: 20px;
-    color: #E5E5E5;
+    color: #c7d02f;
 }
 
 .description {
@@ -31,7 +31,7 @@
     grid-template-columns: 5fr 6fr;
     justify-content: center;
     margin-bottom: 30px;
-    margin-top: 3%;
+    margin-top: 8%;
 }
 
 .description .text {
@@ -42,17 +42,19 @@
 }
 
 .description .text h3 {
-    padding-top: 0;
+    padding-top: 50px;
+    color: #282828;
+    font-size: 36px;
 }
 
 .description .image {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+
 }
 
 .description img {
-    width: 70%;
+    width: 100%;
 }
 
 .working {
@@ -63,28 +65,21 @@
 .workingBanner {
     background-color: #434343;
     display: flex;
-    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .working h2 {
-    margin: 0;
-    padding: 0;
-    color: #282828;
+    color: #c7d02f;
     text-align: center;
-    align-self: center;
     font-size: 44px;
 }
 
 .workingList {
     background-color: #9d9d9d;
-    padding-top: 100px;
+    padding-top: 30px;
     padding-right: 30px;
     padding-left: 30px;
-}
-
-.workingList li {
-    list-style-position: outside;
-    font-size: 20px;
 }
 
 .pictures {
@@ -92,6 +87,16 @@
     grid-template-columns: 1fr 2fr 1fr;
     padding: 70px;
     column-gap: 50px;
+}
+.office .linkItem{
+    display: flex;
+    font-weight: bold;
+}
+.office .linkItem span{
+    color: #282828;
+    font-size: 20px;
+    padding-right: 15px;
+    padding-bottom: 5px;
 }
 
 .picture {
@@ -133,7 +138,7 @@
 }
 
 .totalInfo h3 {
-    color: #E5E5E5;
+    color: #c7d02f;
     font-size: 48px;
     font-weight: 400;
     text-align: center;
@@ -159,6 +164,9 @@
     .office .description .text {
         border: none;
     }
+    .office .description .text h3{
+        padding-top: 0;
+    }
 
     .office .description .image {
         width: 100%;
@@ -181,7 +189,7 @@
     }
 
     .office .workingList {
-        padding-top: 20px;
+        padding: 20px 20px;
     }
 
     .office .pictures {
@@ -220,11 +228,25 @@
     .office .description {
         padding-top: 100px;
     }
+    .officeHeader h2 {
+        font-size: calc(10px + 20 * (100vw / 1440));
+        z-index: 5;
+        margin-top: 35%;
+    }
+    .office .pictures{
+        padding: 0;
+    }
 }
 
 @media (max-width: 430px) {
     .office .description {
         padding-top: 30px;
+    }
+    .officeHeader h2 {
+        font-size: calc(10px + 20 * (100vw / 1440));
+        z-index: 5;
+        margin-top: 35%;
+
     }
 }
 
