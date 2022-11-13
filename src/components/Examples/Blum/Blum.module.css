@@ -140,6 +140,12 @@
     justify-self: center;
 }
 
+@media (max-width: 1100px) {
+
+    .blumHeader h2{
+        margin-right: 35%;
+    }
+}
 
 @media (max-width: 800px) {
     .blumHeader h2 {
