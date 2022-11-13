@@ -36,7 +36,7 @@
 
 .description .text {
     align-self: center;
-    border-right: 1px solid #282828;
+    /*border-right: 1px solid #282828;*/
     padding: 0 25px;
     height: 100%;
 }
@@ -50,7 +50,6 @@
 .description .image {
     display: flex;
     justify-content: center;
-
 }
 
 .description img {
@@ -166,6 +165,7 @@
     }
     .office .description .text h3{
         padding-top: 0;
+        margin-top: 30px;
     }
 
     .office .description .image {
