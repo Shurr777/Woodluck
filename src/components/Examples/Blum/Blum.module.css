@@ -63,15 +63,12 @@
 .workingBanner {
     background-color: #434343;
     display: flex;
-    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .working h2 {
-    margin: 0;
-    padding: 0;
-    color: #282828;
-    text-align: center;
-    align-self: center;
+    color: #c7d02f;
     font-size: 44px;
 }
 
@@ -120,10 +117,16 @@
     border-left: 1px solid #282828;
     border-bottom: 1px solid #282828;
 }
+.materials h2{
+    font-size: 32px;
+}
 
 .project {
     background-color: #9d9d9d;
-    padding: 40px;
+    padding: 20px;
+}
+.project h2{
+    font-size: 32px;
 }
 
 .totalInfo {
@@ -132,7 +135,7 @@
 }
 
 .totalInfo h3 {
-    color: #E5E5E5;
+    color: #c7d02f;
     font-size: 48px;
     font-weight: 400;
     padding: 20px 60px;
@@ -140,7 +143,7 @@
 }
 
 @media (max-width: 1100px) {
-    .blumHeader h2{
+    .blumHeader h2 {
         margin-right: 35%;
     }
 }
@@ -159,7 +162,8 @@
         border: none;
         margin-top: 14%;
     }
-    .blum .description image{
+
+    .blum .description image {
         padding-bottom: 0;
     }
 
@@ -208,7 +212,8 @@
     .blum .totalInfo {
         padding: 5px;
     }
-    .blum .totalInfo h3{
+
+    .blum .totalInfo h3 {
         font-size: 20px;
         padding: 10px 0;
     }

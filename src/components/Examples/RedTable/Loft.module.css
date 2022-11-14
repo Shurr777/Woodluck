@@ -31,7 +31,6 @@
 .description {
     display: grid;
     grid-template-columns: 5fr 6fr;
-    border-bottom: 1px solid #282828;
     justify-content: center;
     margin-top: 8%;
     margin-bottom: 30px;
@@ -66,23 +65,20 @@
 .workingBanner {
     background-color: #434343;
     display: flex;
-    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .working h2 {
-    margin: 0;
-    padding: 0;
-    color: #282828;
-    text-align: center;
-    align-self: center;
     font-size: 44px;
+    color: #c7d02f;
 }
 
 .workingList {
     background-color: #9d9d9d;
-    padding-top: 100px;
-    padding-right: 30px;
-    padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .workingList li {
@@ -118,7 +114,7 @@
 }
 
 .materials {
-    padding: 20px 0 0 60px;
+    padding: 40px;
     border-top: 1px solid #282828;
     border-left: 1px solid #282828;
     border-bottom: 1px solid #282828;
@@ -132,11 +128,13 @@
 .totalInfo {
     background-color: #434343;
     margin-top: 50px;
-    padding: 0 200px 10px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .totalInfo h3 {
-    color: #E5E5E5;
+    color: #c7d02f;
     font-size: 48px;
     font-weight: 400;
     text-align: center;

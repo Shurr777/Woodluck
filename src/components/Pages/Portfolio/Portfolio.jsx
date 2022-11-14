@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import style from './Portfolio.module.css'
-import Portfolio_img from "../../../images/About/CB4A1425 1.png";
+import Portfolio_img from "../../../images/Portfolio/photo_2022-11-14_09-25-40.jpg";
 import Blum from "../../../images/Portfolio/62077715_306148160340710_4861842892479528960_n 1.png"
 import DinnerRoom from "../../../images/Portfolio/image99 1.png"
 import BedRoom from "../../../images/Portfolio/13 1.png"
@@ -48,9 +48,9 @@ const Portfolio = () => {
                     </NavLink>
                 </div>
                 <div className={style.example}>
-                    <NavLink to={"#"}>
-                        <img src={DinnerRoom} alt="Dinner Room"/>
-                        <h3>ДИЗАЙН СТУДІЯ</h3>
+                    <NavLink to={"red_table"}>
+                        <img src={RedTable} alt="Red table"/>
+                        <h3>ЛОФТОВИЙ ОФІС G5 ENTERTAINMENT</h3>
                     </NavLink>
                 </div>
                 <div className={style.example}>
@@ -60,15 +60,15 @@ const Portfolio = () => {
                     </NavLink>
                 </div>
                 <div className={style.example}>
-                    <NavLink to={"gridDynamics"}>
-                        <img src={Office} alt="office"/>
-                        <h3>ОФІС НА 100 РОБОЧИХ МІСЦЬ ДЛЯ GRID DYNAMICS</h3>
-                    </NavLink>
-                </div>
-                <div className={style.example}>
                     <NavLink to={"projector"}>
                         <img src={PlayRoom} alt="Playroom"/>
                         <h3>PROJECTOR LVIV І СТУДІЯ ДИЗАЙНУ HAPPY</h3>
+                    </NavLink>
+                </div>
+                <div className={style.example}>
+                    <NavLink to={"gridDynamics"}>
+                        <img src={Office} alt="office"/>
+                        <h3>ОФІС НА 100 РОБОЧИХ МІСЦЬ ДЛЯ GRID DYNAMICS</h3>
                     </NavLink>
                 </div>
                 <div className={style.example}>
@@ -78,9 +78,9 @@ const Portfolio = () => {
                     </NavLink>
                 </div>
                 <div className={style.example}>
-                    <NavLink to={"red_table"}>
-                        <img src={RedTable} alt="Red table"/>
-                        <h3>ЛОФТОВИЙ ОФІС G5 ENTERTAINMENT</h3>
+                    <NavLink to={"#"}>
+                        <img src={DinnerRoom} alt="Dinner Room"/>
+                        <h3>ДИЗАЙН СТУДІЯ</h3>
                     </NavLink>
                 </div>
                 <div className={style.example}>
@@ -89,6 +89,7 @@ const Portfolio = () => {
                         <h3>ПРИВАТНА КВАРТИРА У КИЄВІ</h3>
                     </NavLink>
                 </div>
+
                 {/*<div className={style.example}>
                     <NavLink to={"coworking"}>
                         <img src={Coworking} alt="Coworking"/>
