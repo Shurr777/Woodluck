@@ -49,7 +49,9 @@ const Hostel = () => {
                 <div className={s.workingList}>
                     <ul>
                         <li><span/>двохярусні ліжка</li>
-                        <li><span/> рецепція і локери</li>
+                        <li><span/>рецепція</li>
+                        <li><span/>локери</li>
+                        <li><span/>шафки</li>
                     </ul>
                 </div>
             </div>

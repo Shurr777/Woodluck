@@ -63,15 +63,14 @@
 .workingBanner {
     background-color: #434343;
     display: flex;
-    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .working h2 {
     margin: 0;
     padding: 0;
-    color: #282828;
-    text-align: center;
-    align-self: center;
+    color: #c7d02f;
     font-size: 44px;
 }
 
@@ -218,6 +217,10 @@
 }
 
 @media (max-width: 800px) {
+    .working h2{
+        padding: 20px;
+    }
+
     .projector .description {
         padding-top: 100px;
     }

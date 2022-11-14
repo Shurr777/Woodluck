@@ -32,7 +32,6 @@
     grid-template-columns: 5fr 6fr;
     justify-content: center;
     margin-top: 12%;
-
 }
 
 .description .text {
@@ -131,6 +130,7 @@
 }
 
 .totalInfo {
+    padding: 20px;
     background-color: rgba(67, 67, 67, 0.5);
     display: grid;
 }

@@ -103,7 +103,7 @@
 @media (max-width: 901px) {
     .portfolioOverlay h2{
         margin-top: 40%;
-        padding-left: 120px;
+        padding-left: 10px;
     }
     .portfolio .banner1{
         padding-top: 150px;
@@ -136,7 +136,7 @@
         font-size: 20px;
     }
     .portfolio .banner1{
-        padding-top: 120px;
+        padding-top: 130px;
     }
     .portfolio .examples{
         padding: 0;

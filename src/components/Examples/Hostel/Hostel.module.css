@@ -25,6 +25,7 @@
     margin-right: 40%;
     color: #E5E5E5;
     padding-left: 20px;
+    margin-bottom: 0;
 }
 
 .hostel .description {
@@ -32,7 +33,7 @@
     grid-template-columns: 5fr 6fr;
     /*border-bottom: 1px solid #282828;*/
     justify-content: center;
-    margin-top: 120px;
+    margin-top: 20px;
     margin-bottom: 30px;
 }
 
@@ -45,6 +46,7 @@
 
 .hostel .description .text h3 {
     padding-top: 0;
+    margin: 0;
 }
 
 .description .image {
@@ -65,16 +67,14 @@
 .workingBanner {
     background-color: #434343;
     display: flex;
-    padding: 40px 0;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .working h2 {
-    margin: 0;
-    padding: 0;
-    color: #282828;
-    text-align: center;
-    align-self: center;
-    font-size: calc(84px + 20 * (100vw / 1440));
+    color: #c7d02f;
+    font-size: 44px;
 }
 
 .workingList {
@@ -135,7 +135,7 @@
 }
 
 .totalInfo h3 {
-    color: #E5E5E5;
+    color: #c7d02f;
     font-size: 48px;
     font-weight: 400;
     text-align: center;
@@ -151,7 +151,7 @@
     .hostel .description{
         display: flex;
         flex-direction: column;
-        margin-top: 80px;
+        margin-top: 60px;
     }
     .hostel .description .text{
         padding-bottom: 20px;
@@ -162,7 +162,7 @@
         flex-direction: column;
     }
     .hostel .working .workingBanner h2{
-        font-size: 44px;
+        font-size: 28px;
         margin: 0 auto;
     }
     .hostel .working .workingList{
