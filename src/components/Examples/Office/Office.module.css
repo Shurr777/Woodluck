@@ -242,6 +242,13 @@
     .office .description {
         padding-top: 30px;
     }
+    .working h2{
+        font-size: 38px;
+        padding: 20px;
+    }
+    .workingList{
+        padding: 20px;
+    }
     .officeHeader h2 {
         font-size: calc(10px + 20 * (100vw / 1440));
         z-index: 5;

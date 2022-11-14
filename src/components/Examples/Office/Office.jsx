@@ -36,7 +36,7 @@ const Office = () => {
                     </p>
                 </div>
                 <div className={s.image}>
-                    <img src={OfficeDescription} alt="Blum interere"/>
+                    <img src={OfficeDescription} alt="office interier"/>
                 </div>
             </div>
             <div className={s.working}>
