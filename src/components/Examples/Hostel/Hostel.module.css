@@ -33,21 +33,18 @@
     grid-template-columns: 5fr 6fr;
     /*border-bottom: 1px solid #282828;*/
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 210px;
     margin-bottom: 30px;
 }
 
 .hostel .description .text {
     align-self: center;
-    border-right: 1px solid #282828;
+    /*border-right: 1px solid #282828;*/
     padding: 0 25px;
     height: 100%;
 }
 
-.hostel .description .text h3 {
-    padding-top: 0;
-    margin: 0;
-}
+
 
 .description .image {
     display: flex;
@@ -56,7 +53,7 @@
 }
 
 .description img {
-    width: 70%;
+    width: 100%;
 }
 
 .working {
@@ -79,9 +76,7 @@
 
 .workingList {
     background-color: #9d9d9d;
-    padding-top: 100px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 30px;
 }
 
 .workingList li {

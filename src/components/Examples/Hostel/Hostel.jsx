@@ -48,10 +48,10 @@ const Hostel = () => {
                 </div>
                 <div className={s.workingList}>
                     <ul>
-                        <li><span/>двохярусні ліжка</li>
+                        <li><span/>двоярусні ліжка</li>
                         <li><span/>рецепція</li>
                         <li><span/>локери</li>
-                        <li><span/>шафки</li>
+                        <li><span/>шухляди</li>
                     </ul>
                 </div>
             </div>
