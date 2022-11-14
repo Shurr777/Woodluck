@@ -42,7 +42,7 @@ const Office = () => {
             <div className={s.working}>
                 <div className={s.workingBanner}>
                     <h2>
-                        Що робили WoodLuck ?
+                        Що робили WoodLuck?
                     </h2>
                 </div>
                 <div className={s.workingList}>
