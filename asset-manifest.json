@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.88431e23.css",
-    "main.js": "/Woodluck/static/js/main.dc4034c6.js",
+    "main.css": "/Woodluck/static/css/main.d4104129.css",
+    "main.js": "/Woodluck/static/js/main.dc41b4b9.js",
     "static/media/cafe.png": "/Woodluck/static/media/cafe.f2311738c2134701cb73.png",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
@@ -49,6 +49,7 @@
     "static/media/fromTelega2.jpg": "/Woodluck/static/media/fromTelega2.633fb2313a3f8ae5b411.jpg",
     "static/media/pic1.png": "/Woodluck/static/media/pic1.aeba51c92769684fbd75.png",
     "static/media/office_banner_right.png": "/Woodluck/static/media/office_banner_right.02a608e6f457ed6298c5.png",
+    "static/media/photo_2022-11-14_09-25-40.jpg": "/Woodluck/static/media/photo_2022-11-14_09-25-40.1f454ee569387ab1efc6.jpg",
     "static/media/banner_left.png": "/Woodluck/static/media/banner_left.bd1d41fe1b8df3139885.png",
     "static/media/office_banner_left.png": "/Woodluck/static/media/office_banner_left.344d678265b30224c42c.png",
     "static/media/hostel_banner_left.png": "/Woodluck/static/media/hostel_banner_left.70bad33dde3b92e12a3a.png",
@@ -90,11 +91,11 @@
     "static/media/54_main-v1582879975 1.png": "/Woodluck/static/media/54_main-v1582879975 1.6bb21331ba2a1e3d400e.png",
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
-    "main.88431e23.css.map": "/Woodluck/static/css/main.88431e23.css.map",
-    "main.dc4034c6.js.map": "/Woodluck/static/js/main.dc4034c6.js.map"
+    "main.d4104129.css.map": "/Woodluck/static/css/main.d4104129.css.map",
+    "main.dc41b4b9.js.map": "/Woodluck/static/js/main.dc41b4b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.88431e23.css",
-    "static/js/main.dc4034c6.js"
+    "static/css/main.d4104129.css",
+    "static/js/main.dc41b4b9.js"
   ]
 }
