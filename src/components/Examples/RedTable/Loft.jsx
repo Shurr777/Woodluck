@@ -66,7 +66,6 @@ const Loft = () => {
             </div>
             <div className={s.info}>
                 <div className={s.materials}>
-
                     <h2>
                         Використані матеріали
                     </h2>

@@ -66,7 +66,7 @@
     display: flex;
     align-self: center;
     justify-content: center;
-    background-color: #434343;
+    background-color: rgba(67, 67, 67, 0.4);
     color: #282828;
 }
 
@@ -118,6 +118,7 @@
     justify-content: center;
     align-items: center;
     margin-left: 100px;
+    font-size: 20px;
 }
 
 .aboutCard h2 {
@@ -146,7 +147,7 @@
 }
 
 .story .storyImage img {
-    height: 100%;
+    width: 100%;
 
 }
 
@@ -167,7 +168,7 @@
 .banner1 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 70px;
+    padding: 70px 70px 0 70px;
 }
 
 .banner1 .text1 {
@@ -185,13 +186,13 @@
 }
 
 .banner2 {
-    background-color: #434343;
-    padding: 20px 200px;
-    margin-bottom: 100px;
+    background-color: rgba(67, 67, 67, 0.4);
+    padding: 0px 200px;
+    margin: 0;
 }
 
 .banner2 h4 {
-    color: #E5E5E5;
+    color: #c7d02f;
     font-size: 48px;
     text-align: center;
     line-height: 84px;
