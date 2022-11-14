@@ -23,7 +23,7 @@
 .portfolio .banner1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 250px;
+    padding-top: 280px;
 }
 
 .banner1 .bannerItem {
