@@ -18,9 +18,9 @@ const Modal = (props) => {
                          onClick={() => props.setModal(false)}>
                     Портфоліо
                 </NavLink>
-               {/* <NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}
+                {/*<NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
-                    Послуги
+                    Галерея
                 </NavLink>
                 <NavLink to='shop' className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
