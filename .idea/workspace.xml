@@ -3,13 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Appartaments/Appartaments.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Appartaments/Appartaments.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GD.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GD.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GridDynamics.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Hostel/Hostel.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Office/Office.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Office/Office.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Projector/Projector.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Projector/Projector.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +111,7 @@
       <workItem from="1668240714598" duration="27167000" />
       <workItem from="1668406739839" duration="4371000" />
       <workItem from="1668445986483" duration="5225000" />
-      <workItem from="1668451392798" duration="5636000" />
+      <workItem from="1668451392798" duration="6922000" />
     </task>
     <servers />
   </component>

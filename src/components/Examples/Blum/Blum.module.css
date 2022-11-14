@@ -74,9 +74,7 @@
 
 .workingList {
     background-color: #9d9d9d;
-    padding-top: 30px;
-    padding-right: 30px;
-    padding-left: 30px;
+    padding: 30px;
 }
 
 .workingList li {
