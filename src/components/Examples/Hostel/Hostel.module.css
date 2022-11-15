@@ -124,14 +124,16 @@
 }
 
 .totalInfo {
-    background-color: #434343;
-    padding: 0px 200px 20px 200px;
+    padding: 20px;
+    background-color: rgba(67, 67, 67, 0.5);
+    display: grid;
 }
 
 .totalInfo h3 {
     color: #c7d02f;
     font-size: 48px;
     font-weight: 400;
+    padding: 0 60px;
     text-align: center;
 }
 

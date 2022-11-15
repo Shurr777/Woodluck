@@ -126,35 +126,17 @@
 }
 
 .totalInfo {
-    background-color: #434343;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 20px;
+    background-color: rgba(67, 67, 67, 0.5);
+    display: grid;
 }
 
 .totalInfo h3 {
     color: #c7d02f;
     font-size: 48px;
     font-weight: 400;
-    padding: 20px;
+    padding: 0 60px;
     text-align: center;
-}
-
-.connect {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
-}
-
-.connectText p {
-    border-bottom: 1px solid #282828;
-    padding-bottom: 5px;
-}
-.connect button{
-    color: #282828;
-    border-color: #282828;
-    margin: 10px;
 }
 
 @media (max-width: 800px) {
