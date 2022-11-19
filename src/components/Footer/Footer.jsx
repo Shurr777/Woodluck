@@ -50,15 +50,22 @@ const Footer = () => {
                 </div>
             </div>
             <div className={style.menu}>
-                <NavLink to='main'>Головна</NavLink>
-                <NavLink to='about'>Про нас </NavLink>
-                <NavLink to='portfolio'>Портфоліо</NavLink>
-                <NavLink to='shop'>Магазин</NavLink>
-                <NavLink to='contacts'>Контакти</NavLink>
+                <NavLink to='main' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                    Головна
+                </NavLink>
+                <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                    Про нас
+                </NavLink>
+                <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                    Портфоліо
+                </NavLink>
+                <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                    Контакти
+                </NavLink>
             </div>
             <div className={style.contacts}>
                 <p>Львів, вул.Промислова 60</p>
-                <p>Пон – П’ят : 9-00 до 18-00</p>
+                <p>Пн – Пт : 9:00 - 18:00</p>
                 <p className={style.phones}>+38 073 145 9739<br/>+38 096 6353223</p>
                 <p>luckwood60@gmail.com</p>
             </div>

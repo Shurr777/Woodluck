@@ -2,19 +2,20 @@
     background-color: #9d9d9d;
     display: grid;
     grid-template-columns: 5fr 3fr 6fr 6fr;
-   /* border-top: 1px solid #282828;*/
+    /* border-top: 1px solid #282828;*/
     border-collapse: collapse;
+    text-shadow: 1px 1px 8px #434343;
 }
 
 .logo {
     display: grid;
-   /* border: 1px solid #282828;*/
+    /* border: 1px solid #282828;*/
     border-top: none;
 }
 
 .logoText {
     /*border-bottom: 1px solid #282828;*/
-    padding-top: 20px ;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +38,8 @@
     align-items: center;
     box-sizing: border-box;
 }
-.social p{
+
+.social p {
     padding: 0 40px;
     font-weight: bold;
 }
@@ -48,17 +50,18 @@
     justify-content: space-between;
     padding-bottom: 10px;
 }
-.social .icons a{
+
+.social .icons a {
     color: #c7d02f;
 }
 
-.social .socialIcon{
+.social .socialIcon {
     font-size: 40px;
 }
 
 .footerOverlay .menu {
-   /* border-right: 1px solid #282828;
-    border-bottom: 1px solid #282828;*/
+    /* border-right: 1px solid #282828;
+     border-bottom: 1px solid #282828;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -71,17 +74,26 @@
     color: black;
     padding: 0;
     margin: 0;
+    cursor: pointer;
+    text-shadow: 1px 1px 8px #434343;
+}
+
+.menu .active {
+    color: #c7d02f;
+    text-shadow: 1px 1px 8px green;
+
 }
 
 .contacts {
-   /* border-right: 1px solid #282828;
-    border-bottom: 1px solid #282828;*/
+    /* border-right: 1px solid #282828;
+     border-bottom: 1px solid #282828;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.contacts p{
+
+.contacts p {
     font-weight: bold;
 }
 
@@ -97,7 +109,8 @@
     padding: 30px;
     font-weight: bold;
 }
-.other button{
+
+.other button {
     margin-top: 20px;
     height: 50px;
     background-color: #c7d02f;
@@ -112,21 +125,55 @@
     opacity: 50%;
 }
 
+@media (max-width: 850px) {
+    .footerOverlay {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logoText p {
+        display: none;
+    }
+
+    .footerOverlay .menu {
+        display: none;
+    }
+
+    .footerOverlay .lang {
+        display: none;
+    }
+
+    .contacts p {
+        padding: 0;
+        margin: 10px;
+    }
+
+    .other p {
+        text-align: center;
+        padding: 10px;
+        font-weight: bold;
+    }
+}
+
 @media (max-width: 600px) {
     .footerOverlay {
         display: flex;
         flex-direction: column;
     }
-    .footerOverlay .menu{
+
+    .footerOverlay .menu {
         display: none;
     }
-    .footerOverlay .lang{
+
+    .footerOverlay .lang {
         display: none;
     }
+
     .other p {
         text-align: center;
         padding: 0 40px;
     }
+
     .contacts p {
         padding: 0;
         margin: 10px;
