@@ -73,6 +73,11 @@
 .lookingBlock button{
     cursor: pointer;
 }
+.lookingBlock button:hover{
+    background-color: #c5d02f;
+    color: #282828;
+    border: none;
+}
 
 @media (max-width: 800px) {
     .projectsBlock {

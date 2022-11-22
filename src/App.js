@@ -15,6 +15,7 @@ import Loft from "./components/Examples/RedTable/Loft";
 import Appartaments from "./components/Examples/Appartaments/Appartaments";
 import Footer from "./components/Footer/Footer";
 import NHeader from "./components/NewHeader/NHeader";
+import FooterMode1 from "./components/FooterMode1/FooterMode1";
 
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
                         <Route path="portfolio/my_kava" element={<Coworking/>}/>*/}
                     </Routes>
                     <Footer/>
+                    <FooterMode1/>
                 </div>
             </BrowserRouter>
         </div>

@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/FooterMode1/FooterMode1.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FooterMode1/FooterMode1.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Projects/projects.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Projects/projects.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +42,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "G:/Woodluck/woodluck/src/components",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Woodluck\woodluck\src\components" />
       <recent name="G:\Woodluck\woodluck\src\components\Examples" />
       <recent name="G:\Woodluck\woodluck\src\components\Pages" />
-      <recent name="G:\Woodluck\woodluck\src\components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\Woodluck\woodluck\src" />
@@ -116,6 +121,8 @@
       <workItem from="1668617275865" duration="1533000" />
       <workItem from="1668782760423" duration="1002000" />
       <workItem from="1668841791499" duration="2369000" />
+      <workItem from="1669136637568" duration="1439000" />
+      <workItem from="1669149120927" duration="6276000" />
     </task>
     <servers />
   </component>

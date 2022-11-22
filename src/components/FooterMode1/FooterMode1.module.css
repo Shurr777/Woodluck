@@ -1,0 +1,116 @@
+.footerModeOverlay {
+    background: #282828;
+    color: #9d9d9d;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.info .contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.contacts p {
+    padding: 0;
+}
+
+.contacts a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #c5d02f;
+    padding: 5px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+}
+
+.menu a {
+    padding: 15px;
+    text-decoration: none;
+    color: #9d9d9d;
+}
+.menu .active {
+    color: #c5d02f;
+    text-shadow: 1px 1px 2px green;
+}
+
+.social {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social a {
+    padding: 0 10px;
+    font-size: 35px;
+    color: #c5d02f;
+}
+
+.social button {
+    margin-top: 20px;
+    color: #282828;
+    background-color: #c5d02f;
+    font-weight: bold;
+    width: auto;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+}
+.other {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logoImageContainer {
+    width: 400px;
+}
+
+.logoImageContainer img {
+    width: 100%;
+}
+.logo p{
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+@media (max-width: 580px){
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+    .logoImageContainer {
+        width: 250px;
+    }
+    .logo p{
+        font-size: 10px;
+        opacity: 0.5;
+    }
+}

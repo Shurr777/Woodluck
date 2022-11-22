@@ -76,7 +76,7 @@ const Footer = () => {
                 </p>
                 <button onClick={connectHandleClick}>Зв’язатися</button>
                 <div className={style.lang}>
-                    {/*<div className={style.switchLanguage}>
+                   {/* <div className={style.switchLanguage}>
                         <p>EN</p>
                         <p>UA</p>
                     </div>
