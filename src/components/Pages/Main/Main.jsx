@@ -8,23 +8,16 @@ import DemoCarousel from "../../Carousel/Carousel";
 import ServiceCycle from "../../SeviceCycle/ServiceCycle";
 
 const Main = () => {
-   /* const navigate = useNavigate();*/
+
     const {pathname} = useLocation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
-    /*const connectHandleClick = () => {
-        navigate("/contacts");
-    }*/
-
     return (
         <>
             <DemoCarousel/>
-            {/*<div className={style.buttonOverlay}>
-                <button onClick={connectHandleClick}>Зв'язатися</button>
-            </div>*/}
             <div className={style.about}>
                 <div className={style.aboutText}>
                     <h3>

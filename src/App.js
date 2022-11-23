@@ -13,7 +13,6 @@ import GridDynamics from "./components/Examples/GridDynamics/GridDynamics";
 import Projector from "./components/Examples/Projector/Projector";
 import Loft from "./components/Examples/RedTable/Loft";
 import Appartaments from "./components/Examples/Appartaments/Appartaments";
-import Footer from "./components/Footer/Footer";
 import NHeader from "./components/NewHeader/NHeader";
 import FooterMode1 from "./components/FooterMode1/FooterMode1";
 
@@ -43,7 +42,6 @@ function App() {
                         {/*<Route path="portfolio/coworking" element={<Coworking/>}/>
                         <Route path="portfolio/my_kava" element={<Coworking/>}/>*/}
                     </Routes>
-                    <Footer/>
                     <FooterMode1/>
                 </div>
             </BrowserRouter>

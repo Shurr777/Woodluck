@@ -11,7 +11,7 @@ const ServiceCycle = () => {
     return (
         <div className={s.serviceCycleOverlay}>
             <h2>ПОВНИЙ ЦИКЛ СУПРОВОДУ ЗАМОВЛЕННЯ</h2>
-            <h3>Щось теж про супровід</h3>
+           {/* <h3>Щось теж про супровід</h3>*/}
             <div className={s.cardBlock}>
                 <div className={s.card}>
                     <img src={Talking} alt="Talking"/>
