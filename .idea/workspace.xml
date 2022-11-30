@@ -3,15 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FooterMode1/FooterMode1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterMode1/FooterMode1.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FooterMode1/FooterMode1.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterMode1/FooterMode1.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/About/Header_image.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/About/Header_image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Backgrounds/Background.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Backgrounds/Background.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Backgrounds/Background3.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Backgrounds/Background3.PNG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Examples/Gorgany.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Examples/Gorgany.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Examples/Malta.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Examples/Malta.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Examples/m_12..jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/Examples/m_31.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +128,13 @@
       <workItem from="1668841791499" duration="2369000" />
       <workItem from="1669136637568" duration="1439000" />
       <workItem from="1669149120927" duration="6610000" />
-      <workItem from="1669230330959" duration="3180000" />
+      <workItem from="1669230330959" duration="3374000" />
+      <workItem from="1669461237672" duration="357000" />
+      <workItem from="1669488729037" duration="1900000" />
+      <workItem from="1669586068093" duration="2186000" />
+      <workItem from="1669665065920" duration="6095000" />
+      <workItem from="1669745071695" duration="2912000" />
+      <workItem from="1669834890177" duration="2544000" />
     </task>
     <servers />
   </component>
@@ -160,6 +168,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".htaccess" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

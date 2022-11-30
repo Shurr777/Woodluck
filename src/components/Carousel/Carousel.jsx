@@ -1,7 +1,6 @@
 import React from 'react';
 import {Carousel} from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import demo8 from "../../images/projects/cafe.png"
 import demo1 from "../../images/Examples/Malta.jpg"
 import demo2 from "../../images/Examples/Kitchen2.jpg"
 import demo3 from "../../images/Examples/fromTelega1.jpg"
@@ -43,10 +42,9 @@ const DemoCarousel = () => {
                 <div className={s.image}>
                     <img src={demo7} alt={'Demo'}/>
                 </div>
-                <div className={s.image}>
+                {/*<div className={s.image}>
                     <img src={demo8} alt={'Demo'}/>
-                </div>
-
+                </div>*/}
                 <div className={s.image}>
                     <img src={demo1} alt={'Demo'}/>
                 </div>

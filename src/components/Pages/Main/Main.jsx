@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import style from './Main.module.css'
-/*import Cards from "./Cards/Cards";*/
 import Projects from "./Projects/Projects";
 import Clients from "./Clients/Clients";
 import {useLocation} from "react-router-dom";

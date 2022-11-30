@@ -1,11 +1,9 @@
 import './App.css';
+import React, { Suspense } from 'react';
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Main from "./components/Pages/Main/Main";
-import About from "./components/Pages/About/About";
-import Portfolio from "./components/Pages/Portfolio/Portfolio";
 import Services from "./components/Pages/Services/Services";
 import Faq from "./components/Pages/Faq/Faq";
-import Contacts from "./components/Pages/Contacts/Contacts";
 import Blum from "./components/Examples/Blum/Blum";
 import Hostel from "./components/Examples/Hostel/Hostel";
 import Office from "./components/Examples/Office/Office";
@@ -15,6 +13,9 @@ import Loft from "./components/Examples/RedTable/Loft";
 import Appartaments from "./components/Examples/Appartaments/Appartaments";
 import NHeader from "./components/NewHeader/NHeader";
 import FooterMode1 from "./components/FooterMode1/FooterMode1";
+const About = React.lazy(() => import('./components/Pages/About/About'));
+const Portfolio =React.lazy(()=> import('./components/Pages/Portfolio/Portfolio'));
+const Contacts =React.lazy(()=> import('./components/Pages/Contacts/Contacts'));
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
             <BrowserRouter>
                 <div className="AppOverlay">
                     <NHeader/>
+                    <Suspense fallback={<div>Loading ...</div>}>
                     <Routes>
                         <Route path="/" element={<Navigate to="main"/>}/>
                         <Route path="*" element={<Navigate to="main"/>}/>
@@ -42,6 +44,7 @@ function App() {
                         {/*<Route path="portfolio/coworking" element={<Coworking/>}/>
                         <Route path="portfolio/my_kava" element={<Coworking/>}/>*/}
                     </Routes>
+                    </Suspense>
                     <FooterMode1/>
                 </div>
             </BrowserRouter>
