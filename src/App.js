@@ -1,5 +1,5 @@
 import './App.css';
-import React, { Suspense } from 'react';
+import React from 'react';
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Main from "./components/Pages/Main/Main";
 import About from "./components/Pages/About/About";
@@ -24,7 +24,6 @@ function App() {
             <BrowserRouter>
                 <div className="AppOverlay">
                     <NHeader/>
-                    <Suspense fallback={<div>Loading ...</div>}/>
                     <Routes>
                         <Route path="/" element={<Navigate to="main"/>}/>
                         <Route path="*" element={<Navigate to="main"/>}/>
