@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.c210c4f6.css",
-    "main.js": "./static/js/main.d27153df.js",
+    "main.js": "./static/js/main.5d7a1878.js",
     "static/media/cafe.png": "./static/media/cafe.f2311738c2134701cb73.png",
     "static/media/GD_main.png": "./static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "./static/media/red_main.31764f1d20d07e460c81.png",
@@ -92,10 +92,10 @@
     "static/media/sturtup-depot 1.png": "./static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "./index.html",
     "main.c210c4f6.css.map": "./static/css/main.c210c4f6.css.map",
-    "main.d27153df.js.map": "./static/js/main.d27153df.js.map"
+    "main.5d7a1878.js.map": "./static/js/main.5d7a1878.js.map"
   },
   "entrypoints": [
     "static/css/main.c210c4f6.css",
-    "static/js/main.d27153df.js"
+    "static/js/main.5d7a1878.js"
   ]
 }
