@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Woodluck/static/css/main.b9450a6f.css",
-    "main.js": "/Woodluck/static/js/main.8ffb149b.js",
+    "main.js": "/Woodluck/static/js/main.217d2dd2.js",
     "static/media/cafe.png": "/Woodluck/static/media/cafe.f2311738c2134701cb73.png",
     "static/media/GD_main.png": "/Woodluck/static/media/GD_main.7ec79b5dceedb750b1a8.png",
     "static/media/red_main.png": "/Woodluck/static/media/red_main.31764f1d20d07e460c81.png",
@@ -11,7 +11,6 @@
     "static/media/appartaments_main.png": "/Woodluck/static/media/appartaments_main.8186722b257899c249a7.png",
     "static/media/Header_image.png": "/Woodluck/static/media/Header_image.516ef0febba89df52538.png",
     "static/media/CB4A1425 1.png": "/Woodluck/static/media/CB4A1425 1.90bc4abd1f692111c730.png",
-    "static/media/blum_descripton.png": "/Woodluck/static/media/blum_descripton.c957ac110d0f99066c4b.png",
     "static/media/theKava.jpg": "/Woodluck/static/media/theKava.387186084e4f7f3b718c.jpg",
     "static/media/62077715_306148160340710__n 1.png": "/Woodluck/static/media/62077715_306148160340710_4861842892479528960_n 1.c63f76c4e7a2baa22261.png",
     "static/media/blum.jpg": "/Woodluck/static/media/blum.28fecc31301f9996a046.jpg",
@@ -56,6 +55,7 @@
     "static/media/fromTelega1.jpg": "/Woodluck/static/media/fromTelega1.fef22b4a71ebe22f1103.jpg",
     "static/media/hostel_banner_right.png": "/Woodluck/static/media/hostel_banner_right.3d4c7a93061503aaa145.png",
     "static/media/Design.png": "/Woodluck/static/media/Design.fad63e27737a8f38fa2a.png",
+    "static/media/blum_descripton.jpg": "/Woodluck/static/media/blum_descripton.19b1d2408360c160c75e.jpg",
     "static/media/Talking.png": "/Woodluck/static/media/Talking.3027fb6d069139b91d34.png",
     "static/media/GothamPro-LightItalic.eot": "/Woodluck/static/media/GothamPro-LightItalic.59020da5eeb10710eb09.eot",
     "static/media/GothamPro-MediumItalic.eot": "/Woodluck/static/media/GothamPro-MediumItalic.e7e640aeea71e9e66299.eot",
@@ -92,10 +92,10 @@
     "static/media/sturtup-depot 1.png": "/Woodluck/static/media/sturtup-depot 1.ceabec58904e6765b12f.png",
     "index.html": "/Woodluck/index.html",
     "main.b9450a6f.css.map": "/Woodluck/static/css/main.b9450a6f.css.map",
-    "main.8ffb149b.js.map": "/Woodluck/static/js/main.8ffb149b.js.map"
+    "main.217d2dd2.js.map": "/Woodluck/static/js/main.217d2dd2.js.map"
   },
   "entrypoints": [
     "static/css/main.b9450a6f.css",
-    "static/js/main.8ffb149b.js"
+    "static/js/main.217d2dd2.js"
   ]
 }
