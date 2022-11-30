@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react';
 import s from "./Blum.module.css";
 import BlumTitleImage from "../../../images/Portfolio/62077715_306148160340710_4861842892479528960_n 1.png";
-import BlumDescription from "../../../images/Portfolio/Blum/blum_descripton.png"
+import BlumDescription from "../../../images/Portfolio/Blum/blum_descripton.jpg"
 import Picture1 from "../../../images/Portfolio/Blum/pic1.png"
 import Picture2 from "../../../images/Portfolio/Blum/62077715_306148160340710_4861842892479528960_n 1.png"
 import Picture3 from "../../../images/Portfolio/Blum/62209645_306148213674038_7481719573775908864_n 1.png"
@@ -21,7 +21,7 @@ const Blum = () => {
     return (
         <div className={s.blum}>
             <div className={s.blumHeader}>
-                <img src={BlumTitleImage} alt="Main"/>
+                <img src={require(BlumTitleImage)} alt="Main"/>
                 <h2>BLUM CAFÉ ROOM</h2>
             </div>
             <div className={s.description}>
