@@ -9,16 +9,36 @@ import PlayRoom from "../../../images/Portfolio/playRoom.png"
 import Computers from "../../../images/Portfolio/computers.png"
 import RedTable from "../../../images/Portfolio/redTable.png"
 import BlackTable from "../../../images/Portfolio/blackTable.png"
-//import Coworking from "../../../images/Portfolio/Coworking/koworkingTitle.jpg"
-//import My_kava from "../../../images/Portfolio/Kava/photo_2022-01-28_15-38-57.jpg"
-import {NavLink, useLocation} from "react-router-dom";
+import {NavLink, useLocation, useNavigate} from "react-router-dom";
 
 const Portfolio = () => {
     const {pathname} = useLocation();
+    const navigate = useNavigate();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
+
+    const onBlumClick = () => {
+        navigate("/blum");
+    }
+    const onRT_Click = () => {
+        navigate("/red_table");
+    }
+    const onHostelClick = () => {
+        navigate("/hostel");
+    }
+    const onProjectorClick = () => {
+        navigate("/projector");
+    }
+    const onGridOfficeClick = () => {
+        navigate("/gridDynamics");
+    }
+    const onPushGamingClick = () => {
+        navigate("/office");
+    }
+
+
 
     return (
         <div className={style.portfolio}>
@@ -42,40 +62,58 @@ const Portfolio = () => {
             </div>
             <div className={style.examples}>
                 <div className={style.example}>
-                    <NavLink to={"blum"}>
-                        <img src={Blum} alt="Blum Cafe"/>
+                    <div>
+                        <img src={Blum}
+                             alt="Blum Cafe"
+                             onClick={onBlumClick}
+                        />
                         <h3>BLUM CAFÉ ROOM</h3>
-                    </NavLink>
+                    </div>
                 </div>
                 <div className={style.example}>
-                    <NavLink to={"red_table"}>
-                        <img src={RedTable} alt="Red table"/>
+                    <div>
+                        <img src={RedTable}
+                             alt="Red table"
+                             onClick={onRT_Click}
+                        />
                         <h3>ЛОФТОВИЙ ОФІС G5 ENTERTAINMENT</h3>
-                    </NavLink>
+                    </div>
                 </div>
                 <div className={style.example}>
-                    <NavLink to={"hostel"}>
-                        <img src={BedRoom} alt="Bedroom"/>
+                    <div>
+                        <img src={BedRoom}
+                             alt="Hostel Room"
+                             onClick={onHostelClick}
+                        />
                         <h3>FRIENDS HOSTEL LVIV</h3>
-                    </NavLink>
+                    </div>
                 </div>
                 <div className={style.example}>
-                    <NavLink to={"projector"}>
-                        <img src={PlayRoom} alt="Playroom"/>
+                    <div>
+                        <img src={PlayRoom}
+                             alt="Playroom"
+                             onClick={onProjectorClick}
+                        />
                         <h3>PROJECTOR LVIV І СТУДІЯ ДИЗАЙНУ HAPPY</h3>
-                    </NavLink>
+                    </div>
                 </div>
                 <div className={style.example}>
-                    <NavLink to={"gridDynamics"}>
-                        <img src={Office} alt="office"/>
+                    <div>
+                        <img src={Office}
+                             alt="office"
+                             onClick={onGridOfficeClick}
+                        />
                         <h3>ОФІС НА 100 РОБОЧИХ МІСЦЬ ДЛЯ GRID DYNAMICS</h3>
-                    </NavLink>
+                    </div>
                 </div>
                 <div className={style.example}>
-                    <NavLink to={"office"}>
-                        <img src={Computers} alt="Computers"/>
+                    <div>
+                        <img src={Computers}
+                             alt="Computers"
+                             onClick={onPushGamingClick}
+                        />
                         <h3>ОФІС БРИТАНСЬКОЇ КОМПАНІЇ PUSH GAMING У ЛЬВОВІ</h3>
-                    </NavLink>
+                    </div>
                 </div>
                 <div className={style.example}>
                     <NavLink to={"#"}>
@@ -85,23 +123,12 @@ const Portfolio = () => {
                 </div>
                 <div className={style.example}>
                     <NavLink to={"black_table"}>
-                        <img src={BlackTable} alt="Black table"/>
+                        <img src={BlackTable}
+                             alt="Black table"
+                        />
                         <h3>ПРИВАТНА КВАРТИРА У КИЄВІ</h3>
                     </NavLink>
                 </div>
-
-                {/*<div className={style.example}>
-                    <NavLink to={"coworking"}>
-                        <img src={Coworking} alt="Coworking"/>
-                        <h3>КОВОРКІНГОВИЙ ПРОСТІР</h3>
-                    </NavLink>
-                </div>
-                <div className={style.example}>
-                    <NavLink to={"my_kava"}>
-                        <img src={My_kava} alt="Black table"/>
-                        <h3>КАФЕ MY KAVA</h3>
-                    </NavLink>
-                </div>*/}
             </div>
         </div>);
 };

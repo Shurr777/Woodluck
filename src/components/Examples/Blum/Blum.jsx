@@ -21,7 +21,7 @@ const Blum = () => {
     return (
         <div className={s.blum}>
             <div className={s.blumHeader}>
-                <img src={require(BlumTitleImage)} alt="Main"/>
+                <img src={BlumTitleImage} alt="Cafe"/>
                 <h2>BLUM CAFÉ ROOM</h2>
             </div>
             <div className={s.description}>

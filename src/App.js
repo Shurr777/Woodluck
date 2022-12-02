@@ -26,22 +26,30 @@ function App() {
                     <NHeader/>
                     <Routes>
                         <Route path="/" element={<Navigate to="main"/>}/>
-                        <Route path="*" element={<Navigate to="main"/>}/>
+                        {/*<Route path="*" element={<Navigate to="main"/>}/>*/}
                         <Route path="main" element={<Main/>}/>
                         <Route path="about" element={<About/>}/>
                         <Route path="portfolio" element={<Portfolio/>}/>
                         <Route path="services" element={<Services/>}/>
                         <Route path="faq" element={<Faq/>}/>
                         <Route path="contacts" element={<Contacts/>}/>
-                        <Route path="portfolio/blum" element={<Blum/>}/>
+
+                        <Route path="blum" element={<Blum/>}/>
+                        <Route path="office" element={<Office/>}/>
+                        <Route path="hostel" element={<Hostel/>}/>
+                        <Route path="gridDynamics" element={<GridDynamics/>}/>
+                        <Route path="projector" element={<Projector/>}/>
+                        <Route path="red_table" element={<Loft/>}/>
+                        <Route path="black_table" element={<Appartaments/>}/>
+
+                        {/*<Route path="portfolio/blum" element={<Blum/>}/>
                         <Route path="portfolio/hostel" element={<Hostel/>}/>
                         <Route path="portfolio/office" element={<Office/>}/>
                         <Route path="portfolio/gridDynamics" element={<GridDynamics/>}/>
+
                         <Route path="portfolio/projector" element={<Projector/>}/>
                         <Route path="portfolio/red_table" element={<Loft/>}/>
-                        <Route path="portfolio/black_table" element={<Appartaments/>}/>
-                        {/*<Route path="portfolio/coworking" element={<Coworking/>}/>
-                        <Route path="portfolio/my_kava" element={<Coworking/>}/>*/}
+                        <Route path="portfolio/black_table" element={<Appartaments/>}/>*/}
                     </Routes>
                     <FooterMode1/>
                 </div>

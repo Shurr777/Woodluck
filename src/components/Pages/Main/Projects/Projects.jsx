@@ -14,16 +14,16 @@ const Projects = () => {
         navigate("/portfolio");
     }
     const onCafeClick = () => {
-        navigate("/portfolio/blum");
+        navigate("/blum");
     }
     const onDinnerClick = () => {
-        navigate("/portfolio/office");
+        navigate("/office");
     }
     const onHostelClick = () => {
-        navigate("/portfolio/hostel");
+        navigate("/hostel");
     }
     const onGridClick = () => {
-        navigate("/portfolio/gridDynamics");
+        navigate("/gridDynamics");
     }
 
     return (
