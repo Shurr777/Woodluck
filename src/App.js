@@ -26,14 +26,12 @@ function App() {
                     <NHeader/>
                     <Routes>
                         <Route path="/" element={<Navigate to="main"/>}/>
-                        {/*<Route path="*" element={<Navigate to="main"/>}/>*/}
                         <Route path="main" element={<Main/>}/>
                         <Route path="about" element={<About/>}/>
                         <Route path="portfolio" element={<Portfolio/>}/>
                         <Route path="services" element={<Services/>}/>
                         <Route path="faq" element={<Faq/>}/>
                         <Route path="contacts" element={<Contacts/>}/>
-
                         <Route path="blum" element={<Blum/>}/>
                         <Route path="office" element={<Office/>}/>
                         <Route path="hostel" element={<Hostel/>}/>
@@ -41,15 +39,6 @@ function App() {
                         <Route path="projector" element={<Projector/>}/>
                         <Route path="red_table" element={<Loft/>}/>
                         <Route path="black_table" element={<Appartaments/>}/>
-
-                        {/*<Route path="portfolio/blum" element={<Blum/>}/>
-                        <Route path="portfolio/hostel" element={<Hostel/>}/>
-                        <Route path="portfolio/office" element={<Office/>}/>
-                        <Route path="portfolio/gridDynamics" element={<GridDynamics/>}/>
-
-                        <Route path="portfolio/projector" element={<Projector/>}/>
-                        <Route path="portfolio/red_table" element={<Loft/>}/>
-                        <Route path="portfolio/black_table" element={<Appartaments/>}/>*/}
                     </Routes>
                     <FooterMode1/>
                 </div>
@@ -57,5 +46,19 @@ function App() {
         </div>
     );
 }
+
+/*<IfModule mod_rewrite.c>
+
+
+    RewriteEngine On
+    RewriteBase /
+    RewriteRule ^index\.html$ - [L]
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteRule . /index.html [L]
+
+
+</IfModule>*/
 
 export default App;

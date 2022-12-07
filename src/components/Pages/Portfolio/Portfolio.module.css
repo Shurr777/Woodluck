@@ -23,7 +23,7 @@
 .portfolio .banner1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-top: 280px;
+    padding-top: 20%;
 }
 
 .banner1 .bannerItem {
@@ -87,17 +87,17 @@
 
 @media (max-width: 1500px) {
     .portfolio .banner1{
-        padding-top: 170px;
+        padding-top: 250px;
     }
 }
 @media (max-width: 1300px) {
     .portfolio .banner1{
-        padding-top: 160px;
+        padding-top: 235px;
     }
 }
 @media (max-width: 1200px) {
     .portfolio .banner1{
-        padding-top: 100px;
+        padding-top: 185px;
     }
 }
 @media (max-width: 901px) {
@@ -106,7 +106,7 @@
         padding-left: 10px;
     }
     .portfolio .banner1{
-        padding-top: 150px;
+        padding-top: 250px;
         display: flex;
         flex-direction: column;
     }

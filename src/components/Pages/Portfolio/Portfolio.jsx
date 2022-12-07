@@ -2,14 +2,12 @@ import React, {useEffect} from 'react';
 import style from './Portfolio.module.css'
 import Portfolio_img from "../../../images/Portfolio/photo_2022-11-14_09-25-40.jpg";
 import Blum from "../../../images/Portfolio/62077715_306148160340710_4861842892479528960_n 1.png"
-import DinnerRoom from "../../../images/Portfolio/image99 1.png"
 import BedRoom from "../../../images/Portfolio/13 1.png"
 import Office from "../../../images/Portfolio/ofice.png"
 import PlayRoom from "../../../images/Portfolio/playRoom.png"
 import Computers from "../../../images/Portfolio/computers.png"
 import RedTable from "../../../images/Portfolio/redTable.png"
-import BlackTable from "../../../images/Portfolio/blackTable.png"
-import {NavLink, useLocation, useNavigate} from "react-router-dom";
+import {useLocation, useNavigate} from "react-router-dom";
 
 const Portfolio = () => {
     const {pathname} = useLocation();
@@ -115,7 +113,7 @@ const Portfolio = () => {
                         <h3>ОФІС БРИТАНСЬКОЇ КОМПАНІЇ PUSH GAMING У ЛЬВОВІ</h3>
                     </div>
                 </div>
-                <div className={style.example}>
+                {/*<div className={style.example}>
                     <NavLink to={"#"}>
                         <img src={DinnerRoom} alt="Dinner Room"/>
                         <h3>ДИЗАЙН СТУДІЯ</h3>
@@ -128,7 +126,7 @@ const Portfolio = () => {
                         />
                         <h3>ПРИВАТНА КВАРТИРА У КИЄВІ</h3>
                     </NavLink>
-                </div>
+                </div>*/}
             </div>
         </div>);
 };
