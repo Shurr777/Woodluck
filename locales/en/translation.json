@@ -1,0 +1,53 @@
+{
+  "mainMenu": {
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contacts": "Contacts"
+  },
+  "footer": {
+    "address": {
+      "city": "Lviv",
+      "address": "Promyslova str. 60"
+    },
+    "footerMenu": {
+      "main": "Main",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "contacts": "Contacts"
+    },
+    "worktime": "Mon – Fri : 9:00 - 18:00",
+    "watch": "Follow us on social networks:",
+    "consultation": "Do you need advice or have questions?"
+  },
+  "main": {
+    "whoAreWe": "WHO ARE WE?",
+    "aboutText": "WoodLuck workshop is not just a business, it is a social business. We create comfortable, atmospheric furniture that corresponds to individual style, attracting people to work from vulnerable population groups. We create together, take responsibility, help together, we believe in people.",
+    "bannerText": "We direct 10% of the profit to families in need. The WoodLuck workshop was founded as a social enterprise, so our social component is part of our DNA."
+  },
+  "serviceCycle": {
+    "header": "FULL CYCLE OF ORDER SUPPORT",
+    "call": "Call/Application",
+    "design": "Design & calculation",
+    "production": "Production",
+    "delivery": "Delivery and installation",
+    "charity": "Charity"
+  },
+  "mainProjects": {
+    "header": "IMPLEMENTED PROJECTS",
+    "blum": {
+      "description": "Cafe Restaurant"
+    },
+    "designStudio": {
+      "title": "DESIGN STUDIO",
+      "description": "office"
+    },
+    "friendsHostel": {
+      "description": "Hostel in Lviv"
+    },
+    "gridDynamics": {
+      "description": "Office for 100 workplaces"
+    },
+    "allProjects":"View all projects",
+    "review": "Review"
+  }
+}
