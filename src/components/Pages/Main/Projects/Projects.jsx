@@ -5,10 +5,12 @@ import dinner from '../../../../images/projects/dinner.png'
 import bads from '../../../../images/projects/beds.png'
 import ofice from '../../../../images/projects/ofice.png'
 import {useNavigate} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 const Projects = () => {
 
     const navigate = useNavigate();
+    const {t} = useTranslation()
 
     const connectHandleClick = () => {
         navigate("/portfolio");
@@ -64,9 +66,9 @@ const Projects = () => {
                 </div>
                 <div className={style.lookingBlock}>
                     <div className={style.title}>
-                        <p>Переглянути всі проекти</p>
+                        <p>{t("mainProjects.allProjects")}</p>
                     </div>
-                    <button onClick={connectHandleClick}>Переглянути</button>
+                    <button onClick={connectHandleClick}>{t("mainProjects.review")}</button>
                 </div>
             </div>
         </div>

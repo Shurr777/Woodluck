@@ -2,47 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/locales/ua/translation.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18next.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GD.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/GridDynamics/GD.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/RedTable/Loft.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FooterMode1/FooterMode1.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FooterMode1/FooterMode1.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Clients/Clients.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Clients/Clients.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Clients/Clients.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Clients/Clients.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Main/Projects/Projects.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Portfolio/Portfolio.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Backgrounds/Background2.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Backgrounds/Background3.PNG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/Gorgany.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/Kitchen1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/Kitchen2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/Malta.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/Sleep.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/Telega2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/blum.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/fromTelega1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/fromTelega2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/m_Kitchen1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/m_m_m_14..jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/photo_2022-01-28_15-38-57(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/picture_compress.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Examples/theKava.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Portfolio/Coworking/koworkingTitle.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Portfolio/Coworking/photo_2022-01-05_16-01-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Portfolio/Coworking/photo_2022-01-05_16-01-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Portfolio/Kava/photo_2022-01-28_15-38-57.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Portfolio/Red/red_banner_left.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Portfolio/Red/red_banner_right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Portfolio/Red/red_description.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/Portfolio/Red/red_main.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/Group 14 1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/Poduction1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/double-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/facebook.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/insta.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/kisspng-business-operations-management-sales-service-clipart-free-pictures-manufacturing-5ab135ac31dd14.4817534015215630522043.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/kisspng-cash-on-delivery-take-out-computer-icons-delivery-5ac088fa080fe9.6273385715225674180331.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/kisspng-communication-computer-icons-conversation-group-communication-5b3762755702e7.3784362215303563413564.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/icons/youtube.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeviceCycle/ServiceCycle.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +57,7 @@
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/Woodluck/woodluck/src/components&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Woodluck/woodluck — копия&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -169,7 +146,13 @@
       <workItem from="1670054294162" duration="2786000" />
       <workItem from="1670163104127" duration="606000" />
       <workItem from="1670403786100" duration="1876000" />
-      <workItem from="1670441386914" duration="1645000" />
+      <workItem from="1670441386914" duration="2443000" />
+      <workItem from="1670515252727" duration="4824000" />
+      <workItem from="1671556267923" duration="106000" />
+      <workItem from="1671556393836" duration="2545000" />
+      <workItem from="1671817881869" duration="593000" />
+      <workItem from="1672218005792" duration="22000" />
+      <workItem from="1672220093964" duration="9573000" />
     </task>
     <servers />
   </component>

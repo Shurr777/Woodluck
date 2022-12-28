@@ -14,7 +14,7 @@
 
 .clientsBlock {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     align-items: center;
     justify-content: space-between;
     padding: 20px;
@@ -22,8 +22,9 @@
 }
 
 .clientsItem {
-    align-self: center;
+    display: flex;
     justify-self: center;
+    align-items: center;
     padding: 20px ;
     height: 150px;
 }
@@ -36,6 +37,10 @@
     .clientsBlock {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+        justify-content: center;
+    }
+    .clientsItem{
+        justify-items: center;
     }
 
 }

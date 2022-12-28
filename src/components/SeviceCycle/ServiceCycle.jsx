@@ -6,16 +6,20 @@ import Design from '../../images/icons/Design.png'
 import Production from '../../images/icons/Production.png'
 import Delivery from '../../images/icons/Delivery.png'
 import Сharity from '../../images/icons/Сharity.png'
+import {useTranslation} from "react-i18next";
 
 const ServiceCycle = () => {
+
+    const {t} = useTranslation()
+
     return (
         <div className={s.serviceCycleOverlay}>
-            <h2>ПОВНИЙ ЦИКЛ СУПРОВОДУ ЗАМОВЛЕННЯ</h2>
+            <h2>{t("serviceCycle.header")}</h2>
            {/* <h3>Щось теж про супровід</h3>*/}
             <div className={s.cardBlock}>
                 <div className={s.card}>
                     <img src={Talking} alt="Talking"/>
-                    <p>Дзвінок/Заявка</p>
+                    <p>{t("serviceCycle.call")}</p>
                 </div>
                 <div className={s.arrowHorizontal}>
                     <FaArrowRight/>
@@ -25,7 +29,7 @@ const ServiceCycle = () => {
                 </div>
                 <div className={s.card}>
                     <img src={Design} alt="Talking"/>
-                    <p>Дизайн & прорахунок</p>
+                    <p>{t("serviceCycle.design")}</p>
                 </div>
                 <div className={s.arrowHorizontal}>
                     <FaArrowRight/>
@@ -35,7 +39,7 @@ const ServiceCycle = () => {
                 </div>
                 <div className={s.card}>
                     <img src={Production} alt="Talking"/>
-                    <p>Виготовлення</p>
+                    <p>{t("serviceCycle.production")}</p>
                 </div>
                 <div className={s.arrowHorizontal}>
                     <FaArrowRight/>
@@ -46,7 +50,7 @@ const ServiceCycle = () => {
                 </div>
                 <div className={s.card}>
                     <img src={Delivery} alt="Talking"/>
-                    <p>Доставка та монтаж</p>
+                    <p>{t("serviceCycle.delivery")}</p>
                 </div>
                 <div className={s.arrowHorizontal}>
                     <FaArrowRight/>
@@ -56,7 +60,7 @@ const ServiceCycle = () => {
                 </div>
                 <div className={s.card}>
                     <img src={Сharity} alt="Talking"/>
-                    <p>Благодійність</p>
+                    <p>{t("serviceCycle.charity")}</p>
                 </div>
             </div>
         </div>

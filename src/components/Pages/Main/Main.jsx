@@ -5,6 +5,7 @@ import Clients from "./Clients/Clients";
 import {useLocation} from "react-router-dom";
 import DemoCarousel from "../../Carousel/Carousel";
 import ServiceCycle from "../../SeviceCycle/ServiceCycle";
+import {useTranslation} from "react-i18next";
 
 const Main = () => {
 
@@ -14,19 +15,17 @@ const Main = () => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
+    const { t } = useTranslation()
     return (
         <>
             <DemoCarousel/>
             <div className={style.about}>
                 <div className={style.aboutText}>
                     <h3>
-                        ХТО МИ Є?
+                        {t("main.whoAreWe")}
                     </h3>
                     <p>
-                        Майстерня WoodLuck — це не просто бізнес, це соціальний бізнес. Ми створюємо зручні,
-                        атмосферні меблі, які відповідають індивідуальному стилю, залучаючи до роботи людей
-                        із вразливих груп населення. Творимо разом, беремо відповідальність, допомагаємо
-                        спільно, віримо в людей.
+                        {t("main.aboutText")}
                     </p>
                 </div>
                 <div className={style.video_Container}>
@@ -72,9 +71,8 @@ const Main = () => {
             </div>*/}
            {/* <Cards/>*/}
             <div className={style.banner}>
-                <p>10% від прибутку скеровуємо для сімей, які перебувають у скруті.
-                    Майстерня WoodLuck засновувалася як соціальне підприємництво,
-                    тож наша соціальна складова є частиною нашого ДНК.
+                <p>
+                    {t("main.bannerText")}
                 </p>
             </div>
             <ServiceCycle />

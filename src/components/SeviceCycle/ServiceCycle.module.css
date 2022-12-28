@@ -11,12 +11,7 @@
     font-size: 34px;
     text-align: center;
 }
-.serviceCycleOverlay h3{
-    padding: 0;
-    color: #282828;
-    font-size: 24px;
-    align-self: center;
-}
+
 
 .serviceCycleOverlay .cardBlock{
     padding: 0 250px;
@@ -35,6 +30,7 @@
 
 .serviceCycleOverlay .cardBlock .card p {
     max-width: 150px;
+    align-self: center;
 }
 
 .arrowHorizontal{

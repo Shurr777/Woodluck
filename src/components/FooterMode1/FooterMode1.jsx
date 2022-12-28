@@ -7,6 +7,8 @@ import {
     FaInstagramSquare,
     FaYoutubeSquare
 } from 'react-icons/fa';
+import {useTranslation} from "react-i18next";
+
 
 
 const FooterMode1 = () => {
@@ -16,12 +18,14 @@ const FooterMode1 = () => {
     const connectHandleClick = () => {
         navigate("/contacts");
     }
+    const {t} = useTranslation();
+
     return (
         <div className={style.footerModeOverlay}>
             <div className={style.info}>
                 <div className={style.contacts}>
-                    <p>Львів,<br/> вул.Промислова 60</p>
-                    <p>Пн – Пт : 9:00 - 18:00</p>
+                    <p>{t("footer.address.city")},<br/> {t("footer.address.address")}</p>
+                    <p>{t("footer.worktime")}</p>
                     <a href="tel:+380966353223">+38 (096) 635-32-23</a>
                     <a href="tel:+380731459739">+38 (073) 145-97-39</a>
                    {/* <a href="tel:+380503004379">+38 (050) 300-43-79</a>*/}
@@ -29,21 +33,21 @@ const FooterMode1 = () => {
                 </div>
                 <div className={style.menu}>
                     <NavLink to='main' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        Головна
+                        {t("footer.footerMenu.main")}
                     </NavLink>
                     <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        Про нас
+                        {t("footer.footerMenu.about")}
                     </NavLink>
                     <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        Портфоліо
+                        {t("footer.footerMenu.portfolio")}
                     </NavLink>
                     <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        Контакти
+                        {t("footer.footerMenu.contacts")}
                     </NavLink>
                 </div>
 
                 <div className={style.social}>
-                    <p>Слідкуйте за нами в соц.мережах:</p>
+                    <p>{t("footer.watch")}</p>
                     <div className={style.icons}>
                         <a href="https://www.facebook.com/socialworkshopua/?ref=bookmarks"
                            target="_blank"
@@ -62,7 +66,7 @@ const FooterMode1 = () => {
                         </a>
                     </div>
                     <div className={style.other}>
-                        <p>Потрібна консультація або залишилися запитання?</p>
+                        <p>{t("footer.consultation")}</p>
                         <button onClick={connectHandleClick}>Зв’язатися</button>
                     </div>
                 </div>

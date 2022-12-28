@@ -6,12 +6,14 @@ import business from '../../../../images/Clients/54_main-v1582879975 1.png'
 import startup from '../../../../images/Clients/sturtup-depot 1.png'
 import bur from '../../../../images/Clients/unnamed 1.png'
 import ten from '../../../../images/Clients/download 1.png'
+import uop from '../../../../images/Clients/uop_logo.webp'
 
 const Clients = () => {
     return (
         <div className={style.clientsOverlay}>
             <h2>НАШІ КЛІЄНТИ</h2>
             <div className={style.clientsBlock}>
+                <div className={style.clientsItem}><img src={uop} alt=""/></div>
                 <div className={style.clientsItem}><img src={hotsit} alt=""/></div>
                 <div className={style.clientsItem}><img src={univer} alt=""/></div>
                 <div className={style.clientsItem}><img src={business} alt=""/></div>

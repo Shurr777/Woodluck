@@ -35,8 +35,7 @@ const Portfolio = () => {
     const onPushGamingClick = () => {
         navigate("/office");
     }
-
-
+    
 
     return (
         <div className={style.portfolio}>

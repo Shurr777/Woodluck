@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     background-color: rgba(132, 131, 135, 0.7);
-    grid-template-columns: 200px 1fr 250px;
+    grid-template-columns: 250px 1fr 250px;
     position: absolute;
     top: 0;
     z-index: 10;
@@ -25,7 +25,6 @@
     width: 100%;
     padding: 13px 0 5px 15px;
 }
-
 
 .headerOverlay img {
     width: 100%;
@@ -66,6 +65,27 @@
 
 .phones {
     display: flex;
+}
+.phones .languageButtonsBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    margin: 0;
+}
+.phones .languageButton{
+    padding: 5px;
+    margin: 2px;
+    color: #c5d02f;
+    font-weight: bold;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.phonesBlock{
+    display: flex;
     flex-direction: column;
     align-self: center;
 }
@@ -101,7 +121,7 @@
         display: grid;
         position: relative;
         background-color: rgba(132, 131, 135, 0.3);
-        grid-template-columns: 50px 1fr 200px;
+        grid-template-columns: 50px 1fr 250px;
     }
 
     .navBar {
@@ -123,7 +143,10 @@
     .phones {
         align-items: center;
         display: flex;
-        flex-direction: column;
+        justify-content: space-around;
+    }
+    .phones .languageButtonsBlock{
+        display: none;
     }
 
     .headerOverlay .phones p {
