@@ -31,5 +31,23 @@
     "production": "Виготовлення",
     "delivery": "Доставка та монтаж",
     "charity": "Благодійність"
+  },
+  "mainProjects": {
+    "header": "IMPLEMENTED PROJECTS",
+    "blum": {
+      "description": "Cafe Restaurant"
+    },
+    "designStudio": {
+      "title": "DESIGN STUDIO",
+      "description": "office"
+    },
+    "friendsHostel": {
+      "description": "Hostel in Lviv"
+    },
+    "gridDynamics": {
+      "description": "Office for 100 workplaces"
+    },
+    "allProjects":"View all projects",
+    "review": "Review"
   }
 }
