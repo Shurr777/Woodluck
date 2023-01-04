@@ -17,7 +17,8 @@
     },
     "worktime": "Mon – Fri : 9:00 - 18:00",
     "watch": "Follow us on social networks:",
-    "consultation": "Do you need advice or have questions?"
+    "consultation": "Do you need advice or have questions?",
+    "connect": "Contact"
   },
   "main": {
     "whoAreWe": "WHO ARE WE?",
@@ -47,7 +48,256 @@
     "gridDynamics": {
       "description": "Office for 100 workplaces"
     },
-    "allProjects":"View all projects",
+    "allProjects": "View all projects",
     "review": "Review"
+  },
+  "clients": {
+    "header": "OUR CLIENTS"
+  },
+  "about": {
+    "statistic": {
+      "1": "Satisfied customers for 2.5 years",
+      "2": "Our clients turn to us with new promises.",
+      "3": "Clients come to us for recommendations"
+    },
+    "mission": {
+      "title": "OUR MISSION AND VALUES",
+      "text": "We create comfortable, atmospheric furniture that reflects an individual style, making people from different population groups work."
+    },
+    "banner1": {
+      "paragraf1": {
+        "title": "Create together",
+        "text": "We have a blessed team, as we work together with the client, we appreciate our contribution to the final product"
+      },
+      "paragraf2": {
+        "title": "We take responsibility",
+        "text": "Responsibility to oneself, the client and society"
+      },
+      "paragraf3": {
+        "title": "We help together",
+        "text": "We give part of our resources (profit, time, products) to the development of communities"
+      },
+      "paragraf4": {
+        "title": "Environmental friendliness and safety",
+        "text": "We use only safe varnish and glue that does not contain harmful chemicals"
+      }
+    },
+    "story": {
+      "text1": "WoodLuck Workshop was founded as a social enterprise, so our social component is part of our DNA. We direct 10% of the profit to families in need.",
+      "text2": "Since the very beginning of the workshop, we have employed men who have undergone rehabilitation from alcohol and drug addiction in rehabilitation centers in Lviv, as well as those who have returned from ATO"
+    },
+    "banner2": {
+      "text1": "We financially and materially support the Ukrainian educational platform \"Good Neighbor\" social program.",
+      "text2": "The program is aimed at helping families in a difficult situation, as well as at activating communities at the micro level."
+    },
+    "banner3": {
+      "text1": "To support the program, we transfer 10% of the workshop's net income."
+    }
+  },
+  "contacts": {
+    "contact": "Contact us:",
+    "address": "Lviv, Promyslova str. 60",
+    "workingTime": "Mon – Fri   9:00 - 18:00",
+    "contactForm": {
+      "comments": "Comments",
+      "name": "Name",
+      "phone": "Phone",
+      "send": "Send",
+      "sent": "Message sent!"
+    }
+  },
+  "portfolio": {
+    "banner1": {
+      "title1": "Environmental friendliness and safety",
+      "text1": "We use only safe varnish and glue that does not contain harmful chemicals.",
+      "title2": "Practicality",
+      "text2": "Our furniture will serve you faithfully, loyally and for a long time",
+      "title3": "Individual approach",
+      "text3": "Our designers will prepare a model of the future product and advise on materials."
+    },
+    "blumCafe": "BLUM CAFÉ ROOM",
+    "loft": "LOFT OFFICE G5 ENTERTAINMENT",
+    "hostel": {},
+    "projector": "PROJECTOR LVIV AND HAPPY DESIGN STUDIO",
+    "grid": "OFFICE FOR 100 WORKPLACES FOR GRID DYNAMICS",
+    "british": "OFFICE OF THE BRITISH PUSH GAMING COMPANY IN LVIV"
+  },
+  "connectBlock": {
+    "text": "Do you have an idea for a design project? Fill out the form and we will contact you!",
+    "button": "Contact"
+  },
+  "blumPage": {
+    "description": {
+      "title": "PROJECT DESCRIPTION",
+      "text": "Together with the customer, we managed to create a cozy atmospheric space where people like to spend time. Wooden birch paneling on the walls with colored geometric patterns added charm and recognizability to the interior of the institution."
+    },
+    "banner": {
+      "title": "What did WoodLuck do?",
+      "text1": "ergonomic tables",
+      "text2": "nice comfy seats",
+      "text3": "bright and attractive bar counter",
+      "text4": "wooden paneling on the walls",
+      "text5": "plinths"
+    },
+    "materials": {
+      "title": "Used materials",
+      "material1": "veneered oak (substitute for natural wood)",
+      "material2": "beech",
+      "material3": "birch"
+    },
+    "info": {
+      "title": "Project info",
+      "start": "Start project .... March 2019",
+      "end": "Finish project .... April 2019",
+      "name": "Customer name .... Blum Café Room"
+    },
+    "totalInfo": "At the exit, the customer received a stylish and recognizable interior of the cafe"
+  },
+  "loftPage": {
+    "title": "LOFT OFFICE G5 ENTERTAINMENT",
+    "description": {
+      "title": "PROJECT DESCRIPTION",
+      "text": "G5 came to WoodLuck with their project and design. They had a clear idea of how to organize the office, thought through everything to the smallest detail: zoning, light, etc. So we made all the furniture according to the customer's drawings. The idea of their space was to preserve primacy, so they chose classic loft style: the metal was not covered with powder paint (only varnish, so as not to rust), all metal welding is open, the seams are not hidden. It turned out very cool!"
+    },
+    "banner": {
+      "title": "What did WoodLuck do?",
+      "text1": "office tables, racks",
+      "text2": "kitchen",
+      "text3": "play room",
+      "text4": "bar counter",
+      "text5": "wardrobe"
+    },
+    "materials": {
+      "title": "Used materials",
+      "material1": "metal profile 30x30",
+      "material2": "wooden parts made of pine are covered with varnish"
+    },
+    "info": {
+      "title": "Project info",
+      "start": "Start project .... May 2019",
+      "end": "Finish project .... June 2019",
+      "name": "Customer name .... Friends Hostel Lviv"
+    },
+    "totalInfo": "At the end, the customer received ease of care and 100% implementation of his request"
+  },
+  "hostelPage": {
+    "title": "FRIENDS HOSTEL LVIV ",
+    "description": {
+      "title": "PROJECT DESCRIPTION",
+      "text": "The WoodLuck team developed the design of beds according to the individual dimensions of the customer. The biggest problem of the hostel is its openness and lack of its own space. We have solved this problem: each bed has a curtain that can be closed and have their own light and personal space. There are drawers under each bed, which are closed with a key, you can put a suitcase, a backpack, etc. there."
+    },
+    "banner": {
+      "title": "What did WoodLuck do?",
+      "text1": "double bed",
+      "text2": "reception",
+      "text3": "lockers",
+      "text4": "junkies"
+    },
+    "materials": {
+      "title": "Used materials",
+      "material1": "solid beech, metal flakes covered with white powder paint, impact-resistant and scratch-resistant",
+      "material2": "plywood and chipboard"
+    },
+    "info": {
+      "title": "Project info",
+      "start": "Start project .... May 2019",
+      "end": "Finish project .... June 2019",
+      "name": "Customer name .... Friends Hostel Lviv"
+    },
+    "totalInfo": "At the exit, the customer has removed a hand-held bed with individual boxes and optimally organized space"
+  },
+  "projectorPage": {
+    "title": "PROJECTOR LVIV AND HAPPY DESIGN STUDIO",
+    "description": {
+      "title": "PROJECT DESCRIPTION",
+      "text": "Work zones are located on two surfaces: on the first one there is a great open space and the main audience, class Projector, coworking, meeting room, skype room and kitchen. On the other hand, the HAPPY team is working. The space can be conveniently called an office for an eloquent roamer. Tenisny steel, guitars, bicycle - everything is as far as possible from the typical office atmosphere. The design studio developed self-made cars, the WoodLuck team implemented their furniture design ideas."
+    },
+    "banner": {
+      "title": "What did WoodLuck do?",
+      "text1": "accommodation design",
+      "text2": "100 working places (tables, pedestals)",
+      "text3": "reception",
+      "text4": "zoning accommodation",
+      "text5": "cleared transit zones",
+      "text6": "light and electrification",
+      "text7": "bar racks for the kitchen, kitchen tables"
+
+    },
+    "materials": {
+      "title": "Used materials",
+      "material1": "solid beech, metal flakes covered with white powder paint, impact-resistant and scratch-resistant",
+      "material2": "plywood and chipboard"
+    },
+    "info": {
+      "title": "Project info",
+      "start": "Start project .... February 2019",
+      "end": "Finish project .... April 2019",
+      "name": "Customer name .... Projector Lviv"
+    },
+    "totalInfo": "At the end, the customer received the implementation of an individual design and mobile furniture-transformers"
+  },
+  "gridPage": {
+    "title": "OFFICE FOR 100 WORKPLACES FOR GRID DYNAMICS",
+    "description": {
+      "title": "PROJECT DESCRIPTION",
+      "text": "The customer asked for desks that were slightly longer and wider than standard office sizes. We designed them so that when workers are sitting next to each other, they do not disturb each other, so each workstation is separated by a side cabinet that has a lock, so it is safe to store your personal valuables. The table is 2 cm higher than the standard size, so that employees slouch less while working at the computer."
+    },
+    "banner": {
+      "title": "What did WoodLuck do?",
+      "text1": "accommodation design",
+      "text2": "100 working places (tables, pedestals)",
+      "text3": "reception",
+      "text4": "zoning accommodation",
+      "text5": "cleared transit zones",
+      "text6": "light and electrification",
+      "text7": "bar racks for the kitchen, kitchen tables"
+    },
+    "materials": {
+      "title": "Used materials",
+      "material1": "metal profile 25x25, black matte powder paint",
+      "material2": "18 mm beech covered with water-based ecolac",
+      "material3": "Chipboard under concrete at the reception and kitchen surfaces"
+    },
+    "info": {
+      "title": "Project info",
+      "start": "Start project .... October 2018",
+      "end": "Finish project .... Cooperation continues",
+      "name": "Customer name .... Grid Dynamics"
+    },
+    "totalInfo": "At the exit, the customer received a unique design from Wood Luck. Custom-sized desks let in a lot of daylight thanks to an exclusive design"
+  },
+  "britishPage": {
+    "title": "OFFICE OF THE BRITISH PUSH GAMING COMPANY IN LVIV",
+    "description": {
+      "title": "PROJECT DESCRIPTION",
+      "text": "Together with the customer, we managed to create a cozy atmospheric space where people like to spend time. Wooden birch paneling on the walls with colored geometric patterns added charm and recognizability to the interior of the institution."
+    },
+    "banner": {
+      "title": "What did WoodLuck do?",
+      "text1": "office tables",
+      "text2": "racks",
+      "text3": "table in the meeting room"
+    },
+    "materials": {
+      "title": "Used materials",
+      "material1": "metal profile 40x20, powder paint in white and matte colors",
+      "material2": "plywood and chipboard",
+      "material3": "27 mm beech, covered with water-based ecolac",
+      "material4": "corner shelves 30x30",
+      "material5": "work table: metal profile 80x80, matt black color, beech veneer"
+    },
+    "info": {
+      "title": "Project info",
+      "start": "Start project .... February 2018",
+      "end": "Finish project .... Cooperation continues",
+      "name": "Customer name .... Push Gaming"
+    },
+    "totalInfo": "On the way out, the deputy manager took off the functional office, which allows him to be mobile for working in a team. Simplicity and vishukanist in working space"
+  },
+  "modal": {
+    "main": "Main",
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contacts": "Contacts"
   }
 }

@@ -7,10 +7,12 @@ import BannerPicture2 from "../../../images/Portfolio/Hostel/hostel_banner_cente
 import BannerPicture3 from "../../../images/Portfolio/Hostel/hostel_banner_right.png"
 import {useLocation} from "react-router-dom";
 import ConnectBlock from "../../ConnectBlock/ConnectBlock";
+import {useTranslation} from "react-i18next";
 
 
 const Hostel = () => {
     const { pathname } = useLocation();
+    const { t } =useTranslation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -21,20 +23,12 @@ const Hostel = () => {
         <div className={s.hostel}>
             <div className={s.hostelHeader}>
                 <img src={HostelBannerMain} alt="Main"/>
-                <h2>FRIENDS HOSTEL LVIV</h2>
+                <h2>{t("hostelPage.title")}</h2>
             </div>
             <div className={s.description}>
                 <div className={s.text}>
-                    <h3>
-                        ОПИС ПРОЕКТУ
-                    </h3>
-                    <p>
-                        Команда WoodLuck розробляла дизайн ліжок під індивідуальні розміри замовника.
-                        Найбільша проблема хостелу – відкритість і брак власного простору.
-                        Ми вирішили цю проблему: кожне ліжко має шторку, яку можна закрити і
-                        мати власне світло та персональний простір. Під кожним ліжком є шухляди,
-                        які закриваються на ключик, туди можна покласти валізу, рюкзак тощо.
-                    </p>
+                    <h3>{t("hostelPage.description.title")}</h3>
+                    <p>{t("hostelPage.description.text")}</p>
                 </div>
                 <div className={s.image}>
                     <img src={HostelDescription} alt="Hostel interere"/>
@@ -43,15 +37,15 @@ const Hostel = () => {
             <div className={s.working}>
                 <div className={s.workingBanner}>
                     <h2>
-                        Що робили WoodLuck?
+                        {t("hostelPage.banner.title")}
                     </h2>
                 </div>
                 <div className={s.workingList}>
                     <ul>
-                        <li><span/>двоярусні ліжка</li>
-                        <li><span/>рецепція</li>
-                        <li><span/>локери</li>
-                        <li><span/>шухляди</li>
+                        <li><span/>{t("hostelPage.banner.text1")}</li>
+                        <li><span/>{t("hostelPage.banner.text2")}</li>
+                        <li><span/>{t("hostelPage.banner.text3")}</li>
+                        <li><span/>{t("hostelPage.banner.text4")}</li>
                     </ul>
                 </div>
             </div>
@@ -69,28 +63,26 @@ const Hostel = () => {
             <div className={s.info}>
                 <div className={s.materials}>
                     <h2>
-                        Використані матеріали
+                        {t("hostelPage.materials.title")}
                     </h2>
                     <ul>
-                        <li>масив бука, металеві драбинки ліжка покриті білою порошковою фарбою, стійкою до ударів і
-                            подряпин
-                        </li>
-                        <li>фанера і ДСП</li>
+                        <li>{t("hostelPage.materials.material1")}</li>
+                        <li>{t("hostelPage.materials.material2")}</li>
                     </ul>
                 </div>
                 <div className={s.project}>
                     <h2>
-                        Інфо проекту
+                        {t("hostelPage.info.title")}
                     </h2>
                     <ul>
-                        <li><span/>початок проекту</li>
-                        <li><span/> Кінець проекту</li>
-                        <li><span/> Ім’я клієнта</li>
+                        <li><span/>{t("hostelPage.info.start")}</li>
+                        <li><span/>{t("hostelPage.info.end")}</li>
+                        <li><span/>{t("hostelPage.info.name")}</li>
                     </ul>
                 </div>
             </div>
             <div className={s.totalInfo}>
-                <h3>На виході замовник отримав зручні ліжка з індивідуальними боксами та оптимально організований простір</h3>
+                <h3>{t("hostelPage.totalInfo")}</h3>
             </div>
           <ConnectBlock/>
         </div>

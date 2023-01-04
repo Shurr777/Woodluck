@@ -6,10 +6,14 @@ import BannerLeft from "../../../images/Portfolio/Projector/projector_banner_lef
 import BannerRight from "../../../images/Portfolio/Projector/projector_banner_right.png"
 import {useLocation} from "react-router-dom";
 import ConnectBlock from "../../ConnectBlock/ConnectBlock";
+import {useTranslation} from "react-i18next";
 
 
 const Projector = () => {
+
     const { pathname } = useLocation();
+
+    const { t } = useTranslation()
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -19,20 +23,14 @@ const Projector = () => {
         <div className={s.projector}>
             <div className={s.projectorHeader}>
                 <img src={Projector_TitleImage} alt="Main"/>
-                <h2>PROJECTOR LVIV І СТУДІЯ ДИЗАЙНУ HAPPY</h2>
+                <h2>{t("projectorPage.title")}</h2>
             </div>
             <div className={s.description}>
                 <div className={s.text}>
                     <h3>
-                        ОПИС ПРОЕКТУ
+                        {t("projectorPage.description.title")}
                     </h3>
-                    <p>
-                        Робочі зони знаходяться на двох поверхах: на першому великий open space і основна аудиторія,
-                        класи Projector, коворкінг, мітінг-руми, скайп-рум та кухня. На другому працює команда HAPPY.
-                        Простір складно назвати офісом у звичному розумінні. Тенісний стіл, гітари,
-                        велосипед – усе максимально віддалене від типової офісної атмосфери.
-                        Дизайн студія розробляла самотужки, команда WoodLuck реалізовувала їхні ідеї по дизайну меблів.
-                    </p>
+                    <p>{t("projectorPage.description.text")}</p>
                 </div>
                 <div className={s.image}>
                     <img src={Projector_Description} alt=""/>
@@ -41,18 +39,18 @@ const Projector = () => {
             <div className={s.working}>
                 <div className={s.workingBanner}>
                     <h2>
-                        Що робили WoodLuck?
+                        {t("projectorPage.banner.title")}
                     </h2>
                 </div>
                 <div className={s.workingList}>
                     <ul>
-                        <li><span/> дизайн приміщення</li>
-                        <li><span/> 100 робочих місць (столи, тумби)</li>
-                        <li><span/> рецепція</li>
-                        <li><span/> зонування приміщення</li>
-                        <li><span/> прораховували транзитні зони</li>
-                        <li><span/> світло та електрифікацію</li>
-                        <li><span/> барні стійки на кухню, кухонні столи</li>
+                        <li><span/> {t("projectorPage.banner.text1")}</li>
+                        <li><span/> {t("projectorPage.banner.text2")}</li>
+                        <li><span/> {t("projectorPage.banner.text3")}</li>
+                        <li><span/> {t("projectorPage.banner.text4")}</li>
+                        <li><span/> {t("projectorPage.banner.text5")}</li>
+                        <li><span/> {t("projectorPage.banner.text6")}</li>
+                        <li><span/> {t("projectorPage.banner.text7")}</li>
                     </ul>
                 </div>
             </div>
@@ -67,29 +65,24 @@ const Projector = () => {
             <div className={s.info}>
                 <div className={s.materials}>
                     <h2>
-                        Використані матеріали
+                        {t("projectorPage.materials.title")}
                     </h2>
                     <ul>
-                        <li> масив бука, металеві драбинки ліжка покриті білою порошковою фарбою, стійкою до ударів і подряпин</li>
-                        <li> фанера і ДСП</li>
+                        <li> {t("projectorPage.materials.material1")}</li>
+                        <li> {t("projectorPage.materials.material2")}</li>
                     </ul>
                 </div>
                 <div className={s.project}>
-                    <h2>
-                        Інфо проекту
-                    </h2>
+                    <h2>{t("projectorPage.info.title")}</h2>
                     <ul>
-                        <li><span/>початок проекту</li>
-                        <li><span/> Кінець проекту</li>
-                        <li><span/> Ім’я клієнта</li>
+                        <li><span/>{t("projectorPage.info.start")}</li>
+                        <li><span/> {t("projectorPage.info.end")}</li>
+                        <li><span/> {t("projectorPage.info.name")}</li>
                     </ul>
                 </div>
             </div>
             <div className={s.totalInfo}>
-                <h3>
-                    На виході замовник отримав реалізацію індивідуального дизайну та
-                    мобільні меблі-трансформери
-                </h3>
+                <h3>{t("projectorPage.totalInfo")}</h3>
             </div>
            <ConnectBlock/>
         </div>

@@ -8,11 +8,14 @@ import BannerPicture3 from "../../../images/Portfolio/Office/office_banner_right
 import {useLocation} from "react-router-dom";
 import ConnectBlock from "../../ConnectBlock/ConnectBlock";
 import {FaRegCheckSquare} from "react-icons/fa";
+import {useTranslation} from "react-i18next";
 
 
 const Office = () => {
 
     const {pathname} = useLocation();
+
+    const { t } =useTranslation()
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -22,18 +25,12 @@ const Office = () => {
         <div className={s.office}>
             <div className={s.officeHeader}>
                 <img src={OfficeTitleImage} alt="Main"/>
-                <h2>ОФІС БРИТАНСЬКОЇ КОМПАНІЇ PUSH GAMING У ЛЬВОВІ</h2>
+                <h2>{t("britishPage.title")}</h2>
             </div>
             <div className={s.description}>
                 <div className={s.text}>
-                    <h3>
-                        ОПИС ПРОЕКТУ
-                    </h3>
-                    <p>
-                        Разом із замовником нам вдалося створити затишний атмосферний простір,
-                        де люди люблять проводити час. Дерев’яна березова обшивка на стінах з
-                        кольоровими геометричними візерунками додала роздзинки і впізнаваності інтер’єру закладу.
-                    </p>
+                    <h3>{t("britishPage.description.title")}</h3>
+                    <p>{t("britishPage.description.text")}</p>
                 </div>
                 <div className={s.image}>
                     <img src={OfficeDescription} alt="office interier"/>
@@ -41,23 +38,21 @@ const Office = () => {
             </div>
             <div className={s.working}>
                 <div className={s.workingBanner}>
-                    <h2>
-                        Що робили WoodLuck?
-                    </h2>
+                    <h2>{t("britishPage.banner.title")}</h2>
                 </div>
                 <div className={s.workingList}>
                     <div>
                         <div className={s.linkItem}>
                             <span><FaRegCheckSquare/></span>
-                            <div> офісні столи</div>
+                            <div>{t("britishPage.banner.text1")}</div>
                         </div>
                         <div className={s.linkItem}>
                             <span><FaRegCheckSquare/></span>
-                            <div> cтелажі</div>
+                            <div>{t("britishPage.banner.text2")}</div>
                         </div>
                         <div className={s.linkItem}>
                             <span><FaRegCheckSquare/></span>
-                            <div> стіл у дорадчу кімнату (meeting room)</div>
+                            <div>{t("britishPage.banner.text3")})</div>
                         </div>
                     </div>
                 </div>
@@ -75,33 +70,26 @@ const Office = () => {
             </div>
             <div className={s.info}>
                 <div className={s.materials}>
-                    <h2>
-                        Використані матеріали
-                    </h2>
+                    <h2>{t("britishPage.materials.title")}</h2>
                     <ul>
-                        <li><span/>металевий профіль 40х20, порошкова фарба білого і матового кольорів</li>
-                        <li> фанера і ДСП</li>
-                        <li>бук 27 мм, покритий еколаком на водній основі</li>
-                        <li>стелажі з кутника 30х30</li>
-                        <li> стіл робочий: металевий профіль 80х80, чорний матовий колір, стільниця буковий шпон</li>
+                        <li>{t("britishPage.materials.material1")}</li>
+                        <li>{t("britishPage.materials.material2")}</li>
+                        <li>{t("britishPage.materials.material3")}</li>
+                        <li>{t("britishPage.materials.material4")}</li>
+                        <li>{t("britishPage.materials.material5")}</li>
                     </ul>
                 </div>
                 <div className={s.project}>
-                    <h2>
-                        Інфо проекту
-                    </h2>
+                    <h2>{t("britishPage.info.title")}</h2>
                     <ul>
-                        <li><span/>початок проекту</li>
-                        <li><span/> Кінець проекту</li>
-                        <li><span/> Ім’я клієнта</li>
+                        <li><span/>{t("britishPage.info.start")}</li>
+                        <li><span/>{t("britishPage.info.end")}</li>
+                        <li><span/>{t("britishPage.info.name")}</li>
                     </ul>
                 </div>
             </div>
             <div className={s.totalInfo}>
-                <h3>На виході замовник отримав функціональний офіс,
-                    що дозволяє бути мобільним для роботи в команді.
-                    Простоту та вишуканість в робочому просторі
-                </h3>
+                <h3>{t("britishPage.totalInfo")}</h3>
             </div>
             <ConnectBlock/>
         </div>

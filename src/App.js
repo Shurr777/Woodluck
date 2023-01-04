@@ -26,7 +26,7 @@ function App() {
 
     const renderLoader = () => <p>Loading</p>;
 
-    const {t, i18n} = useTranslation()
+    const [t, i18n] = useTranslation()
     const onChangeLanguage = (lang) => {
         i18n.changeLanguage(lang)
     }
@@ -37,7 +37,8 @@ function App() {
                 <Suspense fallback={renderLoader()}>
                     <div className="AppOverlay">
                         <NHeader
-                            changeLanguage={onChangeLanguage}/>
+                            changeLanguage={onChangeLanguage}
+                        />
                         <Routes>
                             <Route path="/" element={<Navigate to="main"/>}/>
                             <Route path="main" element={<Main/>}/>

@@ -10,8 +10,8 @@
     z-index: 10;
 }
 .navList{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    align-content: start;
 }
 
 .modal a {
@@ -31,4 +31,9 @@
     margin: 0;
     padding: 25px;
     color: #c5d02f;
+}
+.langButtonBlock{
+    width: 80vw;
+    display: flex;
+    justify-content: center;
 }

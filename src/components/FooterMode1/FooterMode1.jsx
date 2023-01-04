@@ -67,7 +67,7 @@ const FooterMode1 = () => {
                     </div>
                     <div className={style.other}>
                         <p>{t("footer.consultation")}</p>
-                        <button onClick={connectHandleClick}>Зв’язатися</button>
+                        <button onClick={connectHandleClick}>{t("footer.connect")}</button>
                     </div>
                 </div>
             </div>

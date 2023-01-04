@@ -2,13 +2,19 @@ import React, {useEffect} from 'react';
 import s from "./Contacts.module.css"
 import ContactForm from "../../Forms/ContactForm";
 import {useLocation} from "react-router-dom";
+import {useTranslation} from "react-i18next";
 
 const Contacts = () => {
+
     const { pathname } = useLocation();
+
+    const { t } =useTranslation();
 
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [pathname]);
+
+
     return (
         <div className={s.contacts}>
             <div className={s.mapOverlay}>
@@ -19,14 +25,14 @@ const Contacts = () => {
                         referrerPolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className={s.textOverlay}>
-                <h2>Зв'язатися з нами:</h2>
-                <p>Львів, вул.Промислова 60</p>
+                <h2>{t("contacts.contact")}</h2>
+                <p>{t("contacts.address")}</p>
                 <div className={s.contactsPhone}>
                     <p>+38 096 6353223</p>
                     <p>+38 073 145 9739</p>
                 </div>
                 <p>luckwood60@gmail.com</p>
-                <p>Пн – Пт  &nbsp; 9:00 - 18:00</p>
+                <p>{t("contacts.workingTime")}</p>
             </div>
             <ContactForm/>
         </div>

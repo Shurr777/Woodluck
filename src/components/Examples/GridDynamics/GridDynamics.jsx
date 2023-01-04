@@ -6,11 +6,14 @@ import BannerLeft from "../../../images/Portfolio/GD/GD_banner_left.png"
 import BannerRight from "../../../images/Portfolio/GD/GD_banner_right.png"
 import {useLocation} from "react-router-dom";
 import ConnectBlock from "../../ConnectBlock/ConnectBlock";
+import {useTranslation} from "react-i18next";
 
 
 const GridDynamics = () => {
 
     const { pathname } = useLocation();
+
+    const { t } = useTranslation()
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -20,19 +23,15 @@ const GridDynamics = () => {
         <div className={s.dynamics}>
             <div className={s.dynamicsHeader}>
                 <img src={GD_TitleImage} alt="Main"/>
-                <h2>ОФІС НА 100 РОБОЧИХ МІСЦЬ ДЛЯ GRID DYNAMICS</h2>
+                <h2>{t("gridPage.title")}</h2>
             </div>
             <div className={s.description}>
                 <div className={s.text}>
                     <h3>
-                        ОПИС ПРОЕКТУ
+                        {t("gridPage.description.title")}
                     </h3>
                     <p>
-                        Замовник попросив зробити столи, які були трохи довші та ширші за стандартні офісні розміри.
-                        Ми спроектували їх таким чином, щоб коли працівники сидять поряд, вони один одному не заважали,
-                        так кожне робоче місце розділяє бічна тумба, яка має має замок, тож у ній безпечно зберігати
-                        свої особисті цінні речі. Стіл на 2 см вищий за стандартний розмір, щоб працівники
-                        менше сутулилися працюючи за комп’ютером.
+                        {t("gridPage.description.text")}
                     </p>
                 </div>
                 <div className={s.image}>
@@ -41,19 +40,17 @@ const GridDynamics = () => {
             </div>
             <div className={s.working}>
                 <div className={s.workingBanner}>
-                    <h2>
-                        Що робили WoodLuck?
-                    </h2>
+                    <h2>{t("gridPage.banner.title")}</h2>
                 </div>
                 <div className={s.workingList}>
                     <ul>
-                        <li><span/> дизайн приміщення</li>
-                        <li><span/> 100 робочих місць (столи, тумби)</li>
-                        <li><span/> рецепція</li>
-                        <li><span/> зонування приміщення</li>
-                        <li><span/> прораховували транзитні зони</li>
-                        <li><span/> прораховували світло, електрифікацію</li>
-                        <li><span/> барні стійки, кухонні столи</li>
+                        <li><span/> {t("gridPage.banner.text1")}</li>
+                        <li><span/> {t("gridPage.banner.text2")}</li>
+                        <li><span/> {t("gridPage.banner.text3")}</li>
+                        <li><span/> {t("gridPage.banner.text4")}</li>
+                        <li><span/> {t("gridPage.banner.text5")}</li>
+                        <li><span/> {t("gridPage.banner.text6")}</li>
+                        <li><span/> {t("gridPage.banner.text7")}</li>
                     </ul>
                 </div>
             </div>
@@ -68,30 +65,28 @@ const GridDynamics = () => {
             <div className={s.info}>
                 <div className={s.materials}>
                     <h2>
-                        Використані матеріали
+                        {t("gridPage.materials.title")}
                     </h2>
                     <ul>
-                        <li> металевий профіль 25х25 порошкова фарба чорного матового кольору</li>
-                        <li> бук 18 мм покритий еколаком на водній основі</li>
-                        <li> ДСП під бетон на рецепції і кухонних поверхнях</li>
+                        <li> {t("gridPage.materials.material1")}</li>
+                        <li> {t("gridPage.materials.material2")}</li>
+                        <li> {t("gridPage.materials.material3")}</li>
                     </ul>
                 </div>
                 <div className={s.project}>
                     <h2>
-                        Інфо проекту
+                        {t("gridPage.info.title")}
                     </h2>
                     <ul>
-                        <li><span/>початок проекту</li>
-                        <li><span/> Кінець проекту</li>
-                        <li><span/> Ім’я клієнта</li>
+                        <li><span/> {t("gridPage.info.start")}</li>
+                        <li><span/>  {t("gridPage.info.end")}</li>
+                        <li><span/>  {t("gridPage.info.name")}</li>
                     </ul>
                 </div>
             </div>
             <div className={s.totalInfo}>
                 <h3>
-                    На виході замовник отримав унікальний дизайн від Wood Luck.
-                    На робочі столи з індивідуальними розмірами потрапляє багато денного
-                    світла завдяки ексклюзивному проекту
+                    {t("gridPage.totalInfo")}
                 </h3>
             </div>
             <ConnectBlock/>

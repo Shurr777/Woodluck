@@ -65,7 +65,11 @@ const NHeader = ({changeLanguage}) => {
             </menu>
             {isModal
                 ?
-                <Modal isModal={isModal} setModal={setModal}/>
+                <Modal
+                    isModal={isModal}
+                    setModal={setModal}
+                    changeLanguage={changeLanguage}
+                />
                 :
                 null}
             <div className={style.phones}>

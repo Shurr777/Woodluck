@@ -1,6 +1,7 @@
 import React, {useRef, useState} from 'react';
 import s from "./ContactForm.module.css";
 import emailjs from '@emailjs/browser';
+import {useTranslation} from "react-i18next";
 
 const ContactForm = () => {
 
@@ -11,6 +12,7 @@ const ContactForm = () => {
     const [email, setEmail] = useState('')
     const [comments, setComments] = useState('')
     const [send, setSend] = useState(false)
+    const { t } = useTranslation()
 
     /*  const isValidPhone = (myPhone) => {
           return /^\+\d{2}\(\d{3}\)\d{3}-\d{2}-\d{2}$/.test(myPhone);
@@ -60,13 +62,13 @@ const ContactForm = () => {
                   className={s.form}
                   onSubmit={sendEmail}>
                 <div className={s.comments}>
-                    <label htmlFor="text">Коментарі:</label>
+                    <label htmlFor="text">{t("contacts.contactForm.comments")}</label>
                     <textarea type="text"
                               name="user_text"
                               value={comments}
                               onChange={event => onCommentsChanged(event)}/>
                     {send ?
-                        <div className={s.sending}>Повідомлення відправлене!</div> :
+                        <div className={s.sending}>{t("contacts.contactForm.sent")}</div> :
                         <div className={s.formButtonContainer}>
                             <button type="submit">Відправити</button>
                         </div>
@@ -74,7 +76,7 @@ const ContactForm = () => {
                 </div>
                 <div className={s.userInfo}>
                     <div className={s.block}>
-                        <label htmlFor="text">Ім'я:</label>
+                        <label htmlFor="text">{t("contacts.contactForm.name")}</label>
                         <input type="text"
                                name="user_name"
                                value={name}
@@ -83,7 +85,7 @@ const ContactForm = () => {
                         />
                     </div>
                     <div className={s.block}>
-                        <label htmlFor="text">Телефон:</label>
+                        <label htmlFor="text">{t("contacts.contactForm.phone")}</label>
                         <input type="text"
                                name="user_phone"
                                value={phone}
