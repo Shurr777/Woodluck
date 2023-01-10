@@ -70,7 +70,7 @@ const ContactForm = () => {
                     {send ?
                         <div className={s.sending}>{t("contacts.contactForm.sent")}</div> :
                         <div className={s.formButtonContainer}>
-                            <button type="submit">Відправити</button>
+                            <button type="submit">{t("contacts.button")}</button>
                         </div>
                     }
                 </div>

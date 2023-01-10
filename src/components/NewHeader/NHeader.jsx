@@ -19,79 +19,87 @@ const NHeader = ({changeLanguage}) => {
     const {t} = useTranslation()
 
     return (
-        <div className={style.headerOverlay}>
-            <div className={style.callIcon}
-                 onClick={onIconClick}
-            >
-                <svg
-                    strokeWidth="0"
-                    viewBox="0 0 24 24"
-                    /* ariaHidden="true"*/
-                    height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd"
-                          d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
-                          clipRule="evenodd">
-                    </path>
-                </svg>
-            </div>
-            <div className={style.menu} onClick={onMenuClick}>
-                <div className={style.line}></div>
-                <div className={style.line}></div>
-                <div className={style.line}></div>
-            </div>
-            <div className={style.logo}>
-                <NavLink to={'main'}>
-                    <img src={logo} alt="Logo"/>
-                </NavLink>
-
-            </div>
-            <menu className={style.navBar}>
-                <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                    {t("mainMenu.about")}
-                </NavLink>
-                <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                    {t("mainMenu.portfolio")}
-                </NavLink>
-                {/*<NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}>
+        <div className={style.overlay}>
+            <div className={style.headerOverlay}>
+                <div className={style.callIcon}
+                     onClick={onIconClick}
+                >
+                    <svg
+                        strokeWidth="0"
+                        viewBox="0 0 24 24"
+                        /* ariaHidden="true"*/
+                        height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+                        <path fillRule="evenodd"
+                              d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                              clipRule="evenodd">
+                        </path>
+                    </svg>
+                </div>
+                <div className={style.menu} onClick={onMenuClick}>
+                    <div className={style.line}></div>
+                    <div className={style.line}></div>
+                    <div className={style.line}></div>
+                </div>
+                <div className={style.logo}>
+                    <NavLink to={'main'}>
+                        <img src={logo} alt="Logo"/>
+                    </NavLink>
+                </div>
+                <menu className={style.navBar}>
+                    <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                        {t("mainMenu.about")}
+                    </NavLink>
+                    <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                        {t("mainMenu.portfolio")}
+                    </NavLink>
+                    {/*<NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}>
                     Послуги
                 </NavLink>
                 <NavLink to='faq' className={({isActive}) => `${isActive ? style.active : ''}`}>
                     Питання
                 </NavLink>*/}
-                <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                    {t("mainMenu.contacts")}
-                </NavLink>
-            </menu>
-            {isModal
-                ?
-                <Modal
-                    isModal={isModal}
-                    setModal={setModal}
-                    changeLanguage={changeLanguage}
-                />
-                :
-                null}
-            <div className={style.phones}>
-                <div className={style.languageButtonsBlock}>
-                    <button
-                        className={style.languageButton}
-                        onClick={() => changeLanguage("ua")}
-                    >
-                        UA
-                    </button>
-                    <button
-                        className={style.languageButton}
-                        onClick={() => changeLanguage("en")}
-                    >
-                        EN
-                    </button>
+                    <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                        {t("mainMenu.contacts")}
+                    </NavLink>
+                </menu>
+                {isModal
+                    ?
+                    <Modal
+                        isModal={isModal}
+                        setModal={setModal}
+                        changeLanguage={changeLanguage}
+                    />
+                    :
+                    null}
+                <div className={style.phones}>
+                    <div className={style.langBlock}>
+                        <select
+                            onChange={(e) => changeLanguage(e.target.value)}
+                        >
+                            <option
+                                value="ua">
+                                UA
+                            </option>
+                            <option
+                                value="en">
+                                EN
+                            </option>
+                            <option
+                                value="pl">
+                                PL
+                            </option>
+                        </select>
+                    </div>
                 </div>
-                <div className={style.phonesBlock}>
-                    <p>+38(096)635 32 23</p>
-                    <p>+38(073)145 97 39</p>
+                <div className={style.phonesBlockDesc}>
+                    <p>+38 (096) 635-32-23</p>
+                    <p>+38 (073) 145-97-39</p>
                 </div>
             </div>
-
+                <div className={style.phonesBlockMob}>
+                    <a href="tel:+380966353223">+38(096)635-32-23</a>
+                    <a href="tel:+380731459739">+38(073)145-97-39</a>
+                </div>
         </div>
     );
 };

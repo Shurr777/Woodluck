@@ -28,7 +28,6 @@ const FooterMode1 = () => {
                     <p>{t("footer.worktime")}</p>
                     <a href="tel:+380966353223">+38 (096) 635-32-23</a>
                     <a href="tel:+380731459739">+38 (073) 145-97-39</a>
-                   {/* <a href="tel:+380503004379">+38 (050) 300-43-79</a>*/}
                     <p>luckwood60@gmail.com</p>
                 </div>
                 <div className={style.menu}>

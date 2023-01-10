@@ -27,8 +27,8 @@ function App() {
     const renderLoader = () => <p>Loading</p>;
 
     const [t, i18n] = useTranslation()
-    const onChangeLanguage = (lang) => {
-        i18n.changeLanguage(lang)
+    const onChangeLanguage = (lng) => {
+        i18n.changeLanguage(lng)
     }
 
     return (

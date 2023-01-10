@@ -12,14 +12,14 @@ i18n
         whitelist: ["ua", "en"],
         debug: false,
         detection: {
-            order:["localStorage", "cookie", "htmlTag", "path", "subdomain"],
+            order:["localStorage", "cookie"],
             caches:["localStorage", "cookie"],
         },
         interpolation: {
             escapeValue: false,
         },
         backend: {
-            loadPath: '/locales/{{lng}}/translation.json'
+            loadPath: 'locales/{{lng}}/translation.json'
         }
     });
 

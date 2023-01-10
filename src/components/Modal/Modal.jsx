@@ -35,14 +35,14 @@ const Modal = (props) => {
                          onClick={() => props.setModal(false)}>
                     {t("modal.contacts")}
                 </NavLink>
-               {/* <div className={style.langButtonBlock}>
+                <div className={style.langButtonBlock}>
                     <button  onClick={() => props.changeLanguage("ua")}>
                         UA
                     </button>
                     <button  onClick={() => props.changeLanguage("en")}>
                         EN
                     </button>
-                </div>*/}
+                </div>
             </div>
             <button onClick={() => props.setModal(false)}>
                 &#10006;
