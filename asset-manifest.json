@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.540500c0.css",
-    "main.js": "/Woodluck/static/js/main.aa91621f.js",
+    "main.css": "/Woodluck/static/css/main.44e8adde.css",
+    "main.js": "/Woodluck/static/js/main.395284a7.js",
     "static/css/422.09069543.chunk.css": "/Woodluck/static/css/422.09069543.chunk.css",
     "static/js/422.34915786.chunk.js": "/Woodluck/static/js/422.34915786.chunk.js",
     "static/css/984.ba9ac2a0.chunk.css": "/Woodluck/static/css/984.ba9ac2a0.chunk.css",
@@ -95,15 +95,15 @@
     "static/media/uop_logo.webp": "/Woodluck/static/media/uop_logo.144862405da33062a381.webp",
     "index.html": "/Woodluck/index.html",
     "static/media/getFetch.cjs": "/Woodluck/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.540500c0.css.map": "/Woodluck/static/css/main.540500c0.css.map",
-    "main.aa91621f.js.map": "/Woodluck/static/js/main.aa91621f.js.map",
+    "main.44e8adde.css.map": "/Woodluck/static/css/main.44e8adde.css.map",
+    "main.395284a7.js.map": "/Woodluck/static/js/main.395284a7.js.map",
     "422.09069543.chunk.css.map": "/Woodluck/static/css/422.09069543.chunk.css.map",
     "422.34915786.chunk.js.map": "/Woodluck/static/js/422.34915786.chunk.js.map",
     "984.ba9ac2a0.chunk.css.map": "/Woodluck/static/css/984.ba9ac2a0.chunk.css.map",
     "984.09038c40.chunk.js.map": "/Woodluck/static/js/984.09038c40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.540500c0.css",
-    "static/js/main.aa91621f.js"
+    "static/css/main.44e8adde.css",
+    "static/js/main.395284a7.js"
   ]
 }
