@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Woodluck/static/css/main.44e8adde.css",
-    "main.js": "/Woodluck/static/js/main.395284a7.js",
+    "main.js": "/Woodluck/static/js/main.9942ac5e.js",
     "static/css/422.09069543.chunk.css": "/Woodluck/static/css/422.09069543.chunk.css",
     "static/js/422.34915786.chunk.js": "/Woodluck/static/js/422.34915786.chunk.js",
     "static/css/984.ba9ac2a0.chunk.css": "/Woodluck/static/css/984.ba9ac2a0.chunk.css",
@@ -96,7 +96,7 @@
     "index.html": "/Woodluck/index.html",
     "static/media/getFetch.cjs": "/Woodluck/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.44e8adde.css.map": "/Woodluck/static/css/main.44e8adde.css.map",
-    "main.395284a7.js.map": "/Woodluck/static/js/main.395284a7.js.map",
+    "main.9942ac5e.js.map": "/Woodluck/static/js/main.9942ac5e.js.map",
     "422.09069543.chunk.css.map": "/Woodluck/static/css/422.09069543.chunk.css.map",
     "422.34915786.chunk.js.map": "/Woodluck/static/js/422.34915786.chunk.js.map",
     "984.ba9ac2a0.chunk.css.map": "/Woodluck/static/css/984.ba9ac2a0.chunk.css.map",
@@ -104,6 +104,6 @@
   },
   "entrypoints": [
     "static/css/main.44e8adde.css",
-    "static/js/main.395284a7.js"
+    "static/js/main.9942ac5e.js"
   ]
 }
