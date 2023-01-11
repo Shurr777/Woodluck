@@ -19,7 +19,6 @@ const Blum = () => {
         window.scrollTo(0, 0);
     }, [pathname]);
 
-
     return (
         <div className={s.blum}>
             <div className={s.blumHeader}>
