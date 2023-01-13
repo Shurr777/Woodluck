@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Woodluck/static/css/main.44e8adde.css",
-    "main.js": "/Woodluck/static/js/main.949e2290.js",
-    "static/css/422.09069543.chunk.css": "/Woodluck/static/css/422.09069543.chunk.css",
-    "static/js/422.34915786.chunk.js": "/Woodluck/static/js/422.34915786.chunk.js",
+    "main.css": "/Woodluck/static/css/main.8bf8099a.css",
+    "main.js": "/Woodluck/static/js/main.7abcb3ea.js",
+    "static/css/651.46e600fe.chunk.css": "/Woodluck/static/css/651.46e600fe.chunk.css",
+    "static/js/651.f7882948.chunk.js": "/Woodluck/static/js/651.f7882948.chunk.js",
     "static/css/984.ba9ac2a0.chunk.css": "/Woodluck/static/css/984.ba9ac2a0.chunk.css",
     "static/js/984.09038c40.chunk.js": "/Woodluck/static/js/984.09038c40.chunk.js",
     "static/media/cafe.png": "/Woodluck/static/media/cafe.f2311738c2134701cb73.png",
@@ -23,6 +23,7 @@
     "static/media/redTable.png": "/Woodluck/static/media/redTable.eab9b05fc68137f02c40.png",
     "static/media/ofice.png": "/Woodluck/static/media/ofice.5fd8c9eaa939cc05ff53.png",
     "static/media/red_banner_right.png": "/Woodluck/static/media/red_banner_right.f3bb30b27035d1a92073.png",
+    "static/media/decor.png": "/Woodluck/static/media/decor.c38b6745fb1c4edc7714.png",
     "static/media/computers.png": "/Woodluck/static/media/computers.603778ba85f7433d00ba.png",
     "static/media/projector_banner_left.png": "/Woodluck/static/media/projector_banner_left.82bb5ec8a334a4bf5006.png",
     "static/media/playRoom.png": "/Woodluck/static/media/playRoom.2f5055230e13f1c80945.png",
@@ -40,13 +41,16 @@
     "static/media/photo_2022-01-28_15-38-57.jpg": "/Woodluck/static/media/photo_2022-01-28_15-38-57.0cac8da736e00cc6dede.jpg",
     "static/media/hostel_banner_center.png": "/Woodluck/static/media/hostel_banner_center.fcacc82f2dfd15aaf94d.png",
     "static/media/62209645_306148213674038__n 1.png": "/Woodluck/static/media/62209645_306148213674038_7481719573775908864_n 1.fed3b1813d519fe6d3b7.png",
+    "static/media/blackTable.png": "/Woodluck/static/media/blackTable.787e8401871b15f94763.png",
     "static/media/pic1.png": "/Woodluck/static/media/pic1.aeba51c92769684fbd75.png",
+    "static/media/stel.png": "/Woodluck/static/media/stel.f39ad184f28699a115d2.png",
     "static/media/office_banner_right.png": "/Woodluck/static/media/office_banner_right.02a608e6f457ed6298c5.png",
     "static/media/photo_2022-11-14_09-25-40.jpg": "/Woodluck/static/media/photo_2022-11-14_09-25-40.1f454ee569387ab1efc6.jpg",
     "static/media/banner_left.png": "/Woodluck/static/media/banner_left.bd1d41fe1b8df3139885.png",
     "static/media/office_banner_left.png": "/Woodluck/static/media/office_banner_left.344d678265b30224c42c.png",
     "static/media/WoodBackground.jpg": "/Woodluck/static/media/WoodBackground.a628c33b0799b830185c.jpg",
     "static/media/Background.PNG": "/Woodluck/static/media/Background.3a5363dd4ef819476542.PNG",
+    "static/media/bath.png": "/Woodluck/static/media/bath.ee5c74f3f350c8d8b2e6.png",
     "static/media/hostel_banner_left.png": "/Woodluck/static/media/hostel_banner_left.70bad33dde3b92e12a3a.png",
     "static/media/photo_2022-12-01 18.10.55.jpeg": "/Woodluck/static/media/photo_2022-12-01 18.10.55.063d26c418fe5981498c.jpeg",
     "static/media/hostel_banner_right.png": "/Woodluck/static/media/hostel_banner_right.3d4c7a93061503aaa145.png",
@@ -95,15 +99,15 @@
     "static/media/uop_logo.webp": "/Woodluck/static/media/uop_logo.144862405da33062a381.webp",
     "index.html": "/Woodluck/index.html",
     "static/media/getFetch.cjs": "/Woodluck/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.44e8adde.css.map": "/Woodluck/static/css/main.44e8adde.css.map",
-    "main.949e2290.js.map": "/Woodluck/static/js/main.949e2290.js.map",
-    "422.09069543.chunk.css.map": "/Woodluck/static/css/422.09069543.chunk.css.map",
-    "422.34915786.chunk.js.map": "/Woodluck/static/js/422.34915786.chunk.js.map",
+    "main.8bf8099a.css.map": "/Woodluck/static/css/main.8bf8099a.css.map",
+    "main.7abcb3ea.js.map": "/Woodluck/static/js/main.7abcb3ea.js.map",
+    "651.46e600fe.chunk.css.map": "/Woodluck/static/css/651.46e600fe.chunk.css.map",
+    "651.f7882948.chunk.js.map": "/Woodluck/static/js/651.f7882948.chunk.js.map",
     "984.ba9ac2a0.chunk.css.map": "/Woodluck/static/css/984.ba9ac2a0.chunk.css.map",
     "984.09038c40.chunk.js.map": "/Woodluck/static/js/984.09038c40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.44e8adde.css",
-    "static/js/main.949e2290.js"
+    "static/css/main.8bf8099a.css",
+    "static/js/main.7abcb3ea.js"
   ]
 }
