@@ -25,14 +25,14 @@ ul {
     background-color: #434343;
     padding: 1em;
 }
+
 .accordion h3 {
     margin: 0;
     font-size: 20px;
-
     padding-bottom: 10px;
 }
 
-span{
+span {
     font-size: 28px;
     color: #c7d02f;
 }
@@ -41,23 +41,32 @@ span{
     background-color: #999999;
 }
 
-
 .accordion-toggle h3 {
     margin: 0;
-}
-
-.contentOverlay{
-
 }
 
 .accordion_content {
     font-size: 0;
     animation: ani 1s forwards;
     background-color: #434343;
-    padding: 1em;
+    padding: 1em 5em 0 1em;
+}
+
+@media (max-width: 1024px) {
+    .overlay {
+        padding: 20px;
+        margin: 0;
+    }
+    .accordion {
+        padding-left: 0;
+    }
 }
 
 @keyframes ani {
-    0% {font-size: 0;}
-    100% {font-size: 16px;}
+    0% {
+        font-size: 0;
+    }
+    100% {
+        font-size: 16px;
+    }
 }

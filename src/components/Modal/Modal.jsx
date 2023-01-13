@@ -11,27 +11,33 @@ const Modal = (props) => {
     return (
         <div className={style.modal}>
             <div className={style.navList}>
-                <NavLink to='main' className={({isActive}) => `${isActive ? style.active : ''}`}
+                <NavLink to='main'
+                         className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
                     {t("modal.main")}
                 </NavLink>
-                <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}
+                <NavLink to='about'
+                         className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
                     {t("modal.about")}
                 </NavLink>
-                <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}
+                <NavLink to='portfolio'
+                         className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
                     {t("modal.portfolio")}
                 </NavLink>
-                {/*<NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}
+                <NavLink to='faq'
+                         className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
-                    Галерея
+                    {t("modal.faq")}
                 </NavLink>
-                <NavLink to='shop' className={({isActive}) => `${isActive ? style.active : ''}`}
+                <NavLink to='gallery'
+                         className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
-                    Магазин
-                </NavLink>*/}
-                <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}
+                    {t("modal.gallery")}
+                </NavLink>
+                <NavLink to='contacts'
+                         className={({isActive}) => `${isActive ? style.active : ''}`}
                          onClick={() => props.setModal(false)}>
                     {t("modal.contacts")}
                 </NavLink>

@@ -15,14 +15,15 @@ const NHeader = ({changeLanguage}) => {
     }
     const onIconClick = () => {
         navigate("/contacts");
+        setModal(false)
     }
     const {t} = useTranslation()
 
-   /* window.addEventListener('scroll', function() {
-        let scrollpos = window.scrollY;
-        console.log ("scroll", scrollpos)
-        if (scrollpos>=2000){console.log("element delete")}
-            })*/
+    /* window.addEventListener('scroll', function() {
+         let scrollpos = window.scrollY;
+         console.log ("scroll", scrollpos)
+         if (scrollpos>=2000){console.log("element delete")}
+             })*/
 
     return (
         <div className={style.overlay}>
@@ -58,12 +59,12 @@ const NHeader = ({changeLanguage}) => {
                     <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}>
                         {t("mainMenu.portfolio")}
                     </NavLink>
-                    {/*<NavLink to='services' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                    Послуги
-                </NavLink>
-                <NavLink to='faq' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                    Питання
-                </NavLink>*/}
+                    <NavLink to='gallery' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                        {t("mainMenu.gallery")}
+                    </NavLink>
+                    <NavLink to='faq' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                        {t("mainMenu.faq")}
+                    </NavLink>
                     <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
                         {t("mainMenu.contacts")}
                     </NavLink>
@@ -90,7 +91,7 @@ const NHeader = ({changeLanguage}) => {
                                 value="en">
                                 EN
                             </option>
-                           {/* <option
+                            {/* <option
                                 value="pl">
                                 PL
                             </option>*/}
@@ -102,10 +103,10 @@ const NHeader = ({changeLanguage}) => {
                     <p>+38 (073) 145-97-39</p>
                 </div>
             </div>
-                <div className={style.phonesBlockMob}>
-                    <a href="tel:+380966353223">+38(096)635-32-23</a>
-                    <a href="tel:+380731459739">+38(073)145-97-39</a>
-                </div>
+            <div className={style.phonesBlockMob}>
+                <a href="tel:+380966353223">+38(096)635-32-23</a>
+                <a href="tel:+380731459739">+38(073)145-97-39</a>
+            </div>
         </div>
     );
 };

@@ -2,10 +2,8 @@ import './App.css';
 import React, {lazy, Suspense} from 'react';
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Main from "./components/Pages/Main/Main";
-/*import About from "./components/Pages/About/About";*/
-/*import Portfolio from "./components/Pages/Portfolio/Portfolio";*/
-import Services from "./components/Pages/Services/Services";
 import Faq from "./components/Pages/Faq/Faq";
+import GalleryOverlay from "./components/Pages/Gallery/Gallery";
 import Contacts from "./components/Pages/Contacts/Contacts";
 import NHeader from "./components/NewHeader/NHeader";
 import FooterMode1 from "./components/FooterMode1/FooterMode1";
@@ -44,7 +42,7 @@ function App() {
                             <Route path="main" element={<Main/>}/>
                             <Route path="about" element={<About/>}/>
                             <Route path="portfolio" element={<Portfolio/>}/>
-                            <Route path="services" element={<Services/>}/>
+                            <Route path="gallery" element={<GalleryOverlay/>}/>
                             <Route path="faq" element={<Faq/>}/>
                             <Route path="contacts" element={<Contacts/>}/>
                             <Route path="blum" element={<Blum/>}/>

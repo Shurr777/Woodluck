@@ -2,7 +2,9 @@
   "mainMenu": {
     "about": "About",
     "portfolio": "Portfolio",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "faq": "Faq",
+    "gallery": "Gallery"
   },
   "footer": {
     "address": {
@@ -299,6 +301,20 @@
     "main": "Main",
     "about": "About",
     "portfolio": "Portfolio",
-    "contacts": "Contacts"
+    "contacts": "Contacts",
+    "faq": "Faq",
+    "gallery": "Gallery"
+  },
+  "faq": {
+    "heading1": "How long does it take to make furniture?",
+    "content1": "The term of furniture production depends on many factors: volume, type of furniture, type of materials, complexity of work, approval and making changes to the project. We value the time of our customers, so our team of craftsmen manufactures even the most complex objects in 21 days. Simpler cabinet furniture or decor is made in 10-14 working days.",
+    "heading2": "Why are there no product prices?",
+    "content2": "We do not manufacture standard factory furniture. Each of our work is the implementation of an individual design project. The price depends on many factors: volume, materials, fittings, configuration and the complexity of the design solution. But our managers are always ready to provide you professional consultation at the first stage and make a free calculation of the price of your project.",
+    "heading3": "Who develops the design of the project?",
+    "content3": "If you do not have a ready-made design project, our designer will implement all your incredible ideas without any problems and help you choose the best solutions. If you have a project, we will help you implement it and find the most optimal options without any problems",
+    "heading4": "Why so expensive?",
+    "content4": "At first glance, it may seem that custom-made furniture is much more expensive than factory-made furniture. But if you look at the filling of, for example, two cabinets, they can differ greatly in terms of the materials used (their quality, moisture resistance, etc.), the number of shelves, the thickness of the plates, the type of fittings and many other factors that directly affect the price. Better long-term satisfaction from the quality of your furniture than short-term from its price. Our managers will always help you find the best design solutions and materials for your budget.",
+    "heading5": "Why are we a social workshop?",
+    "content5": "Our mission is to create comfortable, atmospheric furniture that matches individual style, involving people from vulnerable population groups. We employ men who have undergone rehabilitation from alcohol and drug addiction in rehabilitation centers \"Dobro\", \"Step by step\", \"Kroky\" in Lviv, as well as those who have returned from ATO. And we also financially support the charity organization Ukrainian Educational Platform. Which has programs aimed at helping families who are in a difficult situation for various reasons, as well as at activating communities at the micro level. To support the program, we transfer 10% of the workshop's net income. So when you cooperate with us, you not only get high-quality and comfortable furniture, but also join a charitable cause."
   }
 }

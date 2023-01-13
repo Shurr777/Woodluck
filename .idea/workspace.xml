@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/Gallery/Gallery.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Pages/Gallery/photos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/en/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/en/translation.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/locales/ua/translation.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/locales/ua/translation.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Examples/Blum/Blum.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modal/Modal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewHeader/NHeader.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Services/Services.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Services/Services.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Gallery/Gallery.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +164,10 @@
       <workItem from="1673287680062" duration="597000" />
       <workItem from="1673356611143" duration="8979000" />
       <workItem from="1673366902382" duration="2732000" />
-      <workItem from="1673432521622" duration="3648000" />
+      <workItem from="1673432521622" duration="5823000" />
+      <workItem from="1673517711370" duration="1960000" />
+      <workItem from="1673609434832" duration="10273000" />
+      <workItem from="1673619822574" duration="12425000" />
     </task>
     <servers />
   </component>
