@@ -9,11 +9,10 @@
 }
 
 .overlay .pics {
-
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
     cursor: pointer;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
 }
 
 .overlay .pics:hover {

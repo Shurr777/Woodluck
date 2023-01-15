@@ -19,12 +19,6 @@ const NHeader = ({changeLanguage}) => {
     }
     const {t} = useTranslation()
 
-    /* window.addEventListener('scroll', function() {
-         let scrollpos = window.scrollY;
-         console.log ("scroll", scrollpos)
-         if (scrollpos>=2000){console.log("element delete")}
-             })*/
-
     return (
         <div className={style.overlay}>
             <div className={style.headerOverlay}>

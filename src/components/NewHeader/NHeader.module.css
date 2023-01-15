@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     background-color: rgba(132, 131, 135, 0.7);
-    grid-template-columns: 250px 1fr 60px 230px;
+    grid-template-columns: 250px 1fr 80px 230px;
     position: absolute;
     top: 0;
     z-index: 10;
@@ -92,6 +92,7 @@
     display: flex;
     flex-direction: column;
     align-self: center;
+    padding-left: 20px;
 }
 
 .phonesBlockDesc p {
