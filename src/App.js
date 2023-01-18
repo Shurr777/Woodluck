@@ -3,7 +3,9 @@ import React, {lazy, Suspense} from 'react';
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Main from "./components/Pages/Main/Main";
 import Faq from "./components/Pages/Faq/Faq";
+/*
 import GalleryOverlay from "./components/Pages/Gallery/Gallery";
+*/
 import Contacts from "./components/Pages/Contacts/Contacts";
 import NHeader from "./components/NewHeader/NHeader";
 import FooterMode1 from "./components/FooterMode1/FooterMode1";
@@ -19,6 +21,7 @@ import "./i18next"
 
 const Portfolio = lazy(() => import('./components/Pages/Portfolio/Portfolio'))
 const About = lazy(() => import('./components/Pages/About/About'))
+const  GalleryOverlay = lazy(() => import('./components/Pages/Gallery/Gallery'))
 
 function App() {
 

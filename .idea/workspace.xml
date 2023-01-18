@@ -2,8 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f90fcd4-5f18-4a3b-a7d5-b62f5d91c256" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/1.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/1.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/10.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/10.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/10.3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/10.4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/11.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/11.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/11.3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/12.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/12.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/13.1.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/13.2.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/13.4.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/13.5.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/14.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/2.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/3.1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/4.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/5.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/6.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/6.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/6.3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/6.4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/7.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/7.2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/7.3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/7.4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/8.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/9.1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2801.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2803.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2804.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2805.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2806.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2807.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2808.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2809.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2810.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2811.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2812.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2813.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2815.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2816.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2817.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2818.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2819.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2820.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2821.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2822.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2823.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/BEDS/IMG_2824.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Gallery/Gallery.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Gallery/Gallery.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Gallery/Gallery.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pages/Gallery/Gallery.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pages/Gallery/photos.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +213,8 @@
       <workItem from="1673619822574" duration="13483000" />
       <workItem from="1673690358403" duration="839000" />
       <workItem from="1673779869520" duration="341000" />
-      <workItem from="1673782649457" duration="1054000" />
+      <workItem from="1673782649457" duration="3904000" />
+      <workItem from="1673891629328" duration="3315000" />
     </task>
     <servers />
   </component>

@@ -2,9 +2,9 @@
     -webkit-column-count: 4;
     -moz-column-count: 4;
     column-count: 4;
-/*    -webkit-column-width: 23;
-    -moz-column-width: 23;
-    column-width: 23;*/
+    /*    -webkit-column-width: 23;
+        -moz-column-width: 23;
+        column-width: 23;*/
     padding: 105px 12px 0 12px;
 }
 
@@ -36,9 +36,6 @@
         -webkit-column-count: 1;
         -moz-column-count: 1;
         column-count: 1;
-      /*  -webkit-column-width: 100%;
-        -moz-column-width: 100%;
-        column-width: 100%;*/
         padding: 3px 0;
     }
 
@@ -65,14 +62,14 @@
     z-index: 1000;
 }
 
-.modal.open{
+.modal.open {
     width: 100%;
     visibility: visible;
     opacity: 1;
     transform: scale(1);
 }
 
-.modal img{
+.modal img {
     max-width: 100%;
     width: auto;
     max-height: 100%;
@@ -84,7 +81,7 @@
     margin: 0 auto;
 }
 
-.modal.open button{
+.modal.open button {
     position: fixed;
     top: 20px;
     right: 25px;
