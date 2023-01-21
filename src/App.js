@@ -3,9 +3,6 @@ import React, {lazy, Suspense} from 'react';
 import {BrowserRouter, Routes, Route, Navigate} from "react-router-dom";
 import Main from "./components/Pages/Main/Main";
 import Faq from "./components/Pages/Faq/Faq";
-/*
-import GalleryOverlay from "./components/Pages/Gallery/Gallery";
-*/
 import Contacts from "./components/Pages/Contacts/Contacts";
 import NHeader from "./components/NewHeader/NHeader";
 import FooterMode1 from "./components/FooterMode1/FooterMode1";
@@ -18,10 +15,18 @@ import Hostel from "./components/Examples/Hostel/Hostel";
 import Blum from "./components/Examples/Blum/Blum";
 import {useTranslation} from "react-i18next";
 import "./i18next"
+import BedsideTable from "./components/GalleyPages/BedsideTable";
+import ChildrenBed from "./components/GalleyPages/ChildrenBed";
+import CoffeeTable from "./components/GalleyPages/CoffeTable";
+import GalleryOverlay from "./components/Pages/Gallery/GalleryOverlay";
+import Decor from "./components/GalleyPages/Decor";
+import DinnerTable from "./components/GalleyPages/DinnerTable";
+import ForHome from "./components/GalleyPages/ForHome";
+import OfficeTable from "./components/GalleyPages/OfficeTable";
+import Rack from "./components/GalleyPages/Rack";
 
 const Portfolio = lazy(() => import('./components/Pages/Portfolio/Portfolio'))
 const About = lazy(() => import('./components/Pages/About/About'))
-const  GalleryOverlay = lazy(() => import('./components/Pages/Gallery/Gallery'))
 
 function App() {
 
@@ -55,6 +60,15 @@ function App() {
                             <Route path="projector" element={<Projector/>}/>
                             <Route path="red_table" element={<Loft/>}/>
                             <Route path="black_table" element={<Appartaments/>}/>
+
+                            <Route path="bedsideTable" element={<BedsideTable/>}/>
+                            <Route path="childrenBed" element={<ChildrenBed/>}/>
+                            <Route path="coffeeTable" element={<CoffeeTable/>}/>
+                            <Route path="decor" element={<Decor/>}/>
+                            <Route path="dinnerTable" element={<DinnerTable/>}/>
+                            <Route path="forHome" element={<ForHome/>}/>
+                            <Route path="officeTable" element={<OfficeTable/>}/>
+                            <Route path="rack" element={<Rack/>}/>
                         </Routes>
                         <FooterMode1/>
                     </div>

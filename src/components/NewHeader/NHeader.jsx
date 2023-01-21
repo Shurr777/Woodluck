@@ -74,21 +74,15 @@ const NHeader = ({changeLanguage}) => {
                     null}
                 <div className={style.phones}>
                     <div className={style.langBlock}>
-                        <select
-                            onChange={(e) => changeLanguage(e.target.value)}
-                        >
+                        <select onChange={(e) => changeLanguage(e.target.value)}>
                             <option
-                                value="ua">
+                                value="ua" selected="selected">
                                 UA
                             </option>
                             <option
                                 value="en">
                                 EN
                             </option>
-                            {/* <option
-                                value="pl">
-                                PL
-                            </option>*/}
                         </select>
                     </div>
                 </div>
