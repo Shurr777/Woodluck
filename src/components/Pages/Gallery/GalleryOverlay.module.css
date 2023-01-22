@@ -1,0 +1,48 @@
+
+.galleyOverlay {
+    padding: 110px 10px 65px 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.galleryMenuCard {
+    align-self: center;
+    justify-self: center;
+
+}
+.galleryMenuCard img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+@media (max-width: 1300px) {
+    .galleyOverlay {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        padding: 20px 20px 65px 20px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .galleyOverlay {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        padding: 20px 20px 65px 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .galleyOverlay {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 20px 50px 65px 50px;
+    }
+}
+@media (max-width: 450px) {
+    .galleyOverlay {
+        gap: 20px;
+        padding: 20px 5px 35px 5px;
+    }
+}

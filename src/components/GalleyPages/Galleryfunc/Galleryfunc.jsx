@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import s from "../../Pages/Gallery/Gallery.module.css";
+import s from "./Galleyfunc.module.css";
 
-const Gallery = ({data}) => {
+const Galleryfunc = ({data}) => {
 
     const [modalImg, setModalImg] = useState(false);
     const [tempImg, setTempImg] = useState('');
@@ -24,8 +24,7 @@ const Gallery = ({data}) => {
                     return (
                         <div className={s.pics}
                              key={index}
-                             onClick={() => getImage(item.imgSrc)}
-                        >
+                             onClick={() => getImage(item.imgSrc)}>
                             <img src={item.imgSrc} alt="pictire"/>
                         </div>
                     )
@@ -35,4 +34,4 @@ const Gallery = ({data}) => {
     );
 };
 
-export default Gallery;
+export default Galleryfunc;

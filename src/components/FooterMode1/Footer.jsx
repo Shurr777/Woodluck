@@ -1,5 +1,5 @@
 import React from 'react';
-import style from './FooterMode1.module.css'
+import style from './Footer.module.css'
 import logo from '../../images/LogoWoodluck 2.png'
 import {NavLink, useNavigate} from "react-router-dom";
 import {
@@ -11,7 +11,7 @@ import {useTranslation} from "react-i18next";
 
 
 
-const FooterMode1 = () => {
+const Footer = () => {
 
     const navigate = useNavigate();
 
@@ -42,6 +42,12 @@ const FooterMode1 = () => {
                     </NavLink>
                     <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
                         {t("footer.footerMenu.contacts")}
+                    </NavLink>
+                    <NavLink to='faq' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                        {t("footer.footerMenu.faq")}
+                    </NavLink>
+                    <NavLink to='gallery' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                        {t("footer.footerMenu.gallery")}
                     </NavLink>
                 </div>
 
@@ -81,7 +87,7 @@ const FooterMode1 = () => {
         ;
 };
 
-export default FooterMode1;
+export default Footer;
 
 /*
 

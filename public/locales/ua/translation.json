@@ -15,7 +15,9 @@
       "main": "Головна",
       "about": "Про нас",
       "portfolio": "Портфоліо",
-      "contacts": "Контакти"
+      "contacts": "Контакти",
+      "faq": "Питання",
+      "gallery": "Галерея"
     },
     "worktime": "Пн – Пт : 9:00 - 18:00",
     "watch": "Слідкуйте за нами в соц.мережах:",
@@ -124,6 +126,16 @@
     "projector": "PROJECTOR LVIV І СТУДІЯ ДИЗАЙНУ HAPPY",
     "grid": "ОФІС НА 100 РОБОЧИХ МІСЦЬ ДЛЯ GRID DYNAMICS",
     "british": "ОФІС БРИТАНСЬКОЇ КОМПАНІЇ PUSH GAMING У ЛЬВОВІ"
+  },
+  "gallery": {
+    "bedsideTable": "Тумби",
+    "childrenBed": "Дитячі ліжка",
+    "coffeeTable": "Журнальні столики",
+    "decor": "Декор",
+    "dinnerTable": "Обідні столи",
+    "forHome": "Для дому",
+    "officeTable": "Офісні столи",
+    "rack": "Стелажі"
   },
   "connectBlock": {
     "text": "Маєте ідею дизайн-проекту? Заповніть форму і ми зв’яжемось з вами!",
