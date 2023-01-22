@@ -15,7 +15,9 @@
       "main": "Main",
       "about": "About",
       "portfolio": "Portfolio",
-      "contacts": "Contacts"
+      "contacts": "Contacts",
+      "faq": "F.A.Q",
+      "gallery": "Gallery"
     },
     "worktime": "Mon – Fri : 9:00 - 18:00",
     "watch": "Follow us on social networks:",
@@ -124,6 +126,16 @@
     "projector": "PROJECTOR LVIV AND HAPPY DESIGN STUDIO",
     "grid": "OFFICE FOR 100 WORKPLACES FOR GRID DYNAMICS",
     "british": "OFFICE OF THE BRITISH PUSH GAMING COMPANY IN LVIV"
+  },
+  "gallery": {
+    "bedsideTable": "Bedside tables",
+    "childrenBed": "Children beds",
+    "coffeeTable": "Coffee tables",
+    "decor": "Decor",
+    "dinnerTable": "Lunch tables",
+    "forHome": "For home",
+    "officeTable": "Office tables",
+    "rack": "Racks"
   },
   "connectBlock": {
     "text": "Do you have an idea for a design project? Fill out the form and we will contact you!",
