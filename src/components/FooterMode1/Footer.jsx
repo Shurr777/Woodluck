@@ -81,22 +81,11 @@ const Footer = () => {
                     <img src={logo} alt="logo"/>
                 </div>
                 <p>Copyright © WoodLuck 2019. All rights reserved.</p>
+
             </div>
         </div>
     )
-        ;
 };
 
 export default Footer;
 
-/*
-
-
-
-<div className={style.logo}>
-
-
-</div>
-
-
-*/

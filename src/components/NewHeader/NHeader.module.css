@@ -40,7 +40,7 @@
 .navBar {
     display: flex;
     align-self: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .navBar .active {
@@ -107,6 +107,27 @@
 
 .menu {
     display: none;
+}
+
+.loginBlock{
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.navBlock{
+    display: flex;
+    align-items: center;
+}
+
+.loginButton{
+    margin: 0 0 0 15px;
+    padding: 5px 10px;
+    background: #c5d02f;
+    color: #282828;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .line {

@@ -5,10 +5,19 @@ import logo from '../../images/LogoWoodluck 2.png'
 import Modal from "../Modal/Modal";
 import {useTranslation} from "react-i18next";
 import "../../i18next"
+import {useSelector} from "react-redux";
+import {useActions} from "../../hooks/useActions";
+
 
 const NHeader = ({changeLanguage}) => {
     const navigate = useNavigate();
     const [isModal, setModal] = useState(false);
+
+    const isAuth = useSelector(state => state.authReducer.isAuth)
+    const username = useSelector(state => state.authReducer.user)
+    const {logout} = useActions()
+
+    console.log("isAuth:", isAuth, "Name", username)
 
     const onMenuClick = () => {
         setModal(true)
@@ -17,6 +26,12 @@ const NHeader = ({changeLanguage}) => {
         navigate("/contacts");
         setModal(false)
     }
+
+    const onLoginClick = () => {
+        console.log('login')
+         navigate("/Login")
+    }
+
     const {t} = useTranslation()
 
     return (
@@ -47,21 +62,43 @@ const NHeader = ({changeLanguage}) => {
                     </NavLink>
                 </div>
                 <menu className={style.navBar}>
-                    <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        {t("mainMenu.about")}
-                    </NavLink>
-                    <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        {t("mainMenu.portfolio")}
-                    </NavLink>
-                    <NavLink to='gallery' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        {t("mainMenu.gallery")}
-                    </NavLink>
-                    <NavLink to='faq' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        {t("mainMenu.faq")}
-                    </NavLink>
-                    <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
-                        {t("mainMenu.contacts")}
-                    </NavLink>
+
+
+                    <div className={style.loginBlock}>
+                        <p>{username}</p>
+                        {isAuth ?
+                            <button
+                                className={style.loginButton}
+                                onClick={logout}
+                            >logout
+                            </button> :
+                            <button
+                                className={style.loginButton}
+                                onClick={onLoginClick}
+                            >login
+                            </button>
+                        }
+                    </div>
+
+
+                    <div className={style.navBlock}>
+                        <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                            {t("mainMenu.about")}
+                        </NavLink>
+                        <NavLink to='portfolio' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                            {t("mainMenu.portfolio")}
+                        </NavLink>
+                        <NavLink to='gallery' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                            {t("mainMenu.gallery")}
+                        </NavLink>
+                        <NavLink to='faq' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                            {t("mainMenu.faq")}
+                        </NavLink>
+                        <NavLink to='contacts' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                            {t("mainMenu.contacts")}
+                        </NavLink>
+                    </div>
+
                 </menu>
                 {isModal
                     ?
@@ -74,7 +111,7 @@ const NHeader = ({changeLanguage}) => {
                     null}
                 <div className={style.phones}>
                     <div className={style.langBlock}>
-                        <select onChange={(e) => changeLanguage(e.target.value)}>
+                        <select onChange={(e) => changeLanguage(e.target.value)} defaultValue={'ua'}>
                             <option
                                 value="ua" selected="selected">
                                 UA
