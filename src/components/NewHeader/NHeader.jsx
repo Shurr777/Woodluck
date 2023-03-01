@@ -7,15 +7,17 @@ import {useTranslation} from "react-i18next";
 import "../../i18next"
 import {useSelector} from "react-redux";
 import {useActions} from "../../hooks/useActions";
+import LoginForm from "../Forms/LoginForm";
 
 
 const NHeader = ({changeLanguage}) => {
     const navigate = useNavigate();
     const [isModal, setModal] = useState(false);
+    const [logModal, setLogModal] = useState(true);
 
     const isAuth = useSelector(state => state.authReducer.isAuth)
     const username = useSelector(state => state.authReducer.user)
-    const {logout} = useActions()
+    const {login, logout} = useActions()
 
     console.log("isAuth:", isAuth, "Name", username)
 
@@ -28,14 +30,20 @@ const NHeader = ({changeLanguage}) => {
     }
 
     const onLoginClick = () => {
-        console.log('login')
-         navigate("/Login")
+        setLogModal(true)
     }
+
+    const onFinish = (name, pass) => {
+        console.log("submit finish")
+        login(name, pass)
+        setLogModal(false)
+    };
 
     const {t} = useTranslation()
 
     return (
         <div className={style.overlay}>
+            {logModal ? <LoginForm onFinish={onFinish}/> : null}
             <div className={style.headerOverlay}>
                 <div className={style.callIcon}
                      onClick={onIconClick}
@@ -63,9 +71,8 @@ const NHeader = ({changeLanguage}) => {
                 </div>
                 <menu className={style.navBar}>
 
-
                     <div className={style.loginBlock}>
-                        <p>{username}</p>
+                        <p>{username.username}</p>
                         {isAuth ?
                             <button
                                 className={style.loginButton}
@@ -80,8 +87,13 @@ const NHeader = ({changeLanguage}) => {
                         }
                     </div>
 
-
                     <div className={style.navBlock}>
+                        {isAuth ?
+                            <NavLink to='blog' className={({isActive}) => `${isActive ? style.active : ''}`}>
+                                Blog
+                            </NavLink>:
+                            null
+                        }
                         <NavLink to='about' className={({isActive}) => `${isActive ? style.active : ''}`}>
                             {t("mainMenu.about")}
                         </NavLink>

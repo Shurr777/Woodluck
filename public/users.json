@@ -4,8 +4,11 @@
     "password": "root"
   },
   {
-    "admin": "admin",
+    "username": "admin",
     "password": "admin"
+  },
+  {
+    "username": "heiwe",
+    "password": "121314"
   }
-
 ]

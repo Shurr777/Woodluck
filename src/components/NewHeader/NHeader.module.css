@@ -41,7 +41,9 @@
     display: flex;
     align-self: center;
     justify-content: space-between;
+    position: relative;
 }
+
 
 .navBar .active {
     color: #c7d02f;
@@ -101,7 +103,8 @@
     font-size: 18px;
     font-weight: bold;
 }
-.phonesBlockMob{
+
+.phonesBlockMob {
     display: none;
 }
 
@@ -109,18 +112,18 @@
     display: none;
 }
 
-.loginBlock{
+.loginBlock {
     margin-left: 15px;
     display: flex;
     align-items: center;
 }
 
-.navBlock{
+.navBlock {
     display: flex;
     align-items: center;
 }
 
-.loginButton{
+.loginButton {
     margin: 0 0 0 15px;
     padding: 5px 10px;
     background: #c5d02f;
@@ -180,7 +183,7 @@
         font-size: 20px;
     }
 
-    .overlay .phonesBlockDesc{
+    .overlay .phonesBlockDesc {
         display: none;
     }
 

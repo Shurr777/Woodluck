@@ -1,0 +1,12 @@
+.blogOverlay {
+    padding-top: 106px;
+    min-height: 100vh;
+}
+
+article {
+    margin: 30px 20px 20px 20px;
+    border: 2px solid #c5d02f;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(184, 188, 120, 0.5);
+}

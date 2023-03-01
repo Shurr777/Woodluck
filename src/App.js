@@ -15,10 +15,10 @@ import Hostel from "./components/Examples/Hostel/Hostel";
 import Blum from "./components/Examples/Blum/Blum";
 import {useTranslation} from "react-i18next";
 import "./i18next"
-import {Provider, useSelector} from "react-redux";
-import {store} from "./store/rootReducer";
+
 import {useActions} from "./hooks/useActions";
 import Login from "./components/Pages/LoginPage/Login";
+import Blog from "./components/Pages/Blog/Blog";
 
 const BedsideTable = lazy(() => import ("./components/GalleyPages/BedsideTable"));
 const ChildrenBed = lazy(() => import("./components/GalleyPages/ChildrenBed"));
@@ -66,6 +66,7 @@ function App() {
                                 <Route path="gallery" element={<GalleryOverlay/>}/>
                                 <Route path="faq" element={<Faq/>}/>
                                 <Route path="contacts" element={<Contacts/>}/>
+                                <Route path="blog" element={<Blog/>}/>
                                 {/*Route to pages from portfolio*/}
                                 <Route path="blum" element={<Blum/>}/>
                                 <Route path="office" element={<Office/>}/>

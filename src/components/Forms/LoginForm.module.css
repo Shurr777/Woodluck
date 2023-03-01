@@ -1,0 +1,44 @@
+.logModalBlock {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    top: 200px;
+    left: calc(50% - 250px);
+    z-index: 20;
+    overflow: hidden;
+}
+
+.inputBlock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonBlock button{
+    font-weight: bold;
+    color: #282828;
+    padding: 10px 15px;
+    background-color: #c5d02f;
+}
+
+.logExit {
+    text-align: right;
+    margin-right: 50px;
+}
+.logExit p{
+    font-size: 40px;
+    line-height: 20px;
+    font-weight: bold;
+    color: #c5d02f;
+}
+
+.logCard {
+
+}
