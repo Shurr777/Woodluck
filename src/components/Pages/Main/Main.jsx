@@ -16,9 +16,14 @@ const Main = () => {
     }, [pathname]);
 
     const { t } = useTranslation()
+
+
     return (
         <>
+            <div className={style.titleImageOverlay}>
             <DemoCarousel/>
+                <h1 className={style.titleimageText}>Меблі, що роблять світ кращим</h1>
+            </div>
             <div className={style.about}>
                 <div className={style.aboutText}>
                     <h3>

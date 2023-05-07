@@ -7,6 +7,18 @@
     margin-bottom: 100px;
 }
 
+.titleImageOverlay{
+    position: relative;
+}
+
+.titleimageText{
+    position: absolute;
+    top: 850px;
+    left: 150px;
+    font-size: 60px;
+    color: white;
+}
+
 .buttonOverlay {
     text-align: center;
 }

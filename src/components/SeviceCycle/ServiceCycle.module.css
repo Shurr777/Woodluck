@@ -74,19 +74,27 @@
         padding: 0 50px;
     }
     .serviceCycleOverlay .cardBlock .card{
-        width: 100px;
+        width: 80px;
     }
     .arrowHorizontal{
         display: none;
     }
     .arrowVertical{
         display: block;
-        font-size: 50px;
+        font-size: 40px;
         font-weight: lighter;
         color: #c7d02f;
     }
     .serviceCycleOverlay h2{
         font-size: 24px;
     }
-
 }
+@media (max-width: 450px) {
+    .serviceCycleOverlay .cardBlock .card{
+        width: 40px;
+    }
+    .arrowVertical{
+        font-size: 38px;
+    }
+}
+

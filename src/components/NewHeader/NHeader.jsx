@@ -29,7 +29,7 @@ const NHeader = ({changeLanguage}) => {
         setModal(false)
     }
 
-    const onLoginClick = () => {
+    /*const onLoginClick = () => {
         setLogModal(true)
     }
 
@@ -37,13 +37,13 @@ const NHeader = ({changeLanguage}) => {
         console.log("submit finish")
         login(name, pass)
         setLogModal(false)
-    };
+    };*/
 
     const {t} = useTranslation()
 
     return (
         <div className={style.overlay}>
-            {logModal ? <LoginForm onFinish={onFinish}/> : null}
+           {/* {logModal ? <LoginForm onFinish={onFinish}/> : null}*/}
             <div className={style.headerOverlay}>
                 <div className={style.callIcon}
                      onClick={onIconClick}
@@ -71,7 +71,7 @@ const NHeader = ({changeLanguage}) => {
                 </div>
                 <menu className={style.navBar}>
 
-                    <div className={style.loginBlock}>
+                   {/* <div className={style.loginBlock}>
                         <p>{username.username}</p>
                         {isAuth ?
                             <button
@@ -85,7 +85,7 @@ const NHeader = ({changeLanguage}) => {
                             >login
                             </button>
                         }
-                    </div>
+                    </div>*/}
 
                     <div className={style.navBlock}>
                         {isAuth ?
